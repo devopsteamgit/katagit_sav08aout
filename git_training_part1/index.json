@@ -56,6 +56,6 @@
         "uimessage1": "\u001b[32mYour Interactive Docker Host Terminal.\u001b[m\r\n"
     },
     "backend": {
-        "imageid": "swarm"
+        "imageid": "docker"
     }
 }

@@ -3,7 +3,7 @@ Nous allons ouvrir 3 terminaux. Chaque terminal correspond à une VM ubuntu (Con
 
 Lancer les commandes suivantes:
 
-`a() { docker exec -it ansible_node bash -c "cd /work_dir; echo 'PS1='\''ansible# '\' >> /root/.bashrc; bash"; } && a`{{execute T1}}
+`a() { docker exec -it git_node bash -c "cd /work_dir; echo 'PS1='\''ansible# '\' >> /root/.bashrc; bash"; } && a`{{execute T1}}
 
 `n1() { docker exec -it managed_node1 bash -c "cd /work_dir; echo 'PS1='\''managed_node1# '\' >> /root/.bashrc; bash"; } && n1`{{execute T2}}
 

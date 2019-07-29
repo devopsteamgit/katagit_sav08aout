@@ -45,10 +45,6 @@
           "target": "~/"
         },
         {
-          "file": "exemple_liste_template.j2",
-          "target": "~/"
-        },
-        {
           "file": "motd",
           "target": "~/"
         } 

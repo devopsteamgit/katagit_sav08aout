@@ -2,7 +2,7 @@
 ssh host01;
 docker network create mynetwork;
 docker pull ubuntu:16.04;
-docker run -dt --name git_node  --network mynetwork -v /root:/work_dir/training-files 22072017/ubuntu:16.04 /bin/bash;
+docker run -dt --name git_node  --network mynetwork -v /root:/work_dir/training-files ubuntu:16.04 /bin/bash;
 docker run -dt --name managed_node1  --network mynetwork -v /root:/work_dir/training-files 22072017/ubuntu:16.04 /bin/bash;
 docker run -dt --name managed_node2  --network mynetwork -v /root:/work_dir/training-files 22072017/ubuntu:16.04 /bin/bash;
 docker exec git_node bash -c "apt-get update && chmod 777 /work_dir/training-files";

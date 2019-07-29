@@ -1,0 +1,12 @@
+- Présentation d'ansible
+- Architecture,
+- Préparation des environnements,
+- Installation,
+- Configuration,
+- Fichier d'inventaire,
+- Fichier d'inventaire: les variables,
+- Test de connectivité via ansible,
+- Utilisation du SSH: installation/Configuration SSH,
+- Utilisation du SSH: test de connexion,
+- Les modules ansible,
+- Les modules ansible: exemples

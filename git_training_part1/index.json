@@ -13,6 +13,10 @@
         "title": "Présentation de",
         "text": "step2.md"
       }
+      {
+        "title": "Préparation des environnements",
+        "text": "step4.md"
+      }
     ],
     "intro": {
       "text": "intro.md",

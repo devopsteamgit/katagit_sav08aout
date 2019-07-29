@@ -1,4 +1,4 @@
- 
+
 ssh host01;
 docker network create mynetwork;
 docker pull ubuntu:16.04;

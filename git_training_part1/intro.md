@@ -1,10 +1,11 @@
 
 Objectifs de cette formation:
 
-Connaître les caractéristiques, l’architecture et le fonctionnement de GIT,
+Connaître le fonctionnement de GIT, savoir le manipuler,
 
-Comprendre comment tirer parti de la solution pour optimiser le versioning et le déploiement d’applications,
+Apprendre à versionner des projets, récupèrer des historiques, travailler en mode collaboraif
+
 Pré-requis
 
-Avoir des bases de connaissance sur l'administration des systèmes Linux ( package linux, commandes ssh, editeur de text,...)
-et la gestion des configurations
+Avoir des notions de développement, de bonnes bases de connaissance Linux ( package linux, commandes ssh, editeur de text,...)
+

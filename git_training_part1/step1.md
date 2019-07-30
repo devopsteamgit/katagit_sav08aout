@@ -1,12 +1,7 @@
-- Présentation d'ansible
+- Présentation de GIT
 - Architecture,
 - Préparation des environnements,
 - Installation,
-- Configuration,
-- Fichier d'inventaire,
-- Fichier d'inventaire: les variables,
-- Test de connectivité via ansible,
-- Utilisation du SSH: installation/Configuration SSH,
-- Utilisation du SSH: test de connexion,
-- Les modules ansible,
-- Les modules ansible: exemples
+- Commadnes de bases push,pull,rebase revert,reset
+
+

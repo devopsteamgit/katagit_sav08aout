@@ -1,8 +1,8 @@
 #### Installer GIT
-Créer votre premier Repository local
+Créer votre premier remote Repository 
 
 
-`git init`{{execute T1}}
+`git init --bare`{{execute T1}}
 
 Appuyer sur la touche i de votre clavier puis copier le contenu ci-dessous (_Pour copier faite juste un clic sur le text_)
 

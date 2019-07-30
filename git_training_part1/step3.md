@@ -1,6 +1,6 @@
 - Git permet de décentraliser le versioning 
 
-![git_users_archi](/testgitessai/katagit/git_training_part1/assets/git_users_archi.png)
+![git_users_archi](/testgitessai/scenarios/git_training_part1/assets/git_users_archi.png)
 
 ![ansible architecture](/devopsteam/scenarios/ansible_training_part1/assets/ansible_architecture.png)
 

@@ -3,5 +3,5 @@
 - Préparation des environnements,
 - Installation,
 - Commadnes de bases push,pull,rebase revert,reset
-
-
+- Travail collaboratif avec le Fork / pull Request
+- Organisation Git Flow pour la gestion des release en Production

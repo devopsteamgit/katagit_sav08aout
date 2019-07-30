@@ -12,7 +12,7 @@ Afin d'optimiser les ressources nous avons choisi d'utiliser des images docker a
 Nous avons créé 3 conteneurs docker. Chaque conteneur porte un rôle d'une VM Ubuntu.
 
 - Conteneur "remote repository" : Correspond repository central GIT
-- Conteneur "User1: Correspond au programmeur 1
-- Conteneur "User2 : Correspond au programmeur 2
+- Conteneur "User1: Correspond au programmeur 1 et son repository local 
+- Conteneur "User2 : Correspond au programmeur 2 et son repository local
 
 

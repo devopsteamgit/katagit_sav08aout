@@ -1,4 +1,4 @@
-- Git permet une gestion décentraliser du versioning,
+- Git permet une gestion décentralisée du versioning,
 - Un repository central, assure également la cohérence et la synchronisation de l'ensemble 
 
 ![git_users_archi](/testgitessai/scenarios/git_training_part1/assets/git_users_archi.png)

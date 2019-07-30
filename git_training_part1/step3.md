@@ -5,7 +5,7 @@
 
 ##### *Remarque:*
 Cette approche décentralisée, apporte un plus par rapport au autres solutions.
-En effet, les programmeur peuvent continuer à travailer localement en toute autonomie, puis mettre à jour le site central lorsqu'ils ont terminés
+En effet, les programmeurs peuvent continuer à travailler localement en toute autonomie, puis mettre à jour le site central lorsqu'ils ou s'y syncrhoniser
 
 #### Architecture utilisée durant la formation
 Afin d'optimiser les ressources nous avons choisi d'utiliser des images docker avec un système Ubuntu. 

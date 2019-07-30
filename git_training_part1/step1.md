@@ -1,7 +1,7 @@
 - Présentation de GIT
-- Architecture,
+- Principe de fonctionnement et Architecture,
 - Préparation des environnements,
-- Installation,
-- Commadnes de bases add,commit,push,pull,rebase revert,reset
-- Travail collaboratif avec le Fork / pull Request
-- Organisation Git Flow pour la gestion des release en Production
+- Installations Git,
+- Manipulation des Commandes de bases "GIT add,commit,push,pull,rebase revert,reset"
+- Travail collaboratif  "Fork / pull Request"
+- Méthode d'Organisation d'un projet Git Flow, pour la gestion des release en Production

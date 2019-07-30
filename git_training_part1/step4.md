@@ -3,7 +3,7 @@ Nous allons ouvrir 3 terminaux. Chaque terminal correspond à une VM ubuntu (Con
 
 Lancer les commandes suivantes:
 
-`r() { docker exec -it git_remote bash -c "cd /work_dir; echo 'PS1='\''git_remote# '\' >> /root/.bashrc; bash"; } && r`{{execute T1}}
+`g() { docker exec -it git_remote bash -c "cd /work_dir; echo 'PS1='\''git_remote# '\' >> /root/.bashrc; bash"; } && g`{{execute T1}}
 
 `d1() { docker exec -it dev1_local bash -c "cd /work_dir; echo 'PS1='\''git_local1# '\' >> /root/.bashrc; bash"; } && d1`{{execute T2}}
 
@@ -14,6 +14,6 @@ Le prompt git_remote#, dev1_local# et dev2_local# vous aidera à repèrer la mac
 
 Si toutes fois vous êtes sortie avec un exit , vous pouvez taper les commandes suivantes:
 
-- r  => Pour se connecter à la VM 'git_remote'.
+- g  => Pour se connecter à la VM 'git_remote'.
 - d1 => Pour se connecter à la VM 'dev1_local'.
 - d2 => Pour se connecter à la VM 'dev2_local'.

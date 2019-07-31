@@ -7,6 +7,7 @@ Créer votre premier Remote Repository (Central)
 
 -Création d'un répertoire d'accueil du nouveau Remote Repository:
 `mkdir repo_central`{{execute T1}}
+
 -se déplacer dans le répertoire:
 `cd repo_central`{{execute T1}}
 

@@ -1,6 +1,7 @@
 #### Installer GIT
 Créer votre premier remote Repository 
 
+`mkdir repo_central`{{execute T1}}
 
 `git init --bare`{{execute T1}}
 

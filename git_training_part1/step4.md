@@ -5,9 +5,9 @@ Lancer les commandes suivantes:
 
 `g() { docker exec -it git_remote bash -c "cd /work_dir; echo 'PS1='\''git_remote# '\' >> /root/.bashrc; bash"; } && g`{{execute T1}}
 
-`d1() { docker exec -it dev1_local bash -c "cd /work_dir; echo 'PS1='\''git_local1# '\' >> /root/.bashrc; bash"; } && d1`{{execute T2}}
+`d1() { docker exec -it dev1_local bash -c "cd /work_dir; echo 'PS1='\''dev1_gitlocal# '\' >> /root/.bashrc; bash"; } && d1`{{execute T2}}
 
-`d2() { docker exec -it dev2_local bash -c "cd /work_dir; echo 'PS1='\''git_local2# '\' >> /root/.bashrc; bash"; } && d2`{{execute T3}}
+`d2() { docker exec -it dev2_local bash -c "cd /work_dir; echo 'PS1='\''dev2_gitlocal# '\' >> /root/.bashrc; bash"; } && d2`{{execute T3}}
 
 ##### _Remarque_:
 Le prompt git_remote#, dev1_local# et dev2_local# vous aidera à repèrer la machine sur laquelle vous êtes connecté.

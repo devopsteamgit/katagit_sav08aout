@@ -1,15 +1,16 @@
 #### Installer GIT
 
-Créer votre premier remote Repository 
+Créer votre premier Remote Repository (Central)
 
-- Se connecter à git
+- Se connecter à git:
 `su - git`{{execute T1}}
 
--Création de son répoertoire
+-Création d'un répertoire d'accueil du nouveau Remote Repository:
 `mkdir repo_central`{{execute T1}}
+-se déplacer dans le répertoire:
 `cd repo_central`{{execute T1}}
 
--Lancement de la création
+-Lancement de l'installation:
 `git init --bare`{{execute T1}}
 
 Appuyer sur la touche i de votre clavier puis copier le contenu ci-dessous (_Pour copier faite juste un clic sur le text_)

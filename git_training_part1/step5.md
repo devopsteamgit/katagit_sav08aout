@@ -1,14 +1,12 @@
-#### Installer GIT
+#### Installer votre Remote Repository GIT "Central" sur Site
 
-Créer votre premier Remote Repository (Central)
-
- Se connecter à git:
+ Se connecter au compte git:
    `su - git`{{execute T1}}
 
- Création d'un répertoire d'accueil du nouveau Remote Repository
+ Créer un répertoire où sera installé le Remote Repository
 `mkdir repo_central;cd repo_central`{{execute T1}}
 
- Lancement de l'installation:
+ Lancer son installation:
   `git init --bare`{{execute T1}}
 
 Appuyer sur la touche i de votre clavier puis copier le contenu ci-dessous (_Pour copier faite juste un clic sur le text_)

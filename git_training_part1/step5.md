@@ -7,7 +7,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Initialiser le Remote Repository
   `cd formteam;git init --bare`{{execute T1}}
 
-#### (VM2) Créer un autre Repository local (pour les Développeurs travaillant sure cette VM)
+#### (VM2) Créer un Repository local, cette fois-ci, afin de versionner les dev sur cette VM
  Se connecter à git:
  `su - git`{{execute T2}}
    
@@ -23,10 +23,11 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Vérifier la connexion:
  `git remote -v`{{execute T2}}
  
-** A présent, vous pouvez aussi effectuer des développements,
-les commiter en local puis les pusher sur le repo distant: lorsque vous souhaiterez en faire bénéficier les autres équipes  **
+** Versioning des développements sur la VM **
+ A présent, vous pouvez aussi effectuer des développements,
+ les commiter en local puis les pusher sur le repo distant / lorsque vous souhaiterez en faire bénéficier les autres équipes  
 
- Créer un fichier script_test_vm2.sh
+ - Créer un fichier script_test_vm2.sh
  `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T2}}
  
  Ajouter le fichier dans la cache "Staging Area"
@@ -59,7 +60,7 @@ les commiter en local puis les pusher sur le repo distant: lorsque vous souhaite
 
 
 
-#### (VM3) Créer un second Repository local (pour les Développeurs travaillant sure cette VM)
+#### (VM3) Créer un second Repository local (pour les Développeurs travaillant sur cette VM)
  Se connecter à git:
  `su - git`{{execute T3}}
    
@@ -75,9 +76,10 @@ les commiter en local puis les pusher sur le repo distant: lorsque vous souhaite
  Vérifier la connexion:
  `git remote -v`{{execute T3}}
  
-** A présent, en tant que seconde équipe, vous pouvez aussi effectuer des développements,
-les commiter en local puis les pusher sur le repo distant: lorsque vous souhaiterez en faire bénéficier les autres équipes  **
- Créer un fichier script_test_vm3.sh
+** Versioning des développements sur la VM **  
+ A présent, en tant que seconde équipe, vous pouvez aussi effectuer des développements,
+ les commiter en local puis les pusher sur le repo distant/lorsque vous souhaiterez en faire bénéficier les autres équipes  
+ -Créer un fichier script_test_vm3.sh
  `echo "printf 'Ceci est un script test sur la VM3\n'" > script_test_vm3.sh;cat script_test_vm3.sh`{{execute T3}}
  
  Ajouter le fichier dans la cache "Staging Area"

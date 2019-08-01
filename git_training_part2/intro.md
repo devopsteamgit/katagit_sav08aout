@@ -1,16 +1,17 @@
 
 Objectifs de cette formation:
 
-_Rappel:_
+Connaître le fonctionnement de GIT, savoir le manipuler,
 
-_Lors de la précédente formation,_
-_nous avons appris à versionner nos scripts,_
-_nous avons vu comment deux équipes font pour se partager leurs développements en les centralisant._
+Apprendre à versionner des projets, récupèrer des historiques, travailler en mode collaboraif
+
+Dans cette première partie, 
+
+    * nous allons apprendre à versionner nos scripts localement, puis ensuite les partager sur un Repository Central,
+    * nous allons voir comment deux équipes font pour se partager leurs développements.
 
 
+Pré-requis
 
-A présent, nous allons voir dans ce chapitre, comment gèrer les conflits: 
+Avoir des notions de développement, de bonnes bases de connaissance Linux ( package linux, commandes ssh, editeur de text,...)
 
--si une équipe oublie de repartir de la dernière version du Repository central, par exemple.
-
--ou si des développements sont effectués de part et d'autres -en paralèlle- et doivent êtres synchronisés afin d'êtres partagés.

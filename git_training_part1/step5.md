@@ -8,7 +8,8 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Initialiser le Remote Repository
   `cd formteam;git init --bare`{{execute T1}}
 
-#### (VM2) Créer un Repository local, cette fois-ci, afin de versionner les dev sur cette VM
+#### (VM2) Créer un Repository local -cette fois-ci-, afin de versionner les développements en local sur la VM
+
  Se connecter à git:
  `su - git`{{execute T2}}
    
@@ -61,7 +62,8 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
 
 
 
-#### (VM3) Créer un second Repository local (pour les Développeurs travaillant sur cette VM)
+#### (VM3) Créer un second Repository local: pour la seconde équipe de développement sur cette VM
+
  Se connecter à git:
  `su - git`{{execute T3}}
    

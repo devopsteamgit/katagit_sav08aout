@@ -3,7 +3,7 @@ Objectifs de cette formation:
 
 _Rappel_
 
-_ Lors de la précédente formation _
+_Lors de la précédente formation_
 * - nous avons appris à versionner nos scripts,*
 * - nous avons vu comment deux équipes font pour se partager leurs développements en les centralisant. *
 

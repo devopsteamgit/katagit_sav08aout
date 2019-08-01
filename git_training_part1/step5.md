@@ -47,11 +47,11 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  `git push origin master`{{execute T2}}
  
     ##### _Répondre:
-           > Are you sure you want to continue connecting (yes/no)? 
-                                                       -->  'yes'
+           _> Are you sure you want to continue connecting (yes/no)?_ 
+                                                       _-->  'yes'_
  
-            > git@git_remote's password: --> mot de passe: 
-                                                       -->   'git'
+            _> git@git_remote's password: --> mot de passe:_ 
+                                                       _-->   'git'_
  
  
  
@@ -104,11 +104,11 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  `git push origin master`{{execute T3}}
  
     ##### _Réponses:
-           > Are you sure you want to continue connecting (yes/no)? 
-                                                      -->  'yes'
+           _> Are you sure you want to continue connecting (yes/no)?_ 
+                                                      _-->  'yes'_
   
-           > git@git_remote's password: --> mot de passe: 
-                                                      -->   'git'
+           _> git@git_remote's password: --> mot de passe:_ 
+                                                      _-->   'git'_
  
  
  

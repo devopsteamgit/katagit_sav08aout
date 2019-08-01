@@ -1,7 +1,7 @@
 #### (VM1)Installer un Remote Repository GIT (Central)  
 
 Se connecter au user git puis créer le répertoire du Repository (Central)
-  `su - git; mkdir formteam;cd formteam`{{execute T1}}
+  `su - git -c "mkdir formteam;cd formteam";su - git`{{execute T1}}
  
  Initialiser le Remote Repository
   `git init --bare`{{execute T1}}

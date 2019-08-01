@@ -2,9 +2,10 @@
 Nous allons ouvrir 3 terminaux. Chaque terminal correspond à une VM ubuntu (Conteneur docker).
 
 Vérifier que l'environnement de formation est prêt:
+
  `if [ $(docker ps  | grep -v CONTAINER | wc -l) -ge 3 ]; then echo "OK"; else echo "Attendre 30s!";sleep 30;  fi`{{execute T1}}
 
-Lancer les commandes suivantes:
+Puis, lancer les commandes suivantes:
 
 `g() { docker exec -it git_remote bash -c "cd /work_dir; echo 'PS1='\''git_remote# '\' >> /root/.bashrc; bash"; } && g`{{execute T1}}
 

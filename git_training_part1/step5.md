@@ -1,17 +1,17 @@
-#### Installer un Remote Repository GIT (interne)
+#### Installer un Remote Repository GIT (interne)  / VM1
 
 Créer votre premier Remote Repository (Central)
 
  Se connecter à git:
    `su - git`{{execute T1}}
 
- Création d'un répertoire d'accueil du nouveau Remote Repository
+ Création dun répertoire du nouveau Remote Repository
 `mkdir formteam;cd formteam`{{execute T1}}
 
- Lancement de l'installation:
+ Lancement de l'installation du Remote Repository (VM1):
   `git init --bare`{{execute T1}}
 
-#### Créer un Repository local dans la VM1 pour les Développeurs du projet1 
+#### Créer un Repository local pour les Développeurs travaillant sur la VM2
 
  Lancement de l'installation Repository local1:
  `git init `{{execute T2}}

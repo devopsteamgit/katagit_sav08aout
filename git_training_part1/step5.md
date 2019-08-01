@@ -23,7 +23,9 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Vérifier la connexion:
  `git remote -v`{{execute T2}}
  
-#### A présent, vous pouvez commencer à développer et commiter (enregistrer) vos dev
+** A présent, vous pouvez aussi effectuer des développements,
+les commiter en local puis les pusher sur le repo distant: lorsque vous souhaiterez en faire bénéficier les autres équipes  **
+
  Créer un fichier script_test_vm2.sh
  `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T2}}
  
@@ -73,7 +75,8 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Vérifier la connexion:
  `git remote -v`{{execute T3}}
  
-#### A présent, en tant que seconde équipe, vous pouvez commencer à développer puis commiter vos développements
+** A présent, en tant que seconde équipe, vous pouvez aussi effectuer des développements,
+les commiter en local puis les pusher sur le repo distant: lorsque vous souhaiterez en faire bénéficier les autres équipes  **
  Créer un fichier script_test_vm3.sh
  `echo "printf 'Ceci est un script test sur la VM3\n'" > script_test_vm3.sh;cat script_test_vm3.sh`{{execute T3}}
  

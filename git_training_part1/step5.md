@@ -18,7 +18,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Configurer le Git local (mail et username)
  `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list`{{execute T2}}   
  
- Connecter ce Repository local avec le Remote Repository (Central):
+ Connecter ce Repository local avec le Remote Repository Central  (branche 'origin')
  `git remote add origin ssh://git@git_remote/home/git/formteam`{{execute T2}}
 
  Vérifier la connexion:
@@ -76,6 +76,9 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
 
  Vérifier la connexion:
  `git remote -v`{{execute T3}}
+ 
+ Récupèrer toutes les Dev et informations du Repo distant
+ `git pull origin master`{{execute T3}}
  
 ** Versioning des développements sur la VM3 **  
 

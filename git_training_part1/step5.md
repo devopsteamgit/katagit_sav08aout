@@ -79,8 +79,8 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Vérifier la connexion:
  `git remote -v`{{execute T3}}
  
- Récupèrer toutes les Dev et informations du Repo distant
- `git pull origin master`{{execute T3}}
+ Pour commencer, récupèrer  les développements mis à disposition par les autres équipes sur le Repo distant
+  `git pull origin master`{{execute T3}}
  
 ** Versioning des développements sur la VM3 **  
 

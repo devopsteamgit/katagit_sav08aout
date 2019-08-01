@@ -6,7 +6,7 @@ Créer votre premier Remote Repository (Central)
    `su - git`{{execute T1}}
 
  Création d'un répertoire d'accueil du nouveau Remote Repository
-`mkdir repo_central;cd repo_central`{{execute T1}}
+`mkdir formteam;cd formteam`{{execute T1}}
 
  Lancement de l'installation:
   `git init --bare`{{execute T1}}
@@ -20,7 +20,7 @@ Créer votre premier Remote Repository (Central)
  `git branch `{{execute T2}}
  
  Connecter ce Repository local avec le Remote Repository (central):
- `git remote add origin ssh://git@git_remote/home/git/repo_central`{{execute T2}}
+ `git remote add origin ssh://git@git_remote/home/git/formteam`{{execute T2}}
 
  Vérifier la connexion:
  `git remote -v`{{execute T2}}

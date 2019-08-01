@@ -19,7 +19,7 @@ Créer votre premier Remote Repository (Central)
  Observer la création de première branche 'master' du Repository local:
  `git branch `{{execute T2}}
  
- Connecter ce Repository local avec le Remote (central):
+ Connecter ce Repository local avec le Remote Repository (central):
  `git remote add origin ssh://git@git_remote/home/git/repo_central`{{execute T2}}
 
  Vérifier la connexion:

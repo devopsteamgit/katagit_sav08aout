@@ -14,7 +14,7 @@ Puis, lancer les commandes suivantes:
 `d2() { docker exec -it dev2_local bash -c "cd /work_dir; echo 'PS1='\''dev2_gitlocal# '\' >> /root/.bashrc; bash"; } && d2`{{execute T3}}
 
 ##### _Remarque_:
-Le prompt git_remote#, dev1_local# et dev2_local# vous aidera à repèrer la machine sur laquelle vous êtes connecté.
+Le prompt git_remote#, dev1_gitlocal# et dev2_gitlocal# vous aidera à repèrer la machine sur laquelle vous êtes connecté.
 
 Si toutes fois vous êtes sortie avec un exit , vous pouvez taper les commandes suivantes:
 

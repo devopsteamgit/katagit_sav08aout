@@ -50,8 +50,8 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
            > Are you sure you want to continue connecting (yes/no)? 
                                                        -->  'yes'
  
-            > git@git_remote's password: --> mot de passe: 
-                                                       -->   'git'
+           > git@git_remote's password: 
+                                   -->   'git'
  
  
  
@@ -103,12 +103,12 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  "Pusher" le fichier de votre Repo local (VM3) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T3}}
  
-    ##### _Réponses:
+    ##### _Répondre:
            > Are you sure you want to continue connecting (yes/no)? 
-                                                      -->  'yes'
-  
-           > git@git_remote's password: --> mot de passe: 
-                                                      -->   'git'
+                                                       -->  'yes'
+ 
+           > git@git_remote's password: 
+                                   -->   'git'
  
  
  

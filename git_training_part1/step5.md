@@ -17,11 +17,11 @@ Créer votre premier Remote Repository (Central)
  `git init `{{execute T2}}
  
  Configurer le Git local (mail et username)
- `git config --global user.email "git@example.com";git config --global user.name "git Name"`{{execute T2}}   
+ `git config --global user.email "git@example.com";git config --global user.name "git Name";git config --list`{{execute T2}}   
 
 #### A présent, vous pouvez commencer à développer et commiter 
  Créer un fichier exemple script_test.sh
- `echo "ls" > script_test.sh;script_test.sh`{{execute T1}}
+ `echo "ls" > script_test.sh; cat script_test.sh`{{execute T1}}
  
  Ajout ce fichier script dans la cache "Staging Area"
  `git add script_test.sh `{{execute T2}}

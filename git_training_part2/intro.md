@@ -1,11 +1,15 @@
 
 Objectifs de cette formation:
 
-Connaître le fonctionnement de GIT, savoir le manipuler,
+Rappel:
 
-Apprendre à versionner des projets, récupèrer des historiques, travailler en mode collaboraif
+-Lors de la précédente formation: 
+    * nous avons appris à versionner nos scripts,
+    * nous avons vu comment deux équipes font pour se partager leurs développements en les centralisant.
 
-Pré-requis
 
-Avoir des notions de développement, de bonnes bases de connaissance Linux ( package linux, commandes ssh, editeur de text,...)
+A présent, nous allons voir dans ce chapitre, comment gèrer les conflits. 
 
+Si une équipe oublie de repartir de la dernière version du Repository central.
+
+Ou si des développements sont effectués de part et d'autres, en paralèlle, et doivent êtres resynchronisés pour êtres partagés.

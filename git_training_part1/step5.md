@@ -23,14 +23,14 @@ Se connecter au user git puis créer le répertoire du Repository (Central)
  `git remote -v`{{execute T2}}
  
 #### A présent, vous pouvez commencer à développer et commiter (enregistrer) vos dev
- Créer un fichier script_test.sh
- `echo "printf 'Ceci est un script test\n'" > script_test.sh;cat script_test.sh`{{execute T2}}
+ Créer un fichier script_test_vm2.sh
+ `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T2}}
  
  Ajouter le fichier dans la cache "Staging Area"
- `git add script_test.sh `{{execute T2}}
+ `git add script_test_vm2.sh `{{execute T2}}
  
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
- `git commit -m "ajout du script_test.sh repos local VM2"`{{execute T2}}
+ `git commit -m "ajout du script_test_vm2.sh repos local VM2"`{{execute T2}}
    
  Vérifier la présence du branche 'master' pour tracker ce fichier nouveau fichier ajouté:
  `git branch`{{execute T2}}
@@ -38,37 +38,67 @@ Se connecter au user git puis créer le répertoire du Repository (Central)
  "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T2}}
  
-##### _Répondre:
---> Are you sure you want to continue connecting (yes/no)? --> répondre 'yes'
+    ##### _Répondre:
+           > Are you sure you want to continue connecting (yes/no)? 
+                                                   -->  'yes'
  
  
---> git@git_remote's password: --> mot de passe 'git"
+           > git@git_remote's password: --> mot de passe: 
+                                                  -->   'git'
  
  
- Lancer l'installation du Repository local pour les développeurs:
- `git init `{{execute T3}}
  
  
 #### (VM1) Constater que le commit a bien été effectué sur le Repository distant (central) 
  Constater que le commit a bien été effectué à distance
  `git log --oneline`{{execute T1}}
 
-Appuyer sur la touche i de votre clavier puis copier le contenu ci-dessous (_Pour copier faite juste un clic sur le text_)
 
 
+#### (VM3) Créer un second Repository local (pour les Développeurs travaillant sure cette VM)
+ Se connecter à git:
+ `su - git`{{execute T3}}
+   
+ Lancer l'installation du premier Repository local:
+ `git init `{{execute T3}}
+ 
+ Configurer le Git local (mail et username)
+ `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list`{{execute T3}}   
+ 
+ Connecter ce Repository local avec le Remote Repository (Central):
+ `git remote add origin ssh://git@git_remote/home/git/formteam`{{execute T3}}
 
- Vérifier la présence du projet Formation Commune "formteam" visible en local à présent
-  `ls`{{execute T2}}
-`
-[myself]
-localhost
-[web]
-managed_node1
-[db]
-managed_node2
-`{{copy}}
+ Vérifier la connexion:
+ `git remote -v`{{execute T3}}
+ 
+#### A présent, vous pouvez commencer à développer et commiter (enregistrer) vos dev
+ Créer un fichier script_test_vm3.sh
+ `echo "printf 'Ceci est un script test sur la VM3\n'" > script_test_vm3.sh;cat script_test_vm3.sh`{{execute T3}}
+ 
+ Ajouter le fichier dans la cache "Staging Area"
+ `git add script_test.sh `{{execute T3}}
+ 
+ Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
+ `git commit -m "ajout du script_test.sh repos local VM3"`{{execute T3}}
+   
+ Vérifier la présence du branche 'master' pour tracker ce fichier nouveau fichier ajouté:
+ `git branch`{{execute T3}}
+ 
+ "Pusher" le fichier de votre Repo local (VM3) --> vers Remote Repo Central (VM1)
+ `git push origin master`{{execute T3}}
+ 
+    ##### _Répondre:
+           > Are you sure you want to continue connecting (yes/no)? 
+                                                   -->  'yes'
+ 
+ 
+           > git@git_remote's password: --> mot de passe: 
+                                                  -->   'git'
+ 
+ 
+ 
+ 
+#### (VM1) Constater que le commit a bien été effectué sur le Repository distant (central) 
+ Constater que le commit a bien été effectué à distance
+ `git log --oneline`{{execute T1}}
 
-
-##### _Remarque:
-
-Pour sauvegarder le fichier, utiliser les touches :wq! de votre clavier

@@ -1,4 +1,4 @@
-#### Installer un Remote Repository GIT (interne)  / VM1
+VM1/ #### Installer un Remote Repository GIT (interne)  
 
 Créer votre premier Remote Repository (Central)
 
@@ -61,7 +61,7 @@ Créer votre premier Remote Repository (Central)
  
 #### Connecter vous au Remote Repository (central) 
  Constater que le commit a bien été effectué à distance
- `git log --oneline`{{execute T3}}
+ `git log --oneline`{{execute T1}}
 
 Appuyer sur la touche i de votre clavier puis copier le contenu ci-dessous (_Pour copier faite juste un clic sur le text_)
 

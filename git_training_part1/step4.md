@@ -2,7 +2,7 @@
 Nous allons ouvrir 3 terminaux. Chaque terminal correspond à une VM ubuntu (Conteneur docker).
 
 Vérifier si l'environnement docker de formation est prêt:
- `g() {if [ $(docker ps  | grep -v CONTAINER | wc -l) -ge 3 ]; then echo "OK"; else echo "Attendre!";sleep 30;  fi}`&& g`{{execute T1}}
+ `if [ $(docker ps  | grep -v CONTAINER | wc -l) -ge 3 ]; then echo "OK"; else echo "Attendre!";sleep 30;  fi`{{execute T1}}
 
 Lancer les commandes suivantes:
 

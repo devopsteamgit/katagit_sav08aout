@@ -1,11 +1,11 @@
 
 Objectifs de cette formation:
 
-_Rappel_
+_Rappel:_
 
 _Lors de la précédente formation_
--_nous avons appris à versionner nos scripts,_
--_nous avons vu comment deux équipes font pour se partager leurs développements en les centralisant._
+_nous avons appris à versionner nos scripts,_
+_nous avons vu comment deux équipes font pour se partager leurs développements en les centralisant._
 
 
 A présent, nous allons voir dans ce chapitre, comment gèrer les conflits: 

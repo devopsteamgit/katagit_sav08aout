@@ -1,4 +1,5 @@
 
+
 #### (VM1) Installer un Repository GIT (Central) 
 
 Se connecter au user 'git' puis créer un répertoire pour le Repository (Central)
@@ -23,9 +24,10 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Vérifier la connexion:
  `git remote -v`{{execute T2}}
  
-** Versioning des développements sur la VM **
- A présent, vous pouvez aussi effectuer des développements,
- les commiter en local puis les pusher sur le repo distant / lorsque vous souhaiterez en faire bénéficier les autres équipes  
+** Versioning des développements sur la VM2 **
+ 
+ A présent, vous pouvez  effectuer des développements.
+ Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
 
  - Créer un fichier script_test_vm2.sh
  `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T2}}
@@ -44,11 +46,10 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  
     ##### _Répondre:
            > Are you sure you want to continue connecting (yes/no)? 
-                                                   -->  'yes'
+                                                               -->  'yes'
  
- 
-           > git@git_remote's password: --> mot de passe: 
-                                                  -->   'git'
+            > git@git_remote's password: --> mot de passe: 
+                                                       -->   'git'
  
  
  
@@ -76,9 +77,11 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Vérifier la connexion:
  `git remote -v`{{execute T3}}
  
-** Versioning des développements sur la VM **  
- A présent, en tant que seconde équipe, vous pouvez aussi effectuer des développements,
- les commiter en local puis les pusher sur le repo distant/lorsque vous souhaiterez en faire bénéficier les autres équipes  
+** Versioning des développements sur la VM3 **  
+
+ A présent, en tant que seconde équipe, vous pouvez également effectuer des développements.
+ Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
+ 
  -Créer un fichier script_test_vm3.sh
  `echo "printf 'Ceci est un script test sur la VM3\n'" > script_test_vm3.sh;cat script_test_vm3.sh`{{execute T3}}
  
@@ -96,11 +99,10 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  
     ##### _Réponses:
            > Are you sure you want to continue connecting (yes/no)? 
-                                                   -->  'yes'
- 
- 
+                                                                -->  'yes'
+  
            > git@git_remote's password: --> mot de passe: 
-                                                  -->   'git'
+                                                      -->   'git'
  
  
  

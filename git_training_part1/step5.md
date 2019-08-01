@@ -25,7 +25,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Vérifier la connexion:
  `git remote -v`{{execute T2}}
  
-** Développements sur la VM2, puis versionner (première équipe)**
+** Développer sur la VM2, puis versionner (première équipe)**
  
  Car à présent, vous pouvez  effectuer des développements.
  Les commiter en local puis les pusher sur le Repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
@@ -83,7 +83,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Pour commencer, récupèrer  les développements mis à disposition par les autres équipes sur le Repo distant
   `git pull origin master`{{execute T3}}
  
-** Développements sur la VM3, puis versionner (second équipe)**
+** Développer sur la VM3, puis versionner (seconde équipe)**
 
  A présent, en tant que seconde équipe, vous pouvez également effectuer des développements.
  Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  

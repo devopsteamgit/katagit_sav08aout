@@ -5,10 +5,10 @@ Créer votre premier Remote Repository (Central)
 - Se connecter à git:
    `su - git`{{execute T1}}
 
--Création d'un répertoire d'accueil du nouveau Remote Repository:
+-Création d'un répertoire d'accueil du nouveau Remote Repository
 `mkdir repo_central`{{execute T1}}
 
--se déplacer dans le répertoire:
+se déplacer dans le répertoire:
    `cd repo_central`{{execute T1}}
 
 -Lancement de l'installation:

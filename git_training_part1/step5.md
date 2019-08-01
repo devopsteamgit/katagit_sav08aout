@@ -11,10 +11,13 @@ Créer votre premier Remote Repository (Central)
  Lancement de l'installation:
   `git init --bare`{{execute T1}}
 
-#### Créer chaque Repository local dans les VM1 & VM2 pour les Développeurs respectifs projet1 & projet2
+#### Créer un Repository local dans la VM1 pour les Développeurs du projet1 
 
  Lancement de l'installation Repository local1:
  `git init `{{execute T2}}
+ 
+ Observer la création de première branche 'master' du Repository local:
+ `git branch `{{execute T2}}
  
  Connecter ce Repository local avec le Remote (central):
  `git remote add origin ssh://git@git_remote/home/git/repo_central`{{execute T2}}

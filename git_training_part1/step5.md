@@ -1,6 +1,7 @@
-#### (VM1)Installer un Remote Repository GIT (Central)  
 
-Se connecter au user git puis créer le répertoire du Repository (Central)
+#### (VM1) Installer un Repository GIT (Central) 
+
+Se connecter au user 'git' puis créer un répertoire pour le Repository (Central)
   `su - git -c "mkdir formteam;cd formteam";su - git`{{execute T1}}
  
  Initialiser le Remote Repository
@@ -30,9 +31,9 @@ Se connecter au user git puis créer le répertoire du Repository (Central)
  `git add script_test_vm2.sh `{{execute T2}}
  
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
- `git commit -m "ajout du script_test_vm2.sh repos local VM2"`{{execute T2}}
+ `git commit -m "ajout du script_test_vm2.sh repo local VM2"`{{execute T2}}
    
- Vérifier la présence du branche 'master' pour tracker ce fichier nouveau fichier ajouté:
+ Vérifier la présence d'une nouvelle branche 'master' du repo local, qui contient le nouveau fichier:
  `git branch`{{execute T2}}
  
  "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
@@ -79,7 +80,7 @@ Se connecter au user git puis créer le répertoire du Repository (Central)
  `git add script_test.sh `{{execute T3}}
  
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
- `git commit -m "ajout du script_test.sh repos local VM3"`{{execute T3}}
+ `git commit -m "ajout du script_test.sh repo local VM3"`{{execute T3}}
    
  Vérifier la présence du branche 'master' pour tracker ce fichier nouveau fichier ajouté:
  `git branch`{{execute T3}}

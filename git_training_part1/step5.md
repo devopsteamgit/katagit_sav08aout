@@ -1,12 +1,12 @@
-#### VM1 / Installer un "Remote" Repository GIT (Central)  
+#### (VM1)Installer un Remote Repository GIT (Central)  
 
-Se connecter au user git, et créer le répertoire du Repository (Central)
+Se connecter au user git puis créer le répertoire du Repository (Central)
   `su - git -c "mkdir formteam;cd formteam" `{{execute T1}}
  
- Lancer l'installation du Remote Repository
+ Initialiser le Remote Repository
   `git init --bare`{{execute T1}}
 
-#### VM2 - Créer un autre Repository local (pour les Développeurs travaillant sure cette VM)
+#### (VM2) Créer un autre Repository local (pour les Développeurs travaillant sure cette VM)
  Se connecter à git:
  `su - git`{{execute T2}}
    
@@ -14,7 +14,7 @@ Se connecter au user git, et créer le répertoire du Repository (Central)
  `git init `{{execute T2}}
  
  Configurer le Git local (mail et username)
- `git config --global user.email "git@example.com";git config --global user.name "git Name";git config --list`{{execute T2}}   
+ `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list`{{execute T2}}   
  
  Connecter ce Repository local avec le Remote Repository (Central):
  `git remote add origin ssh://git@git_remote/home/git/formteam`{{execute T2}}
@@ -22,7 +22,7 @@ Se connecter au user git, et créer le répertoire du Repository (Central)
  Vérifier la connexion:
  `git remote -v`{{execute T2}}
  
-#### (VM2) A présent, vous pouvez commencer à développer et commiter (enregistrer) vos dev
+#### A présent, vous pouvez commencer à développer et commiter (enregistrer) vos dev
  Créer un fichier script_test.sh
  `echo "printf 'Ceci est un script test\n'" > script_test.sh;cat script_test.sh`{{execute T2}}
  
@@ -38,18 +38,18 @@ Se connecter au user git, et créer le répertoire du Repository (Central)
  "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T2}}
  
-##### _Réponses:
-(1) Are you sure you want to continue connecting (yes/no)? --> répondre 'yes'
+##### _Répondre:
+--> Are you sure you want to continue connecting (yes/no)? --> répondre 'yes'
  
  
-(2) git@git_remote's password: --> mot de pass 'git"
+--> git@git_remote's password: --> mot de passe 'git"
  
  
  Lancer l'installation du Repository local pour les développeurs:
  `git init `{{execute T3}}
  
  
-#### Connecter vous au Remote Repository (central) 
+#### (VM1) Constater que le commit a bien été effectué sur le Repository distant (central) 
  Constater que le commit a bien été effectué à distance
  `git log --oneline`{{execute T1}}
 

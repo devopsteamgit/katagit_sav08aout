@@ -8,12 +8,12 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Initialiser le Remote Repository
   `cd formteam;git init --bare`{{execute T1}}
 
-#### (VM2) Créer un Repository local -cette fois-ci-, afin de versionner les développements en local sur la VM
+#### (VM2) Créer un Repository 'local' -cette fois-ci-, afin de versionner les développements en local sur la VM
 
  Se connecter à git:
  `su - git`{{execute T2}}
    
- Lancer l'installation du premier Repository local:
+ Lancer l'installation du premier Repository 'local':
  `git init `{{execute T2}}
  
  Configurer le Git local (mail et username)
@@ -37,9 +37,10 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  `git add script_test_vm2.sh `{{execute T2}}
  
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
+ 
  `git commit -m "ajout du script_test_vm2.sh repo local VM2"`{{execute T2}}
    
- Vérifier la présence d'une nouvelle branche 'master' du repo local, qui contient le nouveau fichier:
+ Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
  `git branch`{{execute T2}}
  
  "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
@@ -62,12 +63,12 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
 
 
 
-#### (VM3) Créer un second Repository local: pour la seconde équipe de développement sur cette VM
+#### (VM3) Créer un second Repository 'local': pour la seconde équipe de développement sur cette VM
 
  Se connecter à git:
  `su - git`{{execute T3}}
    
- Lancer l'installation du premier Repository local:
+ Lancer l'installation du second Repository 'local':
  `git init `{{execute T3}}
  
  Configurer le Git local (mail et username)
@@ -114,6 +115,10 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  
  
 #### (VM1) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
+
  Constater que le script et sont commit a bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}
+ 
+ Vous pouvez également consulter toutes les mises à jour qui ont été faites sur le Repo central depuis le début
+ `git log`{{execute T1}}
 

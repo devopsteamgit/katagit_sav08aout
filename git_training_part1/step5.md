@@ -25,7 +25,7 @@ Créer votre premier Remote Repository (Central)
  Vérifier la connexion:
  `git remote -v`{{execute T2}}
  
- Et la présence du projet Commun Formation
+ Vérifier la présence du projet Formation Commune "formteam" visible en local à présent
   `ls`{{execute T2}}
   
  Lancement de l'installation Repository local2:

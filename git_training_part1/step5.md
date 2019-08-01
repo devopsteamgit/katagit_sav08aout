@@ -46,7 +46,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  
     ##### _Répondre:
            > Are you sure you want to continue connecting (yes/no)? 
-                                                               -->  'yes'
+                                                       -->  'yes'
  
             > git@git_remote's password: --> mot de passe: 
                                                        -->   'git'
@@ -54,8 +54,8 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  
  
  
-#### (VM1) Constater que le commit a bien été effectué sur le Repository distant (central) 
- Constater que le commit a bien été effectué à distance
+#### (VM1) Constater que le développement a bien été "pushé" sur le Repository distant (central) 
+ Constater que le script et sont commit a bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}
 
 
@@ -102,7 +102,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  
     ##### _Réponses:
            > Are you sure you want to continue connecting (yes/no)? 
-                                                                -->  'yes'
+                                                      -->  'yes'
   
            > git@git_remote's password: --> mot de passe: 
                                                       -->   'git'
@@ -110,7 +110,8 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  
  
  
-#### (VM1) Constater que ce second commit (de la seconde équipe) a bien été "pushé" sur le Repository distant (central) 
- Constater que le commit a bien été effectué à distance
+ 
+#### (VM1) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
+ Constater que le script et sont commit a bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}
 

@@ -1,7 +1,7 @@
 
 Objectifs de cette formation:
 
-Rappel:
+(Rappel)
 
 -Lors de la précédente formation: 
  nous avons appris à versionner nos scripts,

@@ -19,4 +19,4 @@ docker exec -it  git_remote bash -c "cat /tmp/tempo_hosts >>/etc/hosts"
 docker exec -it  dev1_local bash -c "cat /tmp/tempo_hosts >>/etc/hosts"
 docker exec -it  dev2_local bash -c "cat /tmp/tempo_hosts >>/etc/hosts"
 
-docker exec -it  git_remote bash -c "su - git -c "mkdir formteam";su - git;cd formteam;git init --bare"
+docker exec -it  git_remote bash -c "su - git -c \"mkdir formteam\";su - git -c \"cd formteam;git init --bare\""

@@ -56,6 +56,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
 
 
 
+
 #### (VM3) Créer un second Repository local (pour les Développeurs travaillant sure cette VM)
  Se connecter à git:
  `su - git`{{execute T3}}
@@ -72,15 +73,15 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  Vérifier la connexion:
  `git remote -v`{{execute T3}}
  
-#### A présent, vous pouvez commencer à développer et commiter (enregistrer) vos dev
+#### A présent, en tant que seconde équipe, vous pouvez commencer à développer puis commiter vos développements
  Créer un fichier script_test_vm3.sh
  `echo "printf 'Ceci est un script test sur la VM3\n'" > script_test_vm3.sh;cat script_test_vm3.sh`{{execute T3}}
  
  Ajouter le fichier dans la cache "Staging Area"
- `git add script_test.sh `{{execute T3}}
+ `git add script_test_vm3.sh `{{execute T3}}
  
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
- `git commit -m "ajout du script_test.sh repo local VM3"`{{execute T3}}
+ `git commit -m "ajout du script_test_vm3.sh repo local VM3"`{{execute T3}}
    
  Vérifier la présence du branche 'master' pour tracker ce fichier nouveau fichier ajouté:
  `git branch`{{execute T3}}
@@ -88,7 +89,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  "Pusher" le fichier de votre Repo local (VM3) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T3}}
  
-    ##### _Répondre:
+    ##### _Réponses:
            > Are you sure you want to continue connecting (yes/no)? 
                                                    -->  'yes'
  
@@ -99,7 +100,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  
  
  
-#### (VM1) Constater que le commit a bien été effectué sur le Repository distant (central) 
+#### (VM1) Constater que ce second commit (de la seconde équipe) a bien été "pushé" sur le Repository distant (central) 
  Constater que le commit a bien été effectué à distance
  `git log --oneline`{{execute T1}}
 

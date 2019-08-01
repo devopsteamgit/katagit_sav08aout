@@ -51,11 +51,17 @@ Créer votre premier Remote Repository (Central)
 ##### _Réponses:
 (1) Are you sure you want to continue connecting (yes/no)? --> répondre 'yes'
  
+ 
 (2) git@git_remote's password: --> mot de pass 'git"
  
  
  Lancement de l'installation Repository local2:
  `git init `{{execute T3}}
+ 
+ 
+#### Connecter vous au Remote Repository (central) 
+ Constater que le commit a bien été effectué à distance
+ `git log --oneline`{{execute T3}}
 
 Appuyer sur la touche i de votre clavier puis copier le contenu ci-dessous (_Pour copier faite juste un clic sur le text_)
 

@@ -10,7 +10,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Présentation de",
+        "title": "Intérêt de GIT",
         "text": "step2.md"
       },
       {
@@ -22,7 +22,7 @@
         "text": "step4.md"
       },
       {
-        "title": "Installation d'un Git Central "on Premise" et des Git locaux",
+        "title": "Installation d'un Git Central \"on Premise\" et des Git locaux",
         "text": "step5.md"
       }
     ],

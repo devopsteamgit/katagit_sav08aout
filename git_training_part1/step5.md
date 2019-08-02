@@ -71,7 +71,7 @@
  Se metttre dans la branche master 
  `git checkout master`{{execute T1}}
  
-  Effectuer un 'diff' pour consulter ce qui va être "mergé" 
+  Effectuer un 'diff' pour consulter ce qui va être "merger" 
  `git diff master Dev`{{execute T1}}
 
  Fusionner la branche 'Dev' dans la  'master'
@@ -80,7 +80,7 @@
  Afficher le status en cours
  `git status `{{execute T1}}
  
- Il n'y a plus rien à "mergé"
+ Il n'y a plus rien à "merger"
  `git diff master Dev`{{execute T1}}
  
  Supprimer la branche 'Dev'

@@ -1,9 +1,13 @@
 
 Objectifs de cette formation:
 
-Connaître le fonctionnement de GIT, savoir le manipuler,
+Connaître le fonctionnement de GIT, 
+
+Connaitre les fonctions essentiels et la manipulation,
 
 Apprendre à versionner des projets, récupèrer des historiques,
+
+ travailler en mode collaboratif.
 
 Dans cette première partie, 
 

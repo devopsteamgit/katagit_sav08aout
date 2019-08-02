@@ -8,14 +8,16 @@
  Lancer l'installation du premier Repository 'local':
  `git init;git add . ;git commit -a -m "intallation d'un Repo local "  `{{execute T1}}
  
+  Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.
+ `git branch`{{execute T1}}
+ 
  Configurer le Git local (mail & username)
   `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
   
-  Créet le répertoire PROJET:
+** L'équipe peut à présent versionner dans le repository  **
+  Créer le répertoire PROJET:
  `mkdir PROJET;cd PROJET;pwd `{{execute T1}}
  
-** L'équipe peut à présent versionner dans le repository  **
-
  - Créer un fichier 'script_1.sh'
  `echo "printf 'Ceci est un script test\n'" > script_1.sh;cat script_1.sh`{{execute T1}}
  
@@ -28,9 +30,6 @@
  Commmiter/valider la création du nouveau fichier, dans votre Repository local 
   `git commit -m "ajout du script_1.sh dans le repo "`{{execute T1}}
    
- Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.
- `git branch`{{execute T1}}
- 
  
  
 #### Création d'une autre branche pour les développements 

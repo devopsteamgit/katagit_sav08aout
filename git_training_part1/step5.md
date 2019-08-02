@@ -8,38 +8,24 @@
  Lancer l'installation du premier Repository 'local':
  `git init `{{execute T1}}
  
- Configurer le Git local (mail et username)
+ Configurer le Git local (mail & username)
   `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
   
  
 ** L'équipe peut à présent développer sur la VM, puis versionner dans le repository précédemment créé **
- 
- A présent, vous pouvez créer une branche de développement
- `git beanch dev `{{execute T1}}
 
- - Créer un fichier script_test_vm2.sh
+ - Créer un fichier script_test_1.sh
  `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T1}}
  
  Ajouter le fichier dans la cache "Staging Area"
- `git add script_test_vm2.sh `{{execute T1}}
+ `git add script_test_1.sh `{{execute T1}}
  
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
  
- `git commit -m "ajout du script_test_vm2.sh repo local VM2"`{{execute T1}}
+ `git commit -m "ajout du script_test_1.sh dans le repo "`{{execute T1}}
    
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
  `git branch`{{execute T1}}
- 
- "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
- `git push origin master`{{execute T1}}
- 
-    ##### _Répondre:
-           > Are you sure you want to continue connecting (yes/no)? 
-                                                       -->  'yes'
- 
-           > git@git_remote's password: 
-                                   -->   'git'
- 
  
  
  

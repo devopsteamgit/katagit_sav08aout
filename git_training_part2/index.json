@@ -1,7 +1,7 @@
 {
   "noindex": true,
-  "title": "Formation GIT pour le DEVOPS: partie 1",
-  "description": "Gestion des l'historique des version et des commit",
+  "title": "Formation GIT pour le DEVOPS: partie 2",
+  "description": "Gestion des l'historique des versions, annulations commit",
   "time": "50 minutes",
   "details": {
     "steps": [

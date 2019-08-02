@@ -11,7 +11,7 @@ _Rappel:_
 
 
 
-A présent, nous allons apprendre à manipuler l'historique des versions précédemments crées
+A présent, nous allons apprendre à manipuler l'historique des versions précédemments créées
 
 -en revenant en arrière, en annulant des commit effectués
 

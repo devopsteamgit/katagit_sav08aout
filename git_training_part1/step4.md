@@ -18,6 +18,6 @@ Le prompt dev1_git_local#  vous aidera à repèrer la machine sur laquelle vous 
 
 Si toutes fois vous êtes sortie avec un exit , vous pouvez taper les commandes suivantes:
 
-#- g  => Pour se connecter à la VM 'git_remote'.
+# g  => Pour se connecter à la VM 'git_remote'.
 d1 => Pour se connecter à la VM 'dev1_gitlocal'.
-#- d2 => Pour se connecter à la VM 'dev2_gitlocal'.
+# d2 => Pour se connecter à la VM 'dev2_gitlocal'.

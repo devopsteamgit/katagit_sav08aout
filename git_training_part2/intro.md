@@ -1,20 +1,20 @@
 
 Objectifs de cette formation:
 
- - Connaître le fonctionnement de GIT, 
- - Connaitre les fonctions essentiels et la manipulation,
- - Apprendre à versionner des projets, récupèrer des historiques,
- - travailler en mode collaboratif.
- 
-   ##### Planning première partie, 
-     - nous allons apprendre a créer un repository local Git,
-     - à versionner nos scripts,
-     - créer des branches de développements, s'y déplacer, 
-     - faire des commits,  annuler les commits,
-     - consulter les status et les logs,
-     - effectuer des merges entre branches
-  
-Pré-requis
+_Rappel:_
 
-Avoir des notions de développement, de bonnes bases de connaissance Linux ( package linux, commandes ssh, editeur de texte,...)
+_Lors de la précédente formation,_
+_nous avons créé notre propre repository (local)_
+_nous avons créé des branches de Développement_
+_nous avons versionné nos scripts dans le repository,_
+_nous avons effectué des merges entre branches_
+
+
+
+A présent, nous allons voir dans ce chapitre, nous allons apprendre à manipuelr l'historiquedes versions
+
+-et comment revenir en arrière, en annulant des commit effectuer 
+
+-les différents type de reset (soft, mixed, hadr)
+
 

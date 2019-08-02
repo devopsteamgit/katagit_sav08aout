@@ -1,6 +1,6 @@
 - Présentation de GIT
 - Principe de fonctionnement et Architecture,
 - Préparation des environnements,
-- Installations Git,
+- Installation de Git,
 - Création de branches de Développements,
 - Manipulation des commandes de bases GIT. 

@@ -18,3 +18,9 @@ docker cp /tmp/tempo_hosts dev2_local:/tmp/tempo_hosts
 docker exec -it  git_remote bash -c "cat /tmp/tempo_hosts >>/etc/hosts"
 docker exec -it  dev1_local bash -c "cat /tmp/tempo_hosts >>/etc/hosts"
 docker exec -it  dev2_local bash -c "cat /tmp/tempo_hosts >>/etc/hosts"
+
+
+# creation remote repository 
+# docker exec git_remote bash -c "su - git -c \"mkdir formteam;cd formteam;git init --bare\"";
+# création repo local connecte au remote distant
+# docker exec dev1_local bash -c "su - git -c \"git init;git config --global user.email \"git@example.com\";git config --global user.name \"git Name\";pwd;git config --list;git remote add origin ssh://git@git_remote/home/git/formteam\"";

@@ -9,7 +9,8 @@ Dans cette première partie,
 
     * nous allons apprendre à versionner nos scripts,
     * créer un repository local Git,
-    * créer des branches de développements, s'y déplacer, versionner des fichiers, faire des commits,  annuler les commits,
+    * créer des branches de développements, s'y déplacer, versionner des fichiers, 
+    * faire des commits,  annuler les commits,
     * consulter les status et les logs,
     * effectuer des merges entre branches
     

@@ -50,25 +50,25 @@
  Ajouter le fichier dans la cache "Staging Area"
  `git add script_2.sh `{{execute T1}}
  
-  Afficher le status en cours
+ Afficher le status en cours
  `git status `{{execute T1}}
  
  Commmiter/valider la création du nouveau fichier, dans votre Repository local 
-  `git commit -m "ajout du script_2.sh dans le repo de Dev"`{{execute T1}}
+ `git commit -m "ajout du script_2.sh dans le repo de Dev"`{{execute T1}}
    
  Vérifier la présence de la branche 'Dev'
  `git branch`{{execute T1}}
  
 #### Fusionner les branches 'Dev' & 'master'
 
- Se metttre dans la branche master :
+ Se metttre dans la branche master 
  `git checkout master`{{execute T1}}
-   
- Effectuer un 'diff' entre les deux branches 
- `git diff master Dev`{{execute T1}}
- 
+
  Fusionner la branche 'Dev' dans la  'master'
  `git merge Dev`{{execute T1}}
   
+ Effectuer un 'diff' entre les deux branches 
+ `git diff master Dev`{{execute T1}}
+ 
  Supprimer la branche 'Dev'
  `git branch -d Dev`{{execute T1}}

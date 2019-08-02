@@ -11,8 +11,4 @@ En effet, les programmeurs peuvent continuer à travailler localement en toute a
 Afin d'optimiser les ressources nous avons choisi d'utiliser des images docker avec un système Ubuntu. 
 Nous avons créé 3 conteneurs docker. Chaque conteneur porte un rôle d'une VM Ubuntu.
 
-- Conteneur "remote repository" : Correspond repository central GIT
 - Conteneur "Dev1: Correspond au développeur 1 et son repository local GIT
-- Conteneur "Dev2 : Correspond au développeur 2 et son repository local GIT
-
-

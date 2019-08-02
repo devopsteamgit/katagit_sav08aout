@@ -12,7 +12,7 @@
   `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
   
   Créet le répertoire PROJET:
- `mkdir PROJET,cd PROJET;pwd `{{execute T1}}
+ `mkdir PROJET;cd PROJET;pwd `{{execute T1}}
  
 ** L'équipe peut à présent développer sur la VM, puis versionner dans le repository précédemment créé **
 

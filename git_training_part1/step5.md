@@ -69,4 +69,6 @@
  
  Fusionner la branche 'Dev' dans la  'master'
  `git merge Dev`{{execute T1}}
- 
+  
+ Supprimer la branche 'Dev'
+ `git branch -d Dev`{{execute T1}}

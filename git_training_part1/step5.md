@@ -14,8 +14,8 @@
  Configurer le Git local (mail & username)
   `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
   
- Créer un branche master par défaut et lancer un premier commit du repository
- `git add . ;git commit -a -m "intallation d'un Repo local "  `{{execute T1}}
+ On commit le repository, ce qui créé une première branche par défaut 'master'
+ `git add . ;git commit -a -m "creation branch master "  `{{execute T1}}
  
   Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.
  `git branch`{{execute T1}}

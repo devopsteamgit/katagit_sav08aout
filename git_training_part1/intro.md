@@ -3,12 +3,16 @@ Objectifs de cette formation:
 
 Connaître le fonctionnement de GIT, savoir le manipuler,
 
-Apprendre à versionner des projets, récupèrer des historiques, travailler en mode collaboraif
+Apprendre à versionner des projets, récupèrer des historiques,
 
 Dans cette première partie, 
 
-    * nous allons apprendre à versionner nos scripts localement, puis ensuite les partager sur un Repository Central,
-    * nous allons voir comment deux équipes font pour se partager leurs développements.
+    * nous allons apprendre à versionner nos scripts,
+    * créer un repository,
+    * créer des branches de développements,s'y déplacer, versionner des fichiers, faire des commits,  annuler les commits,
+    * consulter les status et les logs,
+    * effectuer des merges entre branches
+    
 
 
 Pré-requis

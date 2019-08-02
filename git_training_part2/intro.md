@@ -15,6 +15,6 @@ A présent, nous allons voir dans ce chapitre, nous allons apprendre à manipuel
 
 -et comment revenir en arrière, en annulant des commit effectuer 
 
--les différents type de reset (soft, mixed, hadr)
+-les différents type de reset (soft, mixed, hard), les revert
 
 

@@ -3,7 +3,7 @@ Nous allons ouvrir 1 terminal. Qui contiendra notre Repository local et nos prem
 
 Vérifier que l'environnement de formation est prêt:
 
- `if [ $(docker ps  | grep -v CONTAINER | wc -l) -ge 3 ]; then echo "OK"; else echo "Attendre 30s!";sleep 30;  fi`{{execute T1}}
+`if [ $(docker ps  | grep -v CONTAINER | wc -l) -ge 3 ]; then echo "OK"; else echo "Attendre 30s!";sleep 30;  fi`{{execute T1}}
 
 Puis, lancer les commandes suivantes:
 
@@ -19,5 +19,5 @@ Le prompt dev1_git_local#  vous aidera à repèrer la machine sur laquelle vous 
 Si toutes fois vous êtes sortie avec un exit , vous pouvez taper les commandes suivantes:
 
 # - g  => Pour se connecter à la VM 'git_remote'.
-- d1 => Pour se connecter à la VM 'dev1_gitlocal'.
+d1 => Pour se connecter à la VM 'dev1_gitlocal'.
 #- d2 => Pour se connecter à la VM 'dev2_gitlocal'.

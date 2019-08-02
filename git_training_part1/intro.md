@@ -8,11 +8,11 @@ Objectifs de cette formation:
  
    - Planning première partie, 
      - nous allons apprendre a créer un repository local Git,
-     à versionner nos scripts,
-     créer des branches de développements, s'y déplacer, 
-     faire des commits,  annuler les commits,
-     consulter les status et les logs,
-     effectuer des merges entre branches
+     - à versionner nos scripts,
+     - créer des branches de développements, s'y déplacer, 
+     - faire des commits,  annuler les commits,
+     - consulter les status et les logs,
+     - effectuer des merges entre branches
   
 Pré-requis
 

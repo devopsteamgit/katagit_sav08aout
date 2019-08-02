@@ -6,9 +6,8 @@ Objectifs de cette formation:
  - Apprendre à versionner des projets, récupèrer des historiques,
  - travailler en mode collaboratif.
  
-   - Dans cette première partie, 
-
- - nous allons apprendre a créer un repository local Git,
+   - Planning première partie, 
+     - nous allons apprendre a créer un repository local Git,
      à versionner nos scripts,
      créer des branches de développements, s'y déplacer, 
      faire des commits,  annuler les commits,

@@ -16,5 +16,5 @@ Dans cette première partie,
   
 Pré-requis
 
-Avoir des notions de développement, de bonnes bases de connaissance Linux ( package linux, commandes ssh, editeur de text,...)
+Avoir des notions de développement, de bonnes bases de connaissance Linux ( package linux, commandes ssh, editeur de texte,...)
 

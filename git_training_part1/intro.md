@@ -7,7 +7,7 @@ Objectifs de cette formation:
  - travailler en mode collaboratif.
  
    ##### Planning première partie, 
-     - nous allons apprendre a créer un repository local Git,
+     - nous allons apprendre a créer un repository GIT,
      - à versionner nos scripts,
      - créer ou supprimer des branches de développements, 
      - faire des commits,  annuler les commits,

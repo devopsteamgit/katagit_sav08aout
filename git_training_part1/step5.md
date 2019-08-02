@@ -18,20 +18,20 @@
  `git beanch dev `{{execute T1}}
 
  - Créer un fichier script_test_vm2.sh
- `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T2}}
+ `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T1}}
  
  Ajouter le fichier dans la cache "Staging Area"
- `git add script_test_vm2.sh `{{execute T2}}
+ `git add script_test_vm2.sh `{{execute T1}}
  
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
  
- `git commit -m "ajout du script_test_vm2.sh repo local VM2"`{{execute T2}}
+ `git commit -m "ajout du script_test_vm2.sh repo local VM2"`{{execute T1}}
    
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
- `git branch`{{execute T2}}
+ `git branch`{{execute T1}}
  
  "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
- `git push origin master`{{execute T2}}
+ `git push origin master`{{execute T1}}
  
     ##### _Répondre:
            > Are you sure you want to continue connecting (yes/no)? 

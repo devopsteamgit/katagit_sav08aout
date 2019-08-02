@@ -11,6 +11,8 @@
  Configurer le Git local (mail & username)
   `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
   
+  Créet le répertoire PROJET:
+ `mkdir PROJET,cd PROJET;pwd `{{execute T1}}
  
 ** L'équipe peut à présent développer sur la VM, puis versionner dans le repository précédemment créé **
 
@@ -67,6 +69,9 @@
  Fusionner la branche 'Dev' dans la  'master'
  `git merge Dev`{{execute T1}}
   
+ Afficher le status en cours
+ `git status `{{execute T1}}
+ 
  Effectuer un 'diff' entre les deux branches 
  `git diff master Dev`{{execute T1}}
  

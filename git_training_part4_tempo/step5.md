@@ -27,8 +27,8 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  
 ** Développer sur la VM2, puis versionner (première équipe)**
  
- Car à présent, vous pouvez  effectuer des développements.
- Les commiter en local puis les pusher sur le Repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
+ A présent, vous pouvez  effectuer des développements.
+ Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
 
  - Créer un fichier script_test_vm2.sh
  `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T2}}

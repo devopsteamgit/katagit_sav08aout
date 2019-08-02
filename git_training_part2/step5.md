@@ -1,124 +1,90 @@
-
-
-#### (VM1) Installer un Repository GIT (Central) 
-
-Se connecter au user 'git' puis créer un répertoire pour le Repository (Central)
-  `su - git -c "mkdir formteam";su - git`{{execute T1}}
  
- Initialiser le Remote Repository
-  `cd formteam;git init --bare`{{execute T1}}
-
-#### (VM2) Créer un Repository 'local' -cette fois-ci-, afin de versionner les développements en local sur la VM
+ 
+#### Créer un Repository 'local' afin de versionner les développements sur la VM
 
  Se connecter à git:
- `su - git`{{execute T2}}
+ `su - git`{{execute T1}}
    
  Lancer l'installation du premier Repository 'local':
- `git init `{{execute T2}}
+ `git init`{{execute T1}}
  
- Configurer le Git local (mail et username)
- `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list`{{execute T2}}   
+  Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.
+ `git branch`{{execute T1}}
  
- Connecter ce Repository local avec le Remote Repository Central  (branche 'origin')
- `git remote add origin ssh://git@git_remote/home/git/formteam`{{execute T2}}
-
- Vérifier la connexion:
- `git remote -v`{{execute T2}}
+ Configurer le Git local (mail & username)
+  `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
+  
+ On commit le repository, ce qui créé une première branche par défaut 'master'
+ `git add . ;git commit -a -m "creation branch master "  `{{execute T1}}
  
-** Développer sur la VM2, puis versionner (première équipe)**
+  Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.
+ `git branch`{{execute T1}}
+  
+** L'équipe peut à présent versionner dans le repository  **
+  Créer le répertoire PROJET:
+ `mkdir PROJET;cd PROJET;pwd `{{execute T1}}
  
- Car à présent, vous pouvez  effectuer des développements.
- Les commiter en local puis les pusher sur le Repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
-
- - Créer un fichier script_test_vm2.sh
- `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T2}}
- 
- Ajouter le fichier dans la cache "Staging Area"
- `git add script_test_vm2.sh `{{execute T2}}
- 
- Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
- 
- `git commit -m "ajout du script_test_vm2.sh repo local VM2"`{{execute T2}}
-   
- Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
- `git branch`{{execute T2}}
- 
- "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
- `git push origin master`{{execute T2}}
- 
-    ##### _Répondre:
-           > Are you sure you want to continue connecting (yes/no)? 
-                                                       -->  'yes'
- 
-           > git@git_remote's password: 
-                                   -->   'git'
- 
- 
- 
- 
-#### (VM1) Constater que le développement a bien été "pushé" sur le Repository distant (central) 
- Constater que le script et sont commit a bien été pushé sur le repo distant
- `git log --oneline`{{execute T1}}
-
-
-
-
-#### (VM3) Créer un second Repository 'local': pour la seconde équipe de développement sur cette VM
-
- Se connecter à git:
- `su - git`{{execute T3}}
-   
- Lancer l'installation du second Repository 'local':
- `git init `{{execute T3}}
- 
- Configurer le Git local (mail et username)
- `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list`{{execute T3}}   
- 
- Connecter ce Repository local avec le Remote Repository (Central):
- `git remote add origin ssh://git@git_remote/home/git/formteam`{{execute T3}}
-
- Vérifier la connexion:
- `git remote -v`{{execute T3}}
- 
- Pour commencer, récupèrer  les développements mis à disposition par les autres équipes sur le Repo distant
-  `git pull origin master`{{execute T3}}
- 
-** Développer sur la VM3, puis versionner (seconde équipe)**
-
- A présent, en tant que seconde équipe, vous pouvez également effectuer des développements.
- Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
- 
- -Créer un fichier script_test_vm3.sh
- `echo "printf 'Ceci est un script test sur la VM3\n'" > script_test_vm3.sh;cat script_test_vm3.sh`{{execute T3}}
+ - Créer un fichier 'script_1.sh'
+ `echo "printf 'Ceci est un script test\n'" > script_1.sh;cat script_1.sh`{{execute T1}}
  
  Ajouter le fichier dans la cache "Staging Area"
- `git add script_test_vm3.sh `{{execute T3}}
+ `git add script_1.sh `{{execute T1}}
  
- Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
- `git commit -m "ajout du script_test_vm3.sh repo local VM3"`{{execute T3}}
+  Afficher le status en cours
+ `git status `{{execute T1}}
+ 
+ Commmiter/valider la création du nouveau fichier, dans votre Repository local 
+  `git commit -m "ajout du script_1.sh dans le repo "`{{execute T1}}
    
- Vérifier la présence du branche 'master' pour tracker ce fichier nouveau fichier ajouté:
- `git branch`{{execute T3}}
- 
- "Pusher" le fichier de votre Repo local (VM3) --> vers Remote Repo Central (VM1)
- `git push origin master`{{execute T3}}
- 
-    ##### _Répondre:
-           > Are you sure you want to continue connecting (yes/no)? 
-                                                       -->  'yes'
- 
-           > git@git_remote's password: 
-                                   -->   'git'
  
  
+#### Création d'une autre branche pour les développements 
+ - Créer la branche
+ `git branch Dev`{{execute T1}}
  
- 
- 
-#### (VM1) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
+ Vérifier la présence de la branche 'Dev'
+ `git branch`{{execute T1}}
 
- Constater que le script et sont commit a bien été pushé sur le repo distant
- `git log --oneline`{{execute T1}}
- 
- Vous pouvez également consulter toutes les mises à jour qui ont été faites sur le Repo central depuis le début
- `git log`{{execute T1}}
+ Se déplacer dans la branche
+ `git checkout Dev`{{execute T1}}
 
+ La branche 'Dev' est à présent active
+ `git branch`{{execute T1}}
+ 
+ Créer un second fichier dans la branche de Dev cette fois ci 'script_2.sh'
+ `echo "printf 'Ceci est un script test\n'" > script_2.sh;cat script_2.sh`{{execute T1}}
+ 
+ Ajouter le fichier dans la cache "Staging Area"
+ `git add script_2.sh `{{execute T1}}
+ 
+ Afficher le status en cours
+ `git status `{{execute T1}}
+ 
+ Commmiter/valider la création du nouveau fichier, dans votre Repository local 
+ `git commit -m "ajout du script_2.sh dans le repo de Dev"`{{execute T1}}
+   
+ Vérifier la présence de la branche 'Dev'
+ `git branch`{{execute T1}}
+ 
+#### Fusionner les branches 'Dev' & 'master'
+
+ Se metttre dans la branche master 
+ `git checkout master`{{execute T1}}
+ 
+  Effectuer un 'diff' pour consulter ce qui va être "merger" 
+ `git diff master Dev`{{execute T1}}
+
+ Fusionner la branche 'Dev' dans la  'master'
+ `git merge Dev`{{execute T1}}
+  
+ Afficher le status en cours
+ `git status `{{execute T1}}
+ 
+ Il n'y a plus rien à "merger"
+ `git diff master Dev`{{execute T1}}
+ 
+ Supprimer la branche 'Dev'
+ `git branch -d Dev`{{execute T1}}
+
+ Vérifier que la branche 'Dev' est bien supprimée
+ `git branch `{{execute T1}}

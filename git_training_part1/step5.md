@@ -14,7 +14,7 @@
   Créet le répertoire PROJET:
  `mkdir PROJET;cd PROJET;pwd `{{execute T1}}
  
-** L'équipe peut à présent développer sur la VM, puis versionner dans le repository précédemment créé **
+** L'équipe peut à présent versionner dans le repository  **
 
  - Créer un fichier 'script_1.sh'
  `echo "printf 'Ceci est un script test\n'" > script_1.sh;cat script_1.sh`{{execute T1}}

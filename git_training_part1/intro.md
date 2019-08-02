@@ -8,8 +8,8 @@ Apprendre à versionner des projets, récupèrer des historiques,
 Dans cette première partie, 
 
     * nous allons apprendre à versionner nos scripts,
-    * créer un repository Git central,
-    * créer des branches de développements,s'y déplacer, versionner des fichiers, faire des commits,  annuler les commits,
+    * créer un repository Git,
+    * créer des branches de développements, s'y déplacer, versionner des fichiers, faire des commits,  annuler les commits,
     * consulter les status et les logs,
     * effectuer des merges entre branches
     

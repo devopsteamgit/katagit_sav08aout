@@ -8,6 +8,7 @@ Puis, lancer les commandes suivantes:
 `d1() { docker exec -it dev1_git_local bash -c "cd /work_dir; echo 'PS1='\''dev1_git_local# '\' >> /root/.bashrc; bash"; } && d1`{{execute T1}}
 
 
+
 ##### _Remarque_:
 Le prompt dev1_git_local#  vous aidera à repèrer la machine sur laquelle vous êtes connecté.
 

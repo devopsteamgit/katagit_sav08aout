@@ -1,34 +1,20 @@
 
-
-#### (VM1) Installer un Repository GIT (Central) 
-
-Se connecter au user 'git' puis créer un répertoire pour le Repository (Central)
-  `su - git -c "mkdir formteam";su - git`{{execute T1}}
- 
- Initialiser le Remote Repository
-  `cd formteam;git init --bare`{{execute T1}}
-
-#### (VM2) Créer un Repository 'local' -cette fois-ci-, afin de versionner les développements en local sur la VM
+#### Créer un Repository 'local' afin de versionner les développements en local sur la VM
 
  Se connecter à git:
- `su - git`{{execute T2}}
+ `su - git`{{execute T1}}
    
  Lancer l'installation du premier Repository 'local':
- `git init `{{execute T2}}
+ `git init `{{execute T1}}
  
  Configurer le Git local (mail et username)
- `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list`{{execute T2}}   
+ `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list`{{execute T1}   
  
- Connecter ce Repository local avec le Remote Repository Central  (branche 'origin')
- `git remote add origin ssh://git@git_remote/home/git/formteam`{{execute T2}}
-
- Vérifier la connexion:
- `git remote -v`{{execute T2}}
  
-** Développer sur la VM2, puis versionner (première équipe)**
+** L'équipe peut à présent développer sur la VM, puis versionner dans le repository précédemment créé **
  
- Car à présent, vous pouvez  effectuer des développements.
- Les commiter en local puis les pusher sur le Repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
+ A présent, vous pouvez créer une branche de développement
+ `git beanch dev `{{execute T1}}
 
  - Créer un fichier script_test_vm2.sh
  `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T2}}

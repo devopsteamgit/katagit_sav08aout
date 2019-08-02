@@ -6,7 +6,6 @@ docker exec dev1_git_local bash -c "apt-get update && chmod 777 /work_dir/traini
 docker inspect dev1_git_local  | grep  \"IPAddress\" | sed -e "s/ //g" | grep -v \"\"  | awk -F ":" '{print $2" dev1_git_local"}'  | sed  -e "s/\"//g" | sed -e "s/,//g" >>/tmp/tempo_hosts
 docker cp /tmp/tempo_hosts dev1_git_local:/tmp/tempo_hosts
 docker exec dev1_git_local bash -c "cat /tmp/tempo_hosts >>/etc/hosts"
-docker exec dev1_git_local bash -c "su - git -c \"touch test.log\";
 
 
 docker exec dev1_git_local bash -c "su - git -c \"git init;git config --global user.email \"git@example.com\";git config --global user.name \"git Name\";git add . ;git commit -a -m \"creation branch master \"; mkdir PROJET\"";

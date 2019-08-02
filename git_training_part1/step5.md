@@ -38,7 +38,7 @@
    
  
  
-#### Création d'une autre branche pour les développements 
+#### Création d'une branche pour les développements 
  - Créer la branche
  `git branch Dev`{{execute T1}}
  
@@ -60,7 +60,7 @@
  Afficher le status en cours
  `git status `{{execute T1}}
  
- Commmiter/valider la création du nouveau fichier, dans votre Repository local 
+ Commmiter/valider la création du nouveau fichier, dans votre Repository 'local' 
  `git commit -m "ajout du script_2.sh dans le repo de Dev"`{{execute T1}}
    
  Vérifier la présence de la branche 'Dev'
@@ -71,7 +71,7 @@
  Se metttre dans la branche master 
  `git checkout master`{{execute T1}}
  
-  Effectuer un 'diff' pour consulter ce qui va être "merger" 
+  Effectuer un 'diff' pour consulter ce qui va être "mergé" 
  `git diff master Dev`{{execute T1}}
 
  Fusionner la branche 'Dev' dans la  'master'
@@ -80,7 +80,7 @@
  Afficher le status en cours
  `git status `{{execute T1}}
  
- Il n'y a plus rien à "merger"
+ Il n'y a plus rien à "mergé"
  `git diff master Dev`{{execute T1}}
  
  Supprimer la branche 'Dev'

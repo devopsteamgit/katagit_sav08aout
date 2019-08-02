@@ -1,5 +1,5 @@
 - Git permet une gestion décentralisée des développements sur chacun des serveurs. La centralisation du versioning, permet ensuite de partager les développements entres équipes,
-- Un Repository Central, assure lle rôle de synchronisations entres les différents Repository
+- Un Repository Central, assure le rôle de synchronisation entres les différents Repository
 
 ![git_users_archi](/testgitessai/scenarios/git_training_part1/assets/git_users_archi.png)
 

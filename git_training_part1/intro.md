@@ -6,6 +6,7 @@ Connaître le fonctionnement de GIT, savoir le manipuler,
 Apprendre à versionner des projets, récupèrer des historiques,
 
 Dans cette première partie, 
+
     * nous allons apprendre a créer un repository local Git,
     * à versionner nos scripts,
     * créer des branches de développements, s'y déplacer, 

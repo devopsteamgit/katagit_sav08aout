@@ -6,7 +6,7 @@
  `su - git`{{execute T1}}
    
  Lancer l'installation du premier Repository 'local':
- `git init `{{execute T1}}
+ `git init;git add . ;git commit -a -m "intallation d'un Repo local "  `{{execute T1}}
  
  Configurer le Git local (mail & username)
   `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}

@@ -5,6 +5,7 @@ Objectifs de cette formation:
  - Connaitre les fonctions essentiels et la manipulation,
  - Apprendre à versionner des projets, récupèrer des historiques,
  - travailler en mode collaboratif.
+ 
    - Dans cette première partie, 
 
  - nous allons apprendre a créer un repository local Git,

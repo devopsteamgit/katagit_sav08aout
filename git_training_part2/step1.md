@@ -1,6 +1,4 @@
-- Présentation de GIT
-- Principe de fonctionnement et Architecture,
+- Présentation des commits
+- Principe de fonctionnement du reset et des revert,
 - Préparation des environnements,
-- Installation de Git,
-- Création de branches de Développements,
-- Manipulation des commandes de bases GIT. 
+

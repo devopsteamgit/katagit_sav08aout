@@ -11,10 +11,8 @@ _Rappel:_
 
 
 
-A présent, nous allons voir dans ce chapitre, nous allons apprendre à manipuelr l'historiquedes versions
+A présent, nous allons apprendre à manipuler l'historique des versions précédemments crées
 
--et comment revenir en arrière, en annulant des commit effectuer 
+-en revenant en arrière, en annulant des commit effectués
 
--les différents type de reset (soft, mixed, hard), les revert
-
-
+-en manipulant les différents types de reset (soft, mixed, hard). Les revert,...

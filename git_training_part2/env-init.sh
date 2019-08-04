@@ -16,7 +16,7 @@ docker exec dev1_git_local bash -c "cat /tmp/tempo_hosts >>/etc/hosts"
 docker exec  dev1_git_local bash -c "su - git -c \"mkdir repofiles;cd repofiles;git init;git config --list; git config --global user.email \"git@example.com\";git config --global user.name  Name\"";
 docker exec  dev1_git_local bash -c "su - git -c \"cd repofiles;git remote add origin https://github.com/testgitpub/testfiles.git;git pull origin master\"";
 
-docker exec  dev1_git_local bash -c "su - git -c \"cp ../repofiles/files/cdfic.sh .'\"";
+docker exec  dev1_git_local bash -c "su - git -c \"cp ../repofiles/files/cdfic .'\"";
 
 
 docker exec  dev1_git_local bash -c "su - git -c \"mkdir PROJET;cd PROJET;git init;git config --list; git config --global user.email \"git@example.com\";git config --global user.name  Name\"";

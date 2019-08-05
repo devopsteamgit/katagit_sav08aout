@@ -23,4 +23,6 @@ docker exec  dev1_git_local bash -c "cd /home/repofiles;git remote add origin ht
 docker exec  dev1_git_local bash -c "su - git -c \"git init;git config --list; git config --global user.email \"git@example.com\";git config --global user.name  Name\"";
 docker exec  dev1_git_local bash -c "su - git -c \"cp /home/repofiles/files/script_1.sh .;git add --all ;git commit -a -m 'ajout script_1.sh'\"";
 docker exec  dev1_git_local bash -c "su - git -c \"cp /home/repofiles/files/script_2.sh .;git add --all ;git commit -a -m 'ajout script_2.sh'\"";
+docker exec  dev1_git_local bash -c "su - git -c \"cp /home/repofiles/files/script_3.sh .;git add --all ;git commit -a -m 'ajout script_3.sh'\"";
+docker exec  dev1_git_local bash -c "su - git -c \"cp /home/repofiles/files/script_4.sh .;git add --all ;git commit -a -m 'ajout script_4.sh'\"";
 

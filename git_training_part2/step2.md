@@ -1,11 +1,7 @@
-- Git permet une gestion décentralisée des développements sur chacun des serveurs. Sa centralisation du versioning, permet un partager (entres équipes) des développements
-- Un Repository Central, assure le rôle de synchronisation entres les différents Repository
+- Gt permet de revenir en arrière sur certains commit
+- Cela permet un roolback de la situation au commit souhaité
 
 ![git_users_archi](/testgitessai/scenarios/git_training_part1/assets/git_users_archi.png)
-
-##### *Remarque:*
-Cette approche décentralisée, apporte un plus par rapport au autres solutions.
-En effet, les programmeurs peuvent continuer à travailler localement en toute autonomie, puis mettre à jour le Repository distant au timing souhaité. Cela permet de diffuser leurs programmes aux autres équipes.
 
 #### Architecture utilisée pour ce chapitre
 Afin d'optimiser les ressources nous avons choisi d'utiliser des images docker avec un système Ubuntu. 

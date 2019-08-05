@@ -36,8 +36,8 @@
   Effectuer un revert du second commit (correspond aux scripts 2) 
    `git revert HEAD~2`{{execute T1}}
   
-  Constater que l'historique d'ajout du script 2 est conservé dans l'historique, mais qu'un nouveau commit apparait pour signifier la suppression du script 1
+  Constater que l'historique d'ajout du script 2 est conservé dans l'historique, mais qu'un nouveau commit apparait pour tracer la suppression du script (2) 
    `git log --oneline`{{execute T1}}
   
-  Constater que le script n'est plus dans la working directory 
+  Constater que le script 2 n'est plus dans la working directory 
   `ls`{{execute T1}}

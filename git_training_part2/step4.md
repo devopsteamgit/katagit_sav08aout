@@ -33,11 +33,15 @@
   Grâce à l'option "soft", le script 4 est restés dans la working directory et est toujours staggés (indexé) 
   `git status;ls `{{execute T1}}
   
-  Effectuer un revert du second scripts 2 
+  Effectuer un revert du second scripts 2, en lançant un commit des actions jusqu'ici, puis un revert: 
    `git git commit -a -m "revert script 2"`{{execute T1}}
    `git revert HEAD~2`{{execute T1}}
   
-  
+      ##### _Si un fichier souvre, sorter en validant ':wq!'
+           > Are you sure you want to continue connecting (yes/no)? 
+                                                       -->  :wq:
+ 
+           
   
   Constater que l'historique d'ajout du script 2 est conservé dans l'historique, mais qu'un nouveau commit est apparut pour tracer la suppression du script (2) 
    `git log --oneline`{{execute T1}}

@@ -1,12 +1,10 @@
  
  
-#### Créer un Repository 'local' afin de versionner les développements sur la VM
+#### Nous allons apprendre à jongler avec l'historique des commit et revenir en arrière lorsque c'est nécessaire
 
- Se connecter à git:
- `su - git`{{execute T1}}
    
- Lancer l'installation du premier Repository 'local':
- `git init`{{execute T1}}
+ Afficher tous les historiques présents:
+ `git log --oneline`{{execute T1}}
  
   Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.
  `git branch`{{execute T1}}

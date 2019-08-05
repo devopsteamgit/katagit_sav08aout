@@ -1,11 +1,11 @@
 
-#### Nous allons apprendre à jongler avec l'historique des commit et revenir en arrière lorsque c'est nécessaire
+#### Nous allons apprendre à jongler avec l'historique, les commits et revenir en arrière lorsque c'est nécessaire
 
    
- Afficher tous les historiques présents:
+ Afficher l'historique de tous les commits présents:
  `git log --oneline`{{execute T1}}
  
-  Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.
+  Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. 
  `git branch`{{execute T1}}
  
  Configurer le Git local (mail & username)

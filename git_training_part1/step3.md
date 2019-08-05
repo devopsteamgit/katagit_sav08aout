@@ -7,8 +7,8 @@
 Cette approche décentralisée, apporte un plus par rapport au autres solutions.
 En effet, les programmeurs peuvent continuer à travailler localement en toute autonomie, puis mettre à jour le Repository distant au timing souhaité. Cela permet de diffuser leurs programmes aux autres équipes.
 
-#### Architecture utilisée durant la formation
+#### Architecture utilisée pour ce chapitre
 Afin d'optimiser les ressources nous avons choisi d'utiliser des images docker avec un système Ubuntu. 
-Nous avons créé 3 conteneurs docker. Chaque conteneur porte un rôle d'une VM Ubuntu.
+Nous avons créé un conteneurs docker. Il permet de se familiariser aux commandes de bases
 
-- Conteneur "Dev1: Correspond au développeur 1 et son repository local GIT
+- Conteneur "Dev1: Correspond à l'équipe de développement et son repository local GIT

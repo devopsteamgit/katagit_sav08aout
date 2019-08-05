@@ -38,6 +38,7 @@
   
   Effectuer un revert du second scripts 2, en lançant un commit des actions jusqu'ici, puis un revert: 
    `git commit -a -m "revert script 2"`{{execute T1}}
+   
    `git revert HEAD~2`{{execute T1}}
   
       ##### _Si un fichier s'ouvre --> sortir et sauvegarder --> ':wq!'

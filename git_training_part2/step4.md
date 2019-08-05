@@ -1,18 +1,87 @@
 
-Nous allons ouvrir un terminal qui contiendra notre Repository local et nos premiers développements.
+#### Nous allons apprendre à jongler avec l'historique des commit et revenir en arrière lorsque c'est nécessaire
 
-Vérifier que l'environnement de formation est prêt:
+   
+ Afficher tous les historiques présents:
+ `git log --oneline`{{execute T1}}
+ 
+  Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.
+ `git branch`{{execute T1}}
+ 
+ Configurer le Git local (mail & username)
+  `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
+  
+ On commit le repository, ce qui créé une première branche par défaut 'master'
+ `git add . ;git commit -a -m "creation branch master "  `{{execute T1}}
+ 
+  Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.
+ `git branch`{{execute T1}}
+  
+** L'équipe peut à présent versionner dans le repository  **
+  Créer le répertoire PROJET:
+ `mkdir PROJET;cd PROJET;pwd `{{execute T1}}
+ 
+ - Créer un fichier 'script_1.sh'
+ `echo "printf 'Ceci est un script test\n'" > script_1.sh;cat script_1.sh`{{execute T1}}
+ 
+ Ajouter le fichier dans la cache "Staging Area"
+ `git add script_1.sh `{{execute T1}}
+ 
+  Afficher le status en cours
+ `git status `{{execute T1}}
+ 
+ Commmiter/valider la création du nouveau fichier, dans votre Repository local 
+  `git commit -m "ajout du script_1.sh dans le repo "`{{execute T1}}
+   
+ 
+ 
+#### Création d'une autre branche pour les développements 
+ - Créer la branche
+ `git branch Dev`{{execute T1}}
+ 
+ Vérifier la présence de la branche 'Dev'
+ `git branch`{{execute T1}}
 
-`if [ $(docker ps  | grep -v CONTAINER | wc -l) -ge 3 ]; then echo "OK"; else echo "Attendre 30s!";sleep 30;  fi`{{execute T1}}
+ Se déplacer dans la branche
+ `git checkout Dev`{{execute T1}}
 
-Puis, lancer les commandes suivantes:
+ La branche 'Dev' est à présent active
+ `git branch`{{execute T1}}
+ 
+ Créer un second fichier dans la branche de Dev cette fois ci 'script_2.sh'
+ `echo "printf 'Ceci est un script test\n'" > script_2.sh;cat script_2.sh`{{execute T1}}
+ 
+ Ajouter le fichier dans la cache "Staging Area"
+ `git add script_2.sh `{{execute T1}}
+ 
+ Afficher le status en cours
+ `git status `{{execute T1}}
+ 
+ Commmiter/valider la création du nouveau fichier, dans votre Repository local 
+ `git commit -m "ajout du script_2.sh dans le repo de Dev"`{{execute T1}}
+   
+ Vérifier la présence de la branche 'Dev'
+ `git branch`{{execute T1}}
+ 
+#### Fusionner les branches 'Dev' & 'master'
 
-`d1() { docker exec -it dev1_git_local bash -c "cd /work_dir; echo 'PS1='\''dev1_git_local# '\' >> /root/.bashrc; bash; su - git"; } && d1`{{execute T1}}
+ Se metttre dans la branche master 
+ `git checkout master`{{execute T1}}
+ 
+  Effectuer un 'diff' pour consulter ce qui va être "merger" 
+ `git diff master Dev`{{execute T1}}
 
+ Fusionner la branche 'Dev' dans la  'master'
+ `git merge Dev`{{execute T1}}
+  
+ Afficher le status en cours
+ `git status `{{execute T1}}
+ 
+ Il n'y a plus rien à "merger"
+ `git diff master Dev`{{execute T1}}
+ 
+ Supprimer la branche 'Dev'
+ `git branch -d Dev`{{execute T1}}
 
-##### _Remarque_:
-Le prompt dev1_git_local#  vous aidera à repèrer la machine sur laquelle vous êtes connecté.
-
-Si toutes fois vous êtes sortie avec un exit , vous pouvez taper les commandes suivantes:
-
-d1 => Pour se connecter à la VM 'dev1_git_local'.
+ Vérifier que la branche 'Dev' est bien supprimée
+ `git branch `{{execute T1}}

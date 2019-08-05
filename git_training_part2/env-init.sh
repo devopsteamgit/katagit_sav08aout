@@ -22,5 +22,5 @@ docker exec  dev1_git_local bash -c "su - git -c \"cp /home/repofiles/files/scri
 docker exec  dev1_git_local bash -c "su - git -c \"cp /home/repofiles/files/script_5.sh .;git add --all ;git commit -a -m 'ajout script_5.sh'\"";
 docker exec  dev1_git_local bash -c "su - git -c \"cp /home/repofiles/files/script_6.sh .;git add --all ;git commit -a -m 'ajout script_6.sh'\"";
 
-docker exec  dev1_git_local bash -c "su - git -c \"git log --oneline  | grep script_1  | awk '{print \"echo git revert \"$1}' > revert_script1.sh\"";     
-docker exec  dev1_git_local bash -c "su - git -c \"git log --oneline  | grep script_1  | awk '{print \"git revert \"$1}' >> revert_script1.sh\"";     
+#docker exec  dev1_git_local bash -c "su - git -c \"git log --oneline  | grep script_1  | awk '{print \"echo git revert \"$1}' > revert_script1.sh\"";     
+#docker exec  dev1_git_local bash -c "su - git -c \"git log --oneline  | grep script_1  | awk '{print \"git revert \"$1}' >> revert_script1.sh\"";     

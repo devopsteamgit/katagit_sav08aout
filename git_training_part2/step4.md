@@ -5,18 +5,25 @@
  Afficher l'historique de tous les commits présents:
  `git log --oneline`{{execute T1}}
  
- Effectuer un reset soft du dernier commit (script 4) 
+ Effectuer un reset 'hard' du dernier commit (script 4) 
  `git reset HEAD~1`{{execute T1}}
  
- Constater que la situation est revenue en arrière: comme si le script 4 n'avait pas été commité,
+ Constater que la situation est revenue en arrière: jusqu'au commité du script_3,
  Grâce à l'option "soft", le script 4 est toujours stagé (indexé) 
   `git status `{{execute T1}}
   
-  Effectuer un reset mixed du dernier commit (script 3) 
+  Effectuer un reset 'mixed' du dernier commit (script 3) 
+ `git reset HEAD~1`{{execute T1}}
+  
+  Constater que la situation est revenue en arrière: comme si le script,
+  Grâce à l'option "mixed", le script 3 est présent dans la working directory, mais n'est plus stagé (indexé) 
+  `git status `{{execute T1}}
+  
+  Effectuer un reset 'soft' du dernier commit (script 2) 
  `git reset HEAD~1`{{execute T1}}
  
- Constater que la situation est revenue en arrière: comme si le script 4 n'avait pas été commité,
- Grâce à l'option "soft", le script 4 est toujours stagé (indexé) 
+  Constater que la situation est revenue en arrière: ,
+   Grâce à l'option "soft", les scripts 2 & 3 (des derniers commits) sont restés staggés stagé (indexé) 
   `git status `{{execute T1}}
   
   Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.

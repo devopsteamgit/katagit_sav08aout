@@ -30,7 +30,7 @@
   Constater que commit du script 4 a disparu de l'historique
   `git log --oneline`{{execute T1}}
   
-  Grâce à l'option "soft", le script 4 (tout comme le 5) sont restés dans la working directory et sont toujours staggés (indexé) 
+  Grâce à l'option "soft", le script 4 est restés dans la working directory et est toujours staggés (indexé) 
   `git status;ls `{{execute T1}}
   
   Effectuer un revert du second commit (scripts 2) 

@@ -2,9 +2,6 @@
  
 #### Créer un Repository 'local' afin de versionner les développements sur la VM
 
- Se connecter à git:
- `su - git`{{execute T1}}
-   
  Lancer l'installation du premier Repository 'local':
  `git init`{{execute T1}}
  

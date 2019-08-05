@@ -11,7 +11,7 @@ docker exec  dev1_git_local bash -c "mkdir /home/repofiles;cd /home/repofiles;gi
 docker exec  dev1_git_local bash -c "cd /home/repofiles;git remote add origin https://github.com/testgitpub/testfiles.git;git pull origin master";
 
 docker exec  dev1_git_local bash -c "su - git -c \"git init;git config --list; git config --global user.email \"git@example.com\";git config --global user.name  Name\"";
-sleep 5
+
 #docker exec  dev1_git_local bash -c "su - git -c \"cp /home/repofiles/files/script_*.sh .;git add --all ;git commit -a -m 'ajout script_1.sh'\"";
 docker exec  dev1_git_local bash -c "su - git -c \"cp /home/repofiles/files/script_1.sh .;git add --all ;git commit -a -m 'ajout script_1.sh'\"";
 #docker exec  dev1_git_local bash -c "su - git -c \"cp /home/repofiles/files/script_2.sh .;git add --all ;git commit -a -m 'ajout script_2.sh'\"";

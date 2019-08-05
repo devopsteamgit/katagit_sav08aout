@@ -5,15 +5,20 @@
  Afficher l'historique de tous les commits présents:
  `git log --oneline`{{execute T1}}
  
-  Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. 
- `git branch`{{execute T1}}
+ Effectuer un reset soft du dernier commit (script 4) 
+ `git reset HEAD~1`{{execute T1}}
  
- Configurer le Git local (mail & username)
-  `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
+ Constater que la situation est revenue en arrière: comme si le script 4 n'avait pas été commité,
+ Grâce à l'option "soft", le script 4 est toujours stagé (indexé) 
+  `git status `{{execute T1}}
   
- On commit le repository, ce qui créé une première branche par défaut 'master'
- `git add . ;git commit -a -m "creation branch master "  `{{execute T1}}
+  Effectuer un reset mixed du dernier commit (script 3) 
+ `git reset HEAD~1`{{execute T1}}
  
+ Constater que la situation est revenue en arrière: comme si le script 4 n'avait pas été commité,
+ Grâce à l'option "soft", le script 4 est toujours stagé (indexé) 
+  `git status `{{execute T1}}
+  
   Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.
  `git branch`{{execute T1}}
   

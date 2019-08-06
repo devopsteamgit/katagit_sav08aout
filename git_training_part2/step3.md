@@ -1,5 +1,5 @@
 
-Nous allons ouvrir un terminal qui contiendra notre Repository local et nos premiers développements.
+Nous allons ouvrir un terminal qui contiendra notre Repository local et nos développements.
 
 Vérifier que l'environnement de formation est prêt:
 `if [ $(docker ps  | grep -v CONTAINER | wc -l) -ge 3 ]; then echo "OK"; else echo "Attendre 30s!";sleep 30;  fi`{{execute T1}}

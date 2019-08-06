@@ -29,4 +29,4 @@ Commiter le fichier dans votre repository local 'repoclone'
 `git commit -a -m "ajout fic test.log dans repoclone"`{{execute T1}}
  
 Vérifier le commit
-`git log --oneline"`{{execute T1}}
+`git log --oneline`{{execute T1}}

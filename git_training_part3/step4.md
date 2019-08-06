@@ -59,7 +59,7 @@ Se connecter au user 'git' puis créer  le Repository Central
  
  
  
-#### (VM1) Constater que le développement a bien été "pushé" sur le Repository distant (central) 
+#### VM1 (Repo Central) Constater que le développement a bien été "pushé" sur le Repository distant (central) 
  Constater que le script et sont commit a bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}
 
@@ -120,7 +120,7 @@ Se connecter au user 'git' puis créer  le Repository Central
  
  
  
-#### (VM1) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
+#### VM1 (Repo Central) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
 
  Constater que le script et sont commit ont bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}

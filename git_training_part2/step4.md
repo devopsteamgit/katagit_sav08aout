@@ -46,7 +46,7 @@
       ##### _Si un fichier s'ouvre:  
              "revert Ajout script_2.sh"-->':wq!'   (sauvergarder le fichier & sortir) 
 
-  Constater que l'historique d'ajout du script 2 est conservé dans l'historique, mais qu'un nouveau commit est apparut pour tracer la suppression du script (2) 
+  Constater qu'un nouveau commit est apparut pour tracer la suppression du script: "Revert ajout script_2.sh" , l'ancien commit "ajout script_2.sh"  a été conservé
    `git log --oneline`{{execute T1}}
   
   Constater que le script 2 n'est plus dans la working directory 

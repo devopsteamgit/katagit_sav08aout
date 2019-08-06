@@ -2,6 +2,9 @@
  
 #### Créer le Repository 'local' afin de versionner les développements sur la VM
 
+  Cérer le répertoire d'installation du Repository 'local'
+ `mkdir replocal;cd replocal`{{execute T1}}
+ 
  Lancer l'installation du premier Repository 'local'
  `git init`{{execute T1}}
  

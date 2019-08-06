@@ -3,7 +3,7 @@
  Vérifier l'accessibilité du Remote Repository
 `cd repocentral;git status`{{execute T1}}
 
-#### (VM2) Créer un Repository 'local' -cette fois-ci-, afin de versionner les développements en local sur la VM
+#### VM2 (équipe 1) Développe sur son Repository Local
 
  
 ** Développer sur la VM2, puis versionner (première équipe)**
@@ -44,7 +44,7 @@
 
 
 
-#### (VM3) Créer un second Repository 'local': pour la seconde équipe de développement sur cette VM
+#### VM3 (équipe 2) Développe sur son Repository Local
 
  Se connecter à git:
  `su - git`{{execute T3}}

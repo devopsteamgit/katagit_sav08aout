@@ -6,10 +6,10 @@
  `git init`{{execute T1}}
  
   Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier
- `git branch`{{execute T1}}
+  `git branch`{{execute T1}}
  
  Configurer le Git local (mail & username)
-  `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
+ `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
   
   
  ![git-workingdir](/testgitessai/scenarios/git_training_part1/assets/git-workingdir.png)

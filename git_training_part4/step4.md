@@ -1,29 +1,12 @@
 
 
 #### (VM1) Installer un Repository GIT (Central) 
-
-Se connecter au user 'git' puis créer un répertoire pour le Repository (Central)
-  `su - git -c "mkdir formteam";su - git`{{execute T1}}
  
- Initialiser le Remote Repository
-  `cd formteam;git init --bare`{{execute T1}}
+ Vérifier l'accessibilité du Remote Repository
+  `cd repocentral;git status`{{execute T1}}
 
 #### (VM2) Créer un Repository 'local' -cette fois-ci-, afin de versionner les développements en local sur la VM
 
- Se connecter à git:
- `su - git`{{execute T2}}
-   
- Lancer l'installation du premier Repository 'local':
- `git init `{{execute T2}}
- 
- Configurer le Git local (mail et username)
- `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list`{{execute T2}}   
- 
- Connecter ce Repository local avec le Remote Repository Central  (branche 'origin')
- `git remote add origin ssh://git@git_remote/home/git/formteam`{{execute T2}}
-
- Vérifier la connexion:
- `git remote -v`{{execute T2}}
  
 ** Développer sur la VM2, puis versionner (première équipe)**
  

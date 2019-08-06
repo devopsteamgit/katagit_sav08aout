@@ -7,8 +7,9 @@ Objectifs de cette formation:
  - travailler en mode collaboratif.
  
    ##### Planning première partie, 
-     - nous allons apprendre a créer un nouvreau repository GIT (local),
-     - à versionner nos scripts,
+     - nous allons apprendre a créer un nouvreau repository GIT local,
+     - nous alons cloner un repository existant,
+     - apprendre à versionner nos scripts,
      - créer ou supprimer des branches de développements, 
      - faire des commits,  annuler les commits,
      - consulter les status, les logs, l'historique des versions

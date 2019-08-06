@@ -19,10 +19,14 @@
  
  `git commit -m "ajout du script_vm2_1.sh repo local VM2"`{{execute T2}}
    
+ Vérifier le nouveau commmi
+ `git remote -v`{{execute T3}}
+ 
+ 
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
  `git branch`{{execute T2}}
 
-**ne pas craffraichir le Repository Central à ce stade: car nous allons laisser l'autre équipe raffraichier ce dernier et causer un conflit pour notre équipe**
+**(nous ne "pushons" pas pour raffraichir le Repository Central à ce stade): car nous allons laisser l'autre équipe raffraichir avant nous, et causer un conflit pour notre équipe par la suite**
  
  
 #### (VM1) Constater que le développement n'a pas encore été "pushé" sur le Repository distant (central) 

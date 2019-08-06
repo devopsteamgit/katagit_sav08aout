@@ -2,7 +2,7 @@
  
 #### Créer le Repository 'local' afin de versionner les développements sur la VM
 
- Lancer l'installation du premier Repository 'local':
+ Lancer l'installation du premier Repository 'local'
  `git init`{{execute T1}}
  
   Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier

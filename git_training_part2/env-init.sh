@@ -8,10 +8,10 @@ docker inspect dev1_git_local  | grep  \"IPAddress\" | sed -e "s/ //g" | grep -v
 docker cp /tmp/tempo_hosts dev1_git_local:/tmp/tempo_hosts
 docker exec dev1_git_local bash -c "cat /tmp/tempo_hosts >>/etc/hosts"
 
-# preparation repository
+# preparation repository public avec fich exemples
 docker exec  dev1_git_local bash -c "mkdir /home/repofiles;cd /home/repofiles;git init;git config --list; git config --global user.email \"git@example.com\";git config --global user.name  Name";
 docker exec  dev1_git_local bash -c "cd /home/repofiles;git remote add origin https://github.com/testgitpub/testfiles.git;git pull origin master";
-
+# prépa repo local avec quelques commits
 docker exec  dev1_git_local bash -c "su - git -c \"git init;git config --list; git config --global user.email \"git@example.com\";git config --global user.name  Name\"";
 
 # preparation commits pour ecxercices revert et reset

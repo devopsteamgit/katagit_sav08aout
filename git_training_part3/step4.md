@@ -1,17 +1,15 @@
- 
+
  
 #### (VM1) Installer un Repository GIT (Central) 
 
-Se connecter au user 'git' puis créer  le Repository Central
-  `su - git -c "mkdir repocentral";su - git`{{execute T1}}
+Ccréer  le Repository Central
+  `mkdir repocentral; cd repocentral`{{execute T1}}
  
  Initialiser le Remote Repository
-  `cd repocentral;git init --bare`{{execute T1}}
+  `git init --bare`{{execute T1}}
+
 
 #### VM2 (première équipe) Créer un Repository 'local' (cette fois-ci) afin de versionner les développements "en local" sur la VM
-
- Se connecter à git:
- `su - git`{{execute T2}}
    
  Lancer l'installation du premier Repository 'local':
  `git init `{{execute T2}}
@@ -68,9 +66,6 @@ Se connecter au user 'git' puis créer  le Repository Central
 
 #### VM3 (seconde équipe) Créer un second Repository 'local': pour la seconde équipe de développement sur cette VM
 
- Se connecter à git:
- `su - git`{{execute T3}}
-   
  Lancer l'installation du second Repository 'local':
  `git init `{{execute T3}}
  

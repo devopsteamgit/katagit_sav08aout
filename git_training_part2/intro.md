@@ -11,7 +11,9 @@ _Lors de la précédente formation,_
 
 
 
-A présent, nous allons apprendre à manipuler l'historique des versions précédemments créées
+
+
+A présent, nous allons apprendre à manipuler l'historique et les versions précédemments créées
 
 -en revenant en arrière, en annulant des commits effectués
 

@@ -12,7 +12,8 @@ _nous avons vu comment deux équipes font pour se partager leurs développements
 A présent, nous allons voir comment gèrer les conflits: 
 
 Par exemple:
--si une équipe oublie de repartir de la dernière version du Repository Central,
 
-- ou si le Repository Central estmis à jour par une autre équipe avant que nous ayons reporté nos développement.
+-si une équipe oublie de repartir d'une version actualisée du Repository Central,
+
+- ou si le Repository Central a été mis à jour par une autre équipe, pendant que nous faisions nos développements.
 

@@ -3,7 +3,7 @@
 #### (VM1) Installer un Repository GIT (Central) 
  
  Vérifier l'accessibilité du Remote Repository
-  `cd repocentral;git status`{{execute T1}}
+`cd repocentral;git status`{{execute T1}}
 
 #### (VM2) Créer un Repository 'local' -cette fois-ci-, afin de versionner les développements en local sur la VM
 

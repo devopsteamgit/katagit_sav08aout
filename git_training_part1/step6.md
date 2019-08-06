@@ -2,16 +2,16 @@
 #### Cloner un Repository distant existant
  
  
-  Créer un répertoire d'accueil du clone à récupèrer
- `mkdir /home/git/repoclone`{{execute T1}}
+  Créer un répertoire d'accueil: pour le clone du repository distant 
+ `mkdir /home/git/repoclone; cd /home/git/repoclone;pwd`{{execute T1}}
  
   Initialiser le nouvel enviroment git
  `git init `{{execute T1}}
  
  Lancer la commande de clone
- `git clone https://github.com/testgitpub/remoterepo.gitt`{{execute T1}}
+ `git clone https://github.com/testgitpub/remoterepo.git`{{execute T1}}
 
- Constater que le repository  "remoterepo"  a été importé sur la VM avec sont arborescence
+ Constater que le repository  "remoterepo" (et son arborescence) ont été importés sur la VM 
  `ls; ls -l remoterepo/*`{{execute T1}}
  
  Vous pouvez même travailler sur ce nouveau repository local (initialiser à partir d'un clone)

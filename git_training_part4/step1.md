@@ -6,5 +6,5 @@
 - Nous alons simuler un conflit de mise à jour du versionning (entre les deux équipes)
 
    #### Solution
-- une équipe doit récupèrer une version raffraichie du Repositiory Central avant de pusher ses développements
-- Puis fusion du travail et des versions dans le repository Central
+- une équipe devra récupèrer la derniere version -à jour- du Repositiory Central afin de pusher ses développements
+- Puis y fusionner son travail (avec celui de l'autre équipe):  dans le repository Central

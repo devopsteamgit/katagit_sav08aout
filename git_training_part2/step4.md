@@ -33,12 +33,12 @@ _
   `git log --oneline`{{execute T1}}
   
   Grâce à l'option "soft", le script 4 est restés dans la working directory et est toujours staggés (indexé) 
-  `git status;ls `{{execute T1}}
+  `git status;ls;git log --oneline `{{execute T1}}
   
   
   Effectuer un revert du second scripts 2, 
   Lancer un commit
-  `git log --oneline;git commit -a -m "revert script 2"`{{execute T1}}
+  `git commit -a -m "revert script 2"`{{execute T1}}
    
    Puis effectuer le revert
    `git revert HEAD~2`{{execute T1}}

@@ -14,7 +14,7 @@ _nous avons vu comment deux équipes font pour se partager leurs développements
 
 Par exemple:
 
--si une équipe oublie de repartir d'une version actualisée du Repository Central,
+- si une équipe oublie de repartir d'une version actualisée du Repository Central,
 
 - ou si le Repository Central a été mis à jour par une autre équipe, pendant que nous faisions nos développements.
 

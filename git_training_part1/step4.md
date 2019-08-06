@@ -4,7 +4,7 @@ Dans ce premier cours, nous créeront notre Repository local "your local reposit
 
 ![git-central](/testgitessai/scenarios/git_training_part1/assets/git-central.png)
 
-Pour ce faire, nous allons ouvrir un terminal qui contiendra notre Repository local et nos premiers développements.
+Nous allons ouvrir un terminal sur une VM, qui hébergera notre Repository Local GIT et les premiers développements.
 
 Vérifier que l'environnement de formation est disponible:
 `if [ $(docker ps  | grep -v CONTAINER | wc -l) -ge 3 ]; then echo "OK"; else echo "Attendre 30s!";sleep 30;  fi`{{execute T1}}

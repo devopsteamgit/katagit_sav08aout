@@ -1,4 +1,4 @@
-#### (VM1 ) Vérificer le Repository GIT Central 
+#### (VM1) Vérificer le Repository GIT Central 
  
  Vérifier la connexion au Repository Central
 `cd repocentral;git status`{{execute T1}}

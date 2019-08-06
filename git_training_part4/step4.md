@@ -3,10 +3,8 @@
  Vérifier la connexion au Repository Central
 `cd repocentral;git status`{{execute T1}}
 
-#### VM2 (équipe 1) Développe sur son Repository Local
 
- 
-** Développer sur la VM2, puis versionner (première équipe)**
+#### VM2 (équipe 1) Développe sur son Repository Local
  
  A présent, vous pouvez  effectuer des développements.
  Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
@@ -24,7 +22,7 @@
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
  `git branch`{{execute T2}}
 
-#### Ne pas craffraichir le Repository Central à ce stade: car nous allons laisser l'autre équipe raffraichier ce dernier et causer un conflit pour notre équipe
+** ne pas craffraichir le Repository Central à ce stade: car nous allons laisser l'autre équipe raffraichier ce dernier et causer un conflit pour notre équipe
  
  
 #### (VM1) Constater que le développement n'a pas encore été "pushé" sur le Repository distant (central) 

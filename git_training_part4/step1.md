@@ -1,9 +1,7 @@
 - Nous avons installé précédemment un Git Central (remote repository),
   ainsi que deux "Repository Locaux" (un par équipe)
-- Nous avons effectué des développements paralèlles: de deux équipes différentes
-     * et enregistré des développements au fil de l'eau dans chaque repository local
-   
-   
+- Nous avons effectué des développements paralèlles  entree deux équipes (VMs) différentes
+  
    #### A présent
 - Nous alons simuler un conflit de versionning entre les deux équipes
    #### Solutiont

@@ -1,5 +1,5 @@
  
-#### Clonage d'un Repository distant
+#### Cloner un Repository distant existant
  
  
   Créer un répertoire d'accueil du clone en local

@@ -1,6 +1,6 @@
  
  
-#### Créer un Repository 'local' afin de versionner les développements sur la VM
+#### Créer le Repository 'local' afin de versionner les développements sur la VM
 
  Lancer l'installation du premier Repository 'local':
  `git init`{{execute T1}}

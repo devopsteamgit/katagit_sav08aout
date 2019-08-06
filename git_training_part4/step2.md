@@ -1,11 +1,13 @@
 - Git permet une gestion décentralisée et autonome des développeurs sur leurs serveurs. La centralisation du versioning permet ensuite de faire bénéficier des développements aux autres équipes,
 - Un repository central, assure la cohérence de l'ensemble des repository locaux et leursynchronisations  
+- Néanmoins certains cas de conflits peuvent se poser si le repository central a évoluer, alors que l'on essaie d'y répercuter ns développements, 
+  * c'est ce que nous allons voir par la suite
 
 ![git_users_archi](/testgitessai/scenarios/git_training_part1/assets/git_users_archi.png)
 
 ##### *Remarque:*
 Cette approche décentralisée, apporte un plus par rapport au autres solutions.
-En effet, les programmeurs peuvent continuer à travailler localement en toute autonomie, puis mettre à jour le site central au timing souhaité.
+
 
 #### Architecture utilisée durant la formation
 Afin d'optimiser les ressources nous avons choisi d'utiliser des images docker avec un système Ubuntu. 

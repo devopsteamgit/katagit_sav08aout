@@ -5,6 +5,7 @@ Dans ce premier cours, nous créeront notre Repository local "your local reposit
 _Remarque: nous verrons par la suite, comment créer le repository Central (distant)_
 
 
+
 Nous allons ouvrir un terminal sur une VM, qui hébergera notre Repository Local GIT et les premiers développements.
 
 Vérifier que l'environnement de formation est disponible:

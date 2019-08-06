@@ -6,8 +6,8 @@ _Rappel:_
 - _Lors de la précédente formation,_
 - _nous avons créé notre propre repository (local)_
 - _nous avons versioné_
-- _nous avons créé des branches de Développement_
-- _nous avons effectué des merges entre branches master et Développement_
+- _nous avons créé des branches de développement_
+- _nous avons effectué des merges entre branches master et développement_
 
 
 

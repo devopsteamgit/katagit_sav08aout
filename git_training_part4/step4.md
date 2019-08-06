@@ -6,7 +6,10 @@
 
 #### VM2 (équipe 1) Développe sur son Repository Local
  
- A présent, vous pouvez  effectuer des développements.
+ Précedemment, nous avions effectué la connexion de ce Reposiory Local au Repository Distant
+ `git remote -v`{{execute T2}}
+ 
+A présent, vous pouvez  effectuer des développements.
  Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
 
  - Créer un fichier script_vm2_1.sh
@@ -38,7 +41,7 @@
 
 #### VM3 (équipe 2) Développe sur son Repository Local
 
- Vérifier la connexion au repository Central:
+Précedemment, nous avions effectué la connexion de ce Reposiory Local au Repository Distant
  `git remote -v`{{execute T3}}
  
  Pour commencer, récupèrer  les développements mis à disposition par les autres équipes sur le Repo distant

@@ -27,4 +27,5 @@ docker exec git_remote bash -c "su - git -c \"mkdir repocentral;cd repocentral;g
 docker exec dev1_local bash -c "su - git -c \"git init;git config --global user.email \"git@example.com\";git config --global user.name \"git Name\"\"";
 docker exec dev1_local bash -c "su - git -c \"git remote add origin ssh://git@git_remote/home/git/repocentral\"";
 # VM3 création repo local connecte au remote distant
-docker exec dev2_local bash -c "su - git -c \"git init;git config --global user.email \"git@example.com\";git config --global user.name \"git Name\";pwd;git config --list;git remote add origin ssh://git@git_remote/home/git/repocentral\"";
+docker exec dev2_local bash -c "su - git -c \"git init;git config --global user.email \"git@example.com\";git config --global user.name \"git Name\"\"";
+docker exec dev2_local bash -c "su - git -c \"git remote add origin ssh://git@git_remote/home/git/repocentral\"";

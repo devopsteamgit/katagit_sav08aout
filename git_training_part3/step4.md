@@ -39,6 +39,9 @@ Se connecter au user 'git' puis créer  le Repository Central
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
  
  `git commit -m "ajout du script_test_vm2.sh repo local VM2"`{{execute T2}}
+ 
+ Vérifier que le commit est bien passé.
+ `git log --oneline`{{execute T2}}
    
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
  `git branch`{{execute T2}}
@@ -97,6 +100,9 @@ Se connecter au user 'git' puis créer  le Repository Central
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
  `git commit -m "ajout du script_test_vm3.sh repo local VM3"`{{execute T3}}
    
+ Vérifier que le commit est bien passé.
+ `git log --oneline`{{execute T3}}
+ 
  Vérifier la présence du branche 'master' pour tracker ce fichier nouveau fichier ajouté:
  `git branch`{{execute T3}}
  

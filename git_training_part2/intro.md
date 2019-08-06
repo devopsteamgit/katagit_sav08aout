@@ -3,7 +3,7 @@ Objectifs de cette formation:
 
 _Rappel:_
 
-- _Lors de la précédente formation,_
+_Lors de la précédente formation,_
 - _nous avons créé notre propre repository (local)_
 - _nous avons versioné_
 - _nous avons créé des branches de développement_

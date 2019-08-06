@@ -3,7 +3,7 @@
 - Nous avons effectué des développements paralèlles  entree deux équipes (VMs) différentes
   
    #### A présent
-- Nous alons simuler un conflit de mise à jour du versionning (entre les deux équipes)
+- Nous allons simuler un conflit de mise à jour du versionning (entre les deux équipes)
 
    #### Solution
 - une équipe devra récupèrer la derniere version -à jour- du Repositiory Central afin de pusher ses développements

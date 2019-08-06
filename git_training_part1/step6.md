@@ -1,8 +1,12 @@
  
-#### Clonage sur une VM, d'un Repository distant
+#### Clonage d'un Repository distant
  
  
- `git status `{{execute T1}}
+  Créer un répertoire d'accueil du clonage
+ `mkdir /home/git/repoclone`{{execute T1}}
  
- Constater, que le scipt a été committé dans le repository
- `git log --oneline `{{execute T1}}
+  Initialiser le nouvel enviroment git
+ `git init `{{execute T1}}
+ 
+ Lancer la commande de clone
+ `git clone https://github.com/mbag2088/testgitpub.git`{{execute T1}}

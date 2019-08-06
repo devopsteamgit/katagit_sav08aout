@@ -3,7 +3,7 @@
 
 #### Architecture utilisée pour ce chapitre
 
-Nous allons manipuler dans le Repository Local "your local repository"
+Nous allons continuer de manipuler sur le Repository Local "your local repository"
 
 ![git-central](/testgitessai/scenarios/git_training_part2/assets/git-central.png)
 

@@ -3,4 +3,4 @@
 - Préparation des environnements,
 - Installation de Git,
 - Création de branches de Développements,
-- Manipulation des commandes de bases GIT. 
+- Manipulation des commandes GIT. 

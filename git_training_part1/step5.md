@@ -32,7 +32,7 @@
  `git status `{{execute T1}}
  
  Commmiter/valider la création du nouveau fichier, dans votre Repository local 
-  `git commit -m "ajout du script_1.sh dans le repo "`{{execute T1}}
+  `git commit -m "ajout du script_1.sh dans la branche master "`{{execute T1}}
       
  Constater, que le scipt a été committé dans le repository
  `git log --oneline `{{execute T1}}
@@ -61,7 +61,7 @@
  `git status `{{execute T1}}
  
  Commmiter/valider la création du nouveau fichier, dans votre Repository 'local' 
- `git commit -m "ajout du script_2.sh dans le repo de Dev"`{{execute T1}}
+ `git commit -m "ajout du script_2.sh dans la branche Dev"`{{execute T1}}
    
   Constater, que le scipt a été committé dans le repository
  `git log --oneline `{{execute T1}}

@@ -22,7 +22,7 @@
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
  `git branch`{{execute T2}}
 
-** ne pas craffraichir le Repository Central à ce stade: car nous allons laisser l'autre équipe raffraichier ce dernier et causer un conflit pour notre équipe
+** ne pas craffraichir le Repository Central à ce stade: car nous allons laisser l'autre équipe raffraichier ce dernier et causer un conflit pour notre équipe **
  
  
 #### (VM1) Constater que le développement n'a pas encore été "pushé" sur le Repository distant (central) 

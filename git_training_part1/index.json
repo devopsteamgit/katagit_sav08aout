@@ -10,7 +10,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Intérêt de GIT",
+        "title": "Outil GIT",
         "text": "step2.md"
       },
       {
@@ -24,6 +24,10 @@
       {
         "title": "Création d'un premier site GIT en 'local'",
         "text": "step5.md"
+      },
+      {
+        "title": "Cloner un Repository distant",
+        "text": "step6.md"
       }
     ],
     "intro": {

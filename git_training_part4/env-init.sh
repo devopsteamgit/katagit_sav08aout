@@ -1,4 +1,4 @@
-ssh host01;
+lsssh host01;
 docker network create mynetwork;
 
 docker pull testgitessai/ubuntu:18.04;

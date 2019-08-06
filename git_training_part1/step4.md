@@ -1,4 +1,6 @@
-Dans ce premier cours, pour commencer allons créer  le Repository local "your local repository " 
+Dans ce premier cours, nous créeront notre Repository local "your local repository " , pour éxécuter nos commandes GIT
+
+##### _Remarque_: la création des autres repository (distant) s'effectuera par la suite
 
 ![git-central](/testgitessai/scenarios/git_training_part1/assets/git-central.png)
 

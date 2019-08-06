@@ -74,6 +74,8 @@
  
 #### Fusionner les branches 'Dev' & 'master'
 
+ ![merge](/testgitessai/scenarios/git_training_part1/assets/merge.png)
+ 
  Se metttre dans la branche master 
  `git checkout master`{{execute T1}}
  

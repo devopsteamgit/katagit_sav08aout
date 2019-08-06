@@ -1,4 +1,4 @@
-- Présentation de GIT
+- Présentation d'un exemple de conflit GIT
 - Principe de fonctionnement et Architecture,
 - Préparation des environnements,
 - Installations Git,

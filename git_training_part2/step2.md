@@ -1,7 +1,7 @@
 - Gt permet de revenir en arrière sur certains commit
 - Cela permet un roolback de la situation au commit souhaité
 
-![git_users_archi](/testgitessai/scenarios/git_training_part1/assets/git_users_archi.png)
+![git-central](/testgitessai/scenarios/git_training_part2/assets/git-central.png)
 
 #### Architecture utilisée pour ce chapitre
 Afin d'optimiser les ressources nous avons choisi d'utiliser des images docker avec un système Ubuntu. 

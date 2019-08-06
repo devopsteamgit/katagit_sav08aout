@@ -1,5 +1,5 @@
 
-Objectifs de cette formation:
+#### Objectifs de cette formation:
 
 _Rappel:_
 
@@ -10,7 +10,7 @@ _nous avons vu comment deux équipes font pour se partager leurs développements
  
 
 
-####A présent, nous allons voir comment gèrer les conflits: 
+#### A présent, nous allons voir comment gèrer les conflits: 
 
 Par exemple:
 

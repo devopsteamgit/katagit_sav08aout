@@ -2,4 +2,4 @@
 - Installation de  "Repository local" pour chaque équipe
 - Simulation de développements paralèlles par différentes équipes
 - Enregistrement des développements au fil de l'eau, dans chaque repository local
-- Fusion du travail dans le repoitory Central
+- Fusion du travail et des versions dans un repository Central

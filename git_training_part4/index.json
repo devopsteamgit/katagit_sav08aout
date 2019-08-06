@@ -20,10 +20,6 @@
       {
         "title": "Installation d'un Git Central 'On Premise' et des Git locaux pour les équipes Dev",
         "text": "step4.md"
-      },
-      {
-        "title": "Gestion des conflits",
-        "text": "step5.md"
       }
     ],
     "intro": {

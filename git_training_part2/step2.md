@@ -1,9 +1,13 @@
-- Gt permet de revenir en arrière sur certains commit
-- Cela permet un roolback de la situation au commit souhaité
+- Gt permet de revenir en arrière sur certains commits
+- Cela permet un rollback de la situation aux commits souhaités
+
+#### Architecture utilisée pour ce chapitre
+
+Nous allons manipuler dans le Repository Local "your local repository"
 
 ![git-central](/testgitessai/scenarios/git_training_part2/assets/git-central.png)
 
-#### Architecture utilisée pour ce chapitre
+
 Afin d'optimiser les ressources nous avons choisi d'utiliser des images docker avec un système Ubuntu. 
 Nous avons créé un conteneurs docker. Il permet de se familiariser aux commandes de bases
 

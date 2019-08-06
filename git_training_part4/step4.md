@@ -1,5 +1,3 @@
-
-
 #### (VM1) Installer un Repository GIT (Central) 
  
  Vérifier l'accessibilité du Remote Repository
@@ -13,15 +11,15 @@
  A présent, vous pouvez  effectuer des développements.
  Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
 
- - Créer un fichier script_test_vm2.sh
- `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T2}}
+ - Créer un fichier script_vm2_1.sh
+ `echo "printf 'Ceci est un script test\n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}
  
  Ajouter le fichier dans la cache "Staging Area"
- `git add script_test_vm2.sh `{{execute T2}}
+ `git add script_vm2_1.sh `{{execute T2}}
  
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
  
- `git commit -m "ajout du script_test_vm2.sh repo local VM2"`{{execute T2}}
+ `git commit -m "ajout du script_vm2_1.sh repo local VM2"`{{execute T2}}
    
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
  `git branch`{{execute T2}}
@@ -71,14 +69,14 @@
  A présent, en tant que seconde équipe, vous pouvez également effectuer des développements.
  Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
  
- -Créer un fichier script_test_vm3.sh
- `echo "printf 'Ceci est un script test sur la VM3\n'" > script_test_vm3.sh;cat script_test_vm3.sh`{{execute T3}}
+ -Créer un fichier script_vm3_2.sh
+ `echo "printf 'Ceci est un script test sur la VM3\n'" > script_vm3_2.sh;cat script_vm3_2.sh`{{execute T3}}
  
  Ajouter le fichier dans la cache "Staging Area"
- `git add script_test_vm3.sh `{{execute T3}}
+ `git add script_vm3_2.sh `{{execute T3}}
  
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
- `git commit -m "ajout du script_test_vm3.sh repo local VM3"`{{execute T3}}
+ `git commit -m "ajout du script_vm3_2.sh repo local VM3"`{{execute T3}}
    
  Vérifier la présence du branche 'master' pour tracker ce fichier nouveau fichier ajouté:
  `git branch`{{execute T3}}
@@ -104,4 +102,3 @@
  
  Vous pouvez également consulter toutes les mises à jour qui ont été faites sur le Repo central depuis le début
  `git log`{{execute T1}}
-

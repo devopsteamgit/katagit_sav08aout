@@ -16,8 +16,8 @@ Les versions des deux équipe sont ainsi fusionnées.
 Afin d'optimiser les ressources nous avons choisi d'utiliser des images docker avec un système Ubuntu. 
 Nous avons créé 3 conteneurs docker. Chaque conteneur porte un rôle d'une VM Ubuntu.
 
-- Conteneur "remote repository" : Correspond repository central GIT
-- Conteneur "Dev1: Correspond au développeur 1 et son repository local GIT
-- Conteneur "Dev2 : Correspond au développeur 2 et son repository local GIT
+- Conteneur "remote repository" : Correspond Repository Central GIT
+- Conteneur "Dev1: Correspond au développeur 1 et son Repository Local GIT
+- Conteneur "Dev2 : Correspond au développeur 2 et son Repository Local GIT
 
 

@@ -23,7 +23,7 @@ A présent, vous pouvez  effectuer des développements.
  `git commit -m "ajout du script_vm2_1.sh repo local VM2"`{{execute T2}}
    
  Vérifier le nouveau commmit
- `git log --oneline`{{execute T3}}
+ `git log --oneline`{{execute T2}}
  
  
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.

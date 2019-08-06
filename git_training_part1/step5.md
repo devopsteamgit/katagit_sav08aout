@@ -11,6 +11,7 @@
  Configurer le Git local (mail & username)
   `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
   
+  
  ![git-workingdir](/testgitessai/scenarios/git_training_part1/assets/git-workingdir.png)
   
  Commiter le repository, et créer une première branche 'master' par défaut 

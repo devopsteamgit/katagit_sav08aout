@@ -19,8 +19,8 @@
  
  `git commit -m "ajout du script_vm2_1.sh repo local VM2"`{{execute T2}}
    
- Vérifier le nouveau commmi
- `git remote -v`{{execute T3}}
+ Vérifier le nouveau commmit
+ `git log --oneline`{{execute T3}}
  
  
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
@@ -74,7 +74,7 @@
  
    
  
-#### (VM1) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
+#### VM1 (Repo Central) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
 
  Constater que le script et sont commit a bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}

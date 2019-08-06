@@ -6,8 +6,8 @@ Objectifs de cette formation:
      * Manipulation des commandes de bases "GIT add,commit,push,pull,rebase revert,reset"
      * Travail collaboratif 
 
+
 - Méthode d'Organisation d'un projet (Git Flow), pour une meilleure gestion des release en Production (feature, release, hotfix,...)
- 
 
  
    ##### Planning première partie, 

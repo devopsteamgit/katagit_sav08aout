@@ -1,6 +1,6 @@
-#### (VM1) Installer un Repository GIT (Central) 
+#### (VM1 ) Vérificer le Repository GIT Central 
  
- Vérifier l'accessibilité du Remote Repository
+ Vérifier la connexion au Repository Central
 `cd repocentral;git status`{{execute T1}}
 
 #### VM2 (équipe 1) Développe sur son Repository Local
@@ -23,22 +23,12 @@
    
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
  `git branch`{{execute T2}}
- 
- "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
- `git push origin master`{{execute T2}}
- 
-    ##### _Répondre:
-           > Are you sure you want to continue connecting (yes/no)? 
-                                                       -->  'yes'
- 
-           > git@git_remote's password: 
-                                   -->   'git'
+
+#### Ne pas craffraichir le Repository Central à ce stade: car nous allons laisser l'autre équipe raffraichier ce dernier et causer un conflit pour notre équipe
  
  
- 
- 
-#### (VM1) Constater que le développement a bien été "pushé" sur le Repository distant (central) 
- Constater que le script et sont commit a bien été pushé sur le repo distant
+#### (VM1) Constater que le développement n'a pas encore été "pushé" sur le Repository distant (central) 
+ Constater que le script n'est pas présent
  `git log --oneline`{{execute T1}}
 
 
@@ -46,19 +36,7 @@
 
 #### VM3 (équipe 2) Développe sur son Repository Local
 
- Se connecter à git:
- `su - git`{{execute T3}}
-   
- Lancer l'installation du second Repository 'local':
- `git init `{{execute T3}}
- 
- Configurer le Git local (mail et username)
- `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list`{{execute T3}}   
- 
- Connecter ce Repository local avec le Remote Repository (Central):
- `git remote add origin ssh://git@git_remote/home/git/formteam`{{execute T3}}
-
- Vérifier la connexion:
+ Vérifier la connexion au repository Central:
  `git remote -v`{{execute T3}}
  
  Pour commencer, récupèrer  les développements mis à disposition par les autres équipes sur le Repo distant
@@ -77,7 +55,8 @@
  
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
  `git commit -m "ajout du script_vm3_2.sh repo local VM3"`{{execute T3}}
-   
+
+
  Vérifier la présence du branche 'master' pour tracker ce fichier nouveau fichier ajouté:
  `git branch`{{execute T3}}
  
@@ -91,9 +70,7 @@
            > git@git_remote's password: 
                                    -->   'git'
  
- 
- 
- 
+   
  
 #### (VM1) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
 
@@ -102,3 +79,39 @@
  
  Vous pouvez également consulter toutes les mises à jour qui ont été faites sur le Repo central depuis le début
  `git log`{{execute T1}}
+
+#### LE COMMIT/PUSH de la dernière équipe va créer un conflit pour la première
+
+
+ #### VM2 (équipe 1)Constate le conflit et le gère
+  
+ "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
+ `git push origin master`{{execute T2}}
+ 
+    ##### _Répondre:
+           > Are you sure you want to continue connecting (yes/no)? 
+                                                       -->  'yes'
+ 
+           > git@git_remote's password: 
+                                   -->   'git'
+ 
+ 
+** Développer sur la VM2, puis versionner (première équipe)**
+ 
+ A présent, vous pouvez  effectuer des développements.
+ Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
+
+ - Créer un fichier script_vm2_1.sh
+ `echo "printf 'Ceci est un script test\n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}
+ 
+ Ajouter le fichier dans la cache "Staging Area"
+ `git add script_vm2_1.sh `{{execute T2}}
+ 
+ Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
+ 
+ `git commit -m "ajout du script_vm2_1.sh repo local VM2"`{{execute T2}}
+   
+ Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
+ `git branch`{{execute T2}}
+ 
+ "Pusher" le fichier de votre Repo local

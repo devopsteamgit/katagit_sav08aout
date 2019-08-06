@@ -1,12 +1,12 @@
-
-
+ 
+ 
 #### (VM1) Installer un Repository GIT (Central) 
 
-Se connecter au user 'git' puis créer un répertoire pour le Repository (Central)
-  `su - git -c "mkdir formteam";su - git`{{execute T1}}
+Se connecter au user 'git' puis créer  le Repository Central
+  `su - git -c "mkdir repocentral";su - git`{{execute T1}}
  
  Initialiser le Remote Repository
-  `cd formteam;git init --bare`{{execute T1}}
+  `cd repocentral;git init --bare`{{execute T1}}
 
 #### (VM2) Créer un Repository 'local' -cette fois-ci-, afin de versionner les développements en local sur la VM
 
@@ -20,7 +20,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list`{{execute T2}}   
  
  Connecter ce Repository local avec le Remote Repository Central  (branche 'origin')
- `git remote add origin ssh://git@git_remote/home/git/formteam`{{execute T2}}
+ `git remote add origin ssh://git@git_remote/home/git/repocentral`{{execute T2}}
 
  Vérifier la connexion:
  `git remote -v`{{execute T2}}
@@ -75,7 +75,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list`{{execute T3}}   
  
  Connecter ce Repository local avec le Remote Repository (Central):
- `git remote add origin ssh://git@git_remote/home/git/formteam`{{execute T3}}
+ `git remote add origin ssh://git@git_remote/home/git/repocentral`{{execute T3}}
 
  Vérifier la connexion:
  `git remote -v`{{execute T3}}
@@ -116,7 +116,7 @@ Se connecter au user 'git' puis créer un répertoire pour le Repository (Centra
  
 #### (VM1) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
 
- Constater que le script et sont commit a bien été pushé sur le repo distant
+ Constater que le script et sont commit ont bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}
  
  Vous pouvez également consulter toutes les mises à jour qui ont été faites sur le Repo central depuis le début

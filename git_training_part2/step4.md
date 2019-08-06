@@ -43,10 +43,9 @@
    Puis effectuer le revert
    `git revert HEAD~2`{{execute T1}}
   
-      ##### _Si un fichier s'ouvre --> sortir et sauvegarder --> ':wq!'
-           > "revert Ajout script_2.sh"
-                                                      -->  :wq:
-  
+      ##### _Si un fichier s'ouvre:  
+             "revert Ajout script_2.sh"-->':wq!'   (sauvergarder le fichier & sortir) 
+
   Constater que l'historique d'ajout du script 2 est conservé dans l'historique, mais qu'un nouveau commit est apparut pour tracer la suppression du script (2) 
    `git log --oneline`{{execute T1}}
   

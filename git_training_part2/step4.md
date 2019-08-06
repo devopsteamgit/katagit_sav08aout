@@ -3,17 +3,17 @@
 #### Nous allons apprendre à manipuler l'historique  des commits: revenir en arrière lorsque cela est utile
 
    
- Afficher l'historique de tous les commits présents:
+ Afficher l'historique de tous les commits présents
  `git log --oneline`{{execute T1}}
  
  Effectuer un reset 'hard' du dernier commit (script 6) 
  `git reset HEAD~1 --hard`{{execute T1}}
  
  Constater que commit du script 6 a disparu de l'historique
-  `git log --oneline`{{execute T1}}
+ `git log --oneline`{{execute T1}}
  
  De plus, grâce à l'option "hard": le script 6 a complètement disparu de la working directory (répertoire de travail)
-  `git status;ls `{{execute T1}}
+ `git status;ls `{{execute T1}}
   
   
   Effectuer un reset 'mixed' du dernier commit (script 5) 

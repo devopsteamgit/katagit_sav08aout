@@ -8,7 +8,7 @@ Se connecter au user 'git' puis créer  le Repository Central
  Initialiser le Remote Repository
   `cd repocentral;git init --bare`{{execute T1}}
 
-#### VM2 (première équipe) Créer un Repository 'local' -cette fois-ci-, afin de versionner les développements en local sur la VM
+#### VM2 (première équipe) Créer un Repository 'local' (cette fois-ci) afin de versionner les développements "en local" sur la VM
 
  Se connecter à git:
  `su - git`{{execute T2}}

@@ -23,7 +23,7 @@
  `mkdir PROJET;cd PROJET;pwd `{{execute T1}}
  
  - Créer un fichier 'script_1.sh'
- `echo "printf 'Ceci est un script test\n'" > script_1.sh;cat script_1.sh`{{execute T1}}
+ `echo "printf 'Ceci est un script test créé dans la master \n'" > script_1.sh;cat script_1.sh`{{execute T1}}
  
  Ajouter le fichier dans la cache "Staging Area"
  `git add script_1.sh `{{execute T1}}
@@ -52,7 +52,7 @@
  `git branch`{{execute T1}}
  
  Créer un second fichier dans la branche de Dev cette fois ci 'script_2.sh'
- `echo "printf 'Ceci est un script test\n'" > script_2.sh;cat script_2.sh`{{execute T1}}
+ `echo "printf 'Ceci est un script test créé dans la branche Dev \n'" > script_2.sh;cat script_2.sh`{{execute T1}}
  
  Ajouter le fichier dans la cache "Staging Area"
  `git add script_2.sh `{{execute T1}}

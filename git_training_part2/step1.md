@@ -1,4 +1,4 @@
-- Présentation des commits
-- Principe de fonctionnement du reset et des revert,
-- Préparation des environnements,
+- Principe de fonctionnement des commits
+- Retour arrière sur l'historique
+- Exemple de commandes reset, revert,...
 

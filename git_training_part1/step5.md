@@ -12,14 +12,12 @@
  `git config --global user.email "git@example.com";git config --global user.name "git Name";pwd;git config --list `{{execute T1}}
   
   
+  Description des commandes de bases que nous allons lancer pour versionner
+  
  ![git-workingdir](/testgitessai/scenarios/git_training_part1/assets/git-workingdir.png)
   
- Commiter le repository, et créer une première branche 'master' par défaut 
- `git add . ;git commit -a -m "creation branch master "  `{{execute T1}}
  
-  Vérifier la présence de la branche 'master' (par défaut) du repository 'local'. Elle contient le nouveau fichier.
- `git branch`{{execute T1}}
-  
+
 ** L'équipe peut à présent versionner dans le repository  **
   Créer le répertoire PROJET:
  `mkdir PROJET;cd PROJET;pwd `{{execute T1}}

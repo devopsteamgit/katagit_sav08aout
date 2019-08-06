@@ -1,6 +1,6 @@
-Dans cette première partie, nous travaillerons -pour commencer- sur le  "your repository Local" uniquement
+Dans cette première partie, allons créer -pour commencer-  le Repository local "your local repository " 
 
-![git_central](/testgitessai/scenarios/git_training_part1/assets/git-central.png)
+![git-central](/testgitessai/scenarios/git_training_part1/assets/git-central.png)
 
 Nous allons ouvrir un terminal qui contiendra notre Repository local et nos premiers développements.
 

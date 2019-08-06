@@ -10,7 +10,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Architecture cette partie du cours ",
+        "title": "Architecture VM pour cette partie du cours ",
         "text": "step2.md"
       },
       {
@@ -18,11 +18,11 @@
         "text": "step3.md"
       },
       {
-        "title": "Gestion des conflits",
+        "title": "Installation d'un Git Central 'On Premise' et des Git locaux pour les équipes Dev",
         "text": "step4.md"
       },
       {
-        "title": "Installation d'un Git Central 'On Premise' et des Git locaux pour les équipes Dev",
+        "title": "Gestion des conflits",
         "text": "step5.md"
       }
     ],

@@ -1,6 +1,6 @@
  
   
-#### Nous allons apprendre à manipuler l'historique  des commits: revenir en arrière lorsque c'est utile
+#### Nous allons apprendre à manipuler l'historique  des commits: revenir en arrière lorsque cela est utile
 
    
  Afficher l'historique de tous les commits présents:

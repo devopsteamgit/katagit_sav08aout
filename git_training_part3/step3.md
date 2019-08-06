@@ -9,6 +9,9 @@ En effet, les programmeurs peuvent continuer à travailler localement en toute a
 Les versions des deux équipe sont ainsi fusionnées.
 
 #### Architecture utilisée durant la formation
+
+![git-remote](/testgitessai/scenarios/git_training_part3/assets/git-remote.png)
+
 Afin d'optimiser les ressources nous avons choisi d'utiliser des images docker avec un système Ubuntu. 
 Nous avons créé 3 conteneurs docker. Chaque conteneur porte un rôle d'une VM Ubuntu.
 

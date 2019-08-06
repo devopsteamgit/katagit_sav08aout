@@ -2,6 +2,10 @@
   ainsi que deux "Repository Locaux" (un par équipe)
 - Nous avons effectué des développements paralèlles: de deux équipes différentes
      * et enregistré des développements au fil de l'eau dans chaque repository local
-- Provoquer un conflit lors du merge du travail sur le repository Central,
-  * une équipe doit récupèrer une version raffraichit du Repositiory Central avant de répercuter ses développements
-- Fusion du travail et des versions dans le repository Central
+   
+   
+   #### A présent
+- Nous alons simuler un conflit de versionning entre les deux équipes
+   #### Solutiont
+- une équipe doit récupèrer une version raffraichie du Repositiory Central avant de pusher ses développements
+- Puis fusion du travail et des versions dans le repository Central

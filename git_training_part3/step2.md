@@ -1,5 +1,6 @@
-- Git permet une gestion décentralisée et autonome des développeurs sur leurs serveurs. La centralisation du versioning permet ensuite de faire bénéficier des développements aux autres équipes,
-- Un repository central, assure la cohérence de l'ensemble des repository locaux et leur synchronisations  
+- Git permet une gestion décentralisée et autonome des développements
+- La centralisation du versioning permet ensuite de faire bénéficier des développements ou nouvelles versions: aux autres équipes,
+- Un Repository Central, assure la cohérence de l'ensemble des Repository Locaux et leurs synchronisations  
 
 ![git-collaborative](/testgitessai/scenarios/git_training_part3/assets/git-collaborative.png)
 

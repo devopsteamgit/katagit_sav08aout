@@ -17,7 +17,7 @@
  Vous pouvez même travailler sur ce nouveau repository local (initialiser à partir d'un clone)
  
  Créer le fichier test.log
- `cd /home/git/repoclone/remoterepo/;touch test.log`{{execute T1}}
+ `cd /home/git/repoclone/remoterepo/;touch test.log;ls`{{execute T1}}
  
 Ajouter ce ficjhier dans la stagin area (index)
 `git add --all`{{execute T1}}

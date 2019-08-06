@@ -1,5 +1,5 @@
 - Gt permet de revenir en arrière sur certains commits
-- Cela permet un rollback de la situation aux commits souhaités
+- Cela permet un rollback sur situations antérieure et aux commits souhaités
 
 #### Architecture utilisée pour ce chapitre
 

@@ -1,13 +1,13 @@
-Dans cette première partie, allons créer -pour commencer-  le Repository local "your local repository " 
+Dans ce premier cours, pour commencer allons créer  le Repository local "your local repository " 
 
 ![git-central](/testgitessai/scenarios/git_training_part1/assets/git-central.png)
 
-Nous allons ouvrir un terminal qui contiendra notre Repository local et nos premiers développements.
+Pour ce faire, nous allons ouvrir un terminal qui contiendra notre Repository local et nos premiers développements.
 
-Vérifier que l'environnement de formation est prêt:
+Vérifier que l'environnement de formation est disponible:
 `if [ $(docker ps  | grep -v CONTAINER | wc -l) -ge 3 ]; then echo "OK"; else echo "Attendre 30s!";sleep 30;  fi`{{execute T1}}
 
-Puis, lancer les commandes suivantes:
+Puis, lancer la commande de connection au terminal:
 `d1() { docker exec -it dev1_git_local bash -c "cd /work_dir; echo 'PS1='\''dev1_git_local# '\' >> /root/.bashrc; su - git"; } && d1`{{execute T1}}
 
 

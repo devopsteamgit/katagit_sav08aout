@@ -9,7 +9,7 @@ Créer  le Repository Central
   `git init --bare`{{execute T1}}
 
 
-#### VM2 `première équipe` Créer un Repository `local` (cette fois-ci) afin de versionner les développements "en local" sur la VM
+#### VM2 `première équipe` Créer un Repository Local, afin de versionner les développements sur la VM
    
  Lancer l'installation du premier Repository 'local':
  `git init `{{execute T2}}

@@ -159,7 +159,7 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  
  #### Faites un 'rebase' : si vous voulez effectuer un merge dans l'ordre chronologique de mise à jour sur le Repository central (cad script n° 1, 3, 2)
  Il faut commencer par supprimer le HEAD "merge"
- `git reset --hard HEAD`{{execute T2}}    
+ `git reset --hard HEAD^`{{execute T2}}    
  
  Vérifier que le commit (merge) est supprimé
   `git log --oneline`{{execute T2}}    

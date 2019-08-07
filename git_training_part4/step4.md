@@ -86,17 +86,7 @@ Vérifier que cela est bien le cas
 
 
  #### VM2 `équipe 1` Constate le conflit et le gère
-  
- "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
- `git push origin master`{{execute T2}}
- 
-    ##### _Répondre: 
-           > Are you sure you want to continue connecting (yes/no)? 
-                                                       -->  'yes'
- 
-           > git@git_remote's password: 
-                                   -->   'git'
- 
+
  
 **Sur la VM2 `première équipe` nous avions developpé un script mais pas ensore pushé au Central
   Vérifier le commit du script est présent en local
@@ -105,10 +95,24 @@ Vérifier que cela est bien le cas
   "Pusher" le fichier du  Repo local (VM2) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T2}}
  
- > Un message "This is susually caused by another repository pushing", indique que la seconde équipe a mis à jour le repository Central -entre temps-  
- > Nous allons devoir gérer le conflit avant pouvoir raffraîchir "pusher" sur le Repository Central
+     ##### _Répondre: yes
+> The authenticity of host 'git_remote (172.19.0.2)' can't be established.
+> ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
+> Are you sure you want to continue connecting (yes/no)? yes
  
- Pour cela, il faut récupèrer: la dernière version du repository Central. contenant les développements de la seconde équipe et que nous n'avons pas encore en local
+  * Un message apparaît  "This is usually caused by another repository pushing"
+ 
+ >  ! [rejected]        master -> master (fetch first)
+ > error: failed to push some refs to 'ssh://git@git_remote/home/git/repocentral'
+ > hint: Updates were rejected because the remote contains work that you do
+ > hint: not have locally. This is usually caused by another repository pushing
+
+ > Nous allons devoir gérer le conflit avant pouvoir raffraîchir `pusher` sur le Repository Central
+ 
+ Pour cela, il faut récupèrer: la dernière version du repository Central. 
+ Contenant les développements de la seconde équipe et que nous n'avons pas encore en local
+ 
+ Lancer le `Pull` du Central
  `git pull origin master`{{execute T2}}
  
  Le "pull" vient de provoquer un merge de notre branche local, avec le distant

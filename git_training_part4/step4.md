@@ -115,6 +115,7 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
  
  `git reset --hard HEAD`{{execute T2}}    
  
+  `git log --oneline`{{execute T2}}    
    
   `git pull --rebase origin master`{{execute T2}} 
    `git push origin master`{{execute T2}}

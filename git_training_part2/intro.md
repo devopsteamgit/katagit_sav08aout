@@ -14,7 +14,7 @@ Lors de la précédente formation,
 
 
 
-A présent, nous allons apprendre à manipuler l'historique et les versions précédemments créées
+A présent, nous allons apprendre à manipuler l'historique: sur les versions précédemments créées
 
 - en revenant en arrière, 
 
@@ -22,4 +22,4 @@ A présent, nous allons apprendre à manipuler l'historique et les versions pré
 
 - en manipulant les différents types de "rollback":
     reset "soft", "mixed", "hard". 
-    les revert,...
+    les "revert",...

@@ -4,10 +4,8 @@
 _Rappel:_
 
 _Lors de la précédente formation,
-
  nous avons appris à versionner nos scripts,
-
- nous avons vu comment deux équipes font pour se partager leurs développements _
+ nous avons vu comment deux équipes font pour se partager leurs développements_
  
  
 

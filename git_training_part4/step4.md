@@ -30,7 +30,7 @@ A présent, en tant que `première équipe`, vous allez effectuer vos développe
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
  `git branch`{{execute T2}}
 
-> à ce stade, nous ne "pushons" pas encore nos développement vers le Repository Central): ceci afin de laisser l'autre équipe poursuivre ses développements sur le Central / ce qui causera la situation de conflit pour nous, plus tard
+> à ce stade, nous ne "pushons" pas encore nos développement vers le Repository Central. Mais l'autre équipe va effectuer des développements et les mettre à jour sur le Central / ce qui causera la situation de conflit pour nous (plus tard)
  
  
 #### (VM1) Constater que le développement n'a pas encore été "pushé" sur le `Repository Central`  

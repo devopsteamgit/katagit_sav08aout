@@ -76,8 +76,10 @@ Vérifier que cela est bien le cas
  
  
 > A présent, en tant que `seconde équipe`, vous allez effectuer vos développements.
-> Les commiter en local puis les pusher sur le repo distant (pour les mettres à disposition des autres équipes).  
- Tout d'abor, décupèrer la dernière version des développement (Repo Central)
+> Les commiter en local puis les pusher sur le repo distant (pour les mettres à disposition des autres équipes). 
+
+
+Tout d'abord, décupèrer la dernière version des développement (Repo Central)
   Faire un `Pull` du Central
  `git pull origin master`{{execute T2}}
  

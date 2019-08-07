@@ -67,10 +67,10 @@ Vérifier que cela est bien le cas
  "Pusher" le fichier de votre Repo local (VM3) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T3}}
  
-    ##### _Répondre:
+    ##### _Répondre: yes
 > The authenticity of host 'git_remote (172.19.0.2)' can't be established.
 > ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
-> Are you sure you want to continue connecting (yes/no)? ####yes
+> Are you sure you want to continue connecting (yes/no)? yes
  
    
  
@@ -90,7 +90,7 @@ Vérifier que cela est bien le cas
  "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T2}}
  
-    ##### _Répondre:
+    ##### _Répondre: 
            > Are you sure you want to continue connecting (yes/no)? 
                                                        -->  'yes'
  

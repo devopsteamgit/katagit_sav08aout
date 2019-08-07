@@ -1,7 +1,7 @@
 {
   "noindex": true,
-  "title": "Formation GIT pour le DEVOPS: partie 1",
-  "description": "Les principes du GIT",
+  "title": "Formation GIT pour le DEVOPS: partie 4",
+  "description": "Solutions, en cas de conflits du versioning sur Repository Central ",
   "time": "50 minutes",
   "details": {
     "steps": [

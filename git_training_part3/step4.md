@@ -1,11 +1,11 @@
 
  
-#### (VM1) Installer un Repository GIT (Central) 
+#### (VM1) Installer un Repository GIT `Central` (remote)
 
-Ccréer  le Repository Central
+Créer  le Repository Central
   `mkdir repocentral; cd repocentral`{{execute T1}}
  
- Initialiser le Remote Repository
+ Initialiser le Repository Central
   `git init --bare`{{execute T1}}
 
 

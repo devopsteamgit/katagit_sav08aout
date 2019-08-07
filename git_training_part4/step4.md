@@ -110,3 +110,13 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
  Un message "This is susually caused by another repository pushing"  , indique que la seconde équipe a mis à jour le repository Central -entre temps-
  
  Nous allons devoir gérer le conflit avant de pusher à notre tour
+ 
+ `git pull origin master`{{execute T2}}
+ 
+ `git reset --hard HEAD`{{execute T2}}    
+ 
+   
+  `git pull --rebase origin master`{{execute T2}} 
+   `git push origin master`{{execute T2}}
+  
+  

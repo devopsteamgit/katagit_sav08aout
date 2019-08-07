@@ -118,6 +118,14 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
   `git log --oneline`{{execute T2}}    
    
   `git pull --rebase origin master`{{execute T2}} 
+  
+  sur le Repo Local : vérifier que les commit des deux équipes sont à prensent dans le bon ordre
+   `git log --oneline`{{execute T2}} 
+  
+  Pusher pour raffraichie le central
    `git push origin master`{{execute T2}}
   
-  
+  **Sur la VM1 (Repo Central) 
+  Vérifier que les commit des deux équipe sont à prensent dans le bon ordre
+ `git log --oneline`{{execute T2}}
+ 

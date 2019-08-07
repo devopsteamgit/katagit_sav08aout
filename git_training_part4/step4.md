@@ -10,8 +10,6 @@ Dans le cours précédent, nous avions effecctué la connexion du Repository Loc
 Vérifier que cela est bien le cas
  `git remote -v`{{execute T2}}
  
-Tout d'abord, récupèrer les développements mis à disposition par les autres équipes sur le Repo Distant
-  `git pull origin master`{{execute T2}}
   
 a présent, en tant que première équipe, vous allez effectuer vos développements.Et les commiter en local.  
 

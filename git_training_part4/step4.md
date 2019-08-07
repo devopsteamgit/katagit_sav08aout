@@ -37,7 +37,7 @@ A présent, en tant que première équipe, vous allez effectuer vos développeme
  Constater que le script n'est pas présent
  `git log --oneline`{{execute T1}}
 
-NB: ne vous préoccupéez pas du 'fatal', dû au fait que le repository est encore vide
+> NB: ne vous préoccupez pas du msg 'fatal' (dû au fait que le repository est encore vide)
 
 
 

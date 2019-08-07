@@ -5,7 +5,7 @@
   
    #### A présent
 - Nous allons simuler un conflit de mise à jour du versionning (entre les deux équipes)
-- Manipuler les commandes utiles pour gèrer un conflit "commit,rebase,push"
+- Manipuler les commandes utiles pour gèrer un conflit "commit,pull,reset,rebase,push"
    
    #### Solution Mise en oeuvre
 - une équipe devra récupèrer la derniere version -à jour- du Repositiory Central 

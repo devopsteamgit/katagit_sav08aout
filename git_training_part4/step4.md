@@ -34,11 +34,12 @@ Vérifier que cela est bien le cas
  "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
  
  `git push origin master`{{execute T2}}
-    ##### _Répondre: yes
-##### The authenticity of host 'git_remote (172.19.0.2)' can't be established.
-##### ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
-##### Are you sure you want to continue connecting (yes/no)? yes
-
+```
+ _Répondre: yes
+ The authenticity of host 'git_remote (172.19.0.2)' can't be established.
+ ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
+ Are you sure you want to continue connecting (yes/no)? yes
+```
 
 > A présent, en tant que `première équipe`, vous allez effectuer vos développements (script n°2), les commiter en local. 
 > Mais volontairement oublier de le pusher sur le Repo Distant 
@@ -59,7 +60,7 @@ Vérifier que cela est bien le cas
 > à ce stade, nous ne "pushons" pas le script n°2 vers le Repository Central. 
 > Entre temps, l'autre équipe va effectuer des développements et les mettre à jour sur le Central / ce qui causera la situation de conflit pour nous (plus tard)
  
- #### (VM1) Constater que le développement (script n°2)n'a pas encore été "pushé" sur le `Repository Central`  
+ #### (VM1) Constater que le développement (script n°2) n'a pas encore été "pushé" sur le `Repository Central`  
  Constater que le script n'est pas présent
  `git log --oneline`{{execute T1}}
 
@@ -93,14 +94,16 @@ Vérifier que cela est bien le cas
  "Pusher" le fichier de votre Repo local (VM3) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T3}}
  
-    ##### _Répondre: yes
-##### The authenticity of host 'git_remote (172.19.0.2)' can't be established.
-##### ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
-##### Are you sure you want to continue connecting (yes/no)? yes
+```
+ _Répondre: yes
+ The authenticity of host 'git_remote (172.19.0.2)' can't be established.
+ ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
+ Are you sure you want to continue connecting (yes/no)? yes
+```
  
    
  
-> VM1 `Repo Central` Constater que le second développement (seconde équipe) a bien été "pushé" sur ce Repository central (remote) 
+#### VM1 `Repo Central` Constater que le second développement (seconde équipe) a bien été "pushé" sur ce Repository central (remote) 
 
  Constater que le script a bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}
@@ -121,18 +124,20 @@ Vérifier que cela est bien le cas
   "Pusher" le fichier du  Repo local (VM2) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T2}}
  
-     ##### _Répondre: yes
-##### The authenticity of host 'git_remote (172.19.0.2)' can't be established.
-##### ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
-##### Are you sure you want to continue connecting (yes/no)? yes
- 
+```
+ _Répondre: yes
+ The authenticity of host 'git_remote (172.19.0.2)' can't be established.
+ ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
+ Are you sure you want to continue connecting (yes/no)? yes
+```
+
   * Un message apparaît  "This is usually caused by another repository pushing"
- 
+ ```
  #####  ! [rejected]        master -> master (fetch first)
  ##### error: failed to push some refs to 'ssh://git@git_remote/home/git/repocentral'
  ##### hint: Updates were rejected because the remote contains work that you do
  ##### hint: not have locally. This is usually caused by another repository pushing
-
+```
 
  > Nous allons devoir gérer le conflit avant pouvoir raffraîchir `pusher` sur le Repository Central
  

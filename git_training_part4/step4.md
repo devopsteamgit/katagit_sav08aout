@@ -12,7 +12,7 @@ Vérifier que cela est bien le cas
  `git remote -v`{{execute T2}}
  
   
-#### A présent, en tant que `première équipe`, vous allez effectuer vos développements. Et les commiter en local.  
+#### `A présent, en tant que première équipe`, vous allez effectuer vos développements. Et les commiter en local.  
 
  Créer un fichier script_vm2_1.sh
  `echo "printf 'Ceci est le script 1 \n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}
@@ -35,8 +35,8 @@ Vérifier que cela est bien le cas
  
  `git push origin master`{{execute T2}}
 
-#### A présent, en tant que `première équipe`, vous allez effectuer vos développements (script n°2), les commiter en local. 
-#### Mais volontairement oublier de le pusher sur le Repo Distant 
+> A présent, en tant que `première équipe`, vous allez effectuer vos développements (script n°2), les commiter en local. 
+> Mais volontairement oublier de le pusher sur le Repo Distant 
 
  Créer un fichier script_vm2_2.sh
  `echo "printf 'Ceci est le script 2 \n'" > script_vm2_1.sh;cat script_vm2_2.sh`{{execute T2}}

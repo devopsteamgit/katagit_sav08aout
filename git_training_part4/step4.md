@@ -152,7 +152,7 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  sortir du fhcier en validant  `:wq!`
  
  
- Le "pull" vient de provoquer un merge de notre branche local, avec le distant
+ Le "pull" vient de provoquer un Merge branch 'master' de notre branche local, avec le distant
   `git log --oneline`{{execute T2}}   
  
  Il faut commencer par supprimer le HEAD "merge"

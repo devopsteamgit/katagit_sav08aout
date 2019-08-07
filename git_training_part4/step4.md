@@ -1,6 +1,6 @@
-#### (VM1) Vérifier la connexion au `Repository Central GIT  (remote)`
+#### (VM1)  
  
- Vérifier la connexion au Repository Central
+ Vérifier la connexion au `Repository Central GIT  (remote)`
  
 `cd repocentral`{{execute T1}}
 

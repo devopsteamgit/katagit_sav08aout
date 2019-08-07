@@ -12,9 +12,9 @@ _Lors de la précédente formation,
 
 #### A présent, nous allons voir comment gèrer les conflits: 
 
-'''Par exemple:
+```Par exemple:
 
 - si une équipe oublie de repartir d'une version actualisée du Repository Central,
 
 - ou si le Repository Central a été mis à jour -entre temps- par une autre équipe: pendant que nous faisions nos développements.
-'''
+```

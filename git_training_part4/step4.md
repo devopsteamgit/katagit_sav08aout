@@ -1,6 +1,7 @@
 #### (VM1) Vérifier la connexion au `Repository Central` GIT  (remote)
  
  Vérifier la connexion au Repository Central
+ 
 `cd repocentral`{{execute T1}}
 
 
@@ -31,6 +32,7 @@ Vérifier que cela est bien le cas
  `git branch`{{execute T2}}
 
  "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
+ 
  `git push origin master`{{execute T2}}
 
 #### A présent, en tant que `première équipe`, vous allez effectuer vos développements (script n°2), les commiter en local. 

@@ -1,4 +1,14 @@
-Dans ce premier cours, nous créeront notre Repository local "your local repository " , pour éxécuter nos commandes GIT
+
+ 
+##### Planning première partie, 
+     - nous allons  créer un nouveau `repository local` GIT,
+     - nous alons cloner un `repository existant`  (remote),
+     - apprendre à `versionner` nos scripts,
+     - créer ou supprimer des `branches` de `développements`, 
+     - faire des `commits`,  `annuler` les commits,
+     - consulter les status, les `logs`, `l'historique` des versions
+     - effectuer des `merges` entre `branches`
+     
 
 ![git-central](/testgitessai/scenarios/git_training_part1/assets/git-central.png)
 

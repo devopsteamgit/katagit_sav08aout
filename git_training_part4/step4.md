@@ -81,7 +81,7 @@ Vérifier que cela est bien le cas
 
 Tout d'abord, décupèrer la dernière version des développement (Repo Central)
   Faire un `Pull` du Central
- `git pull origin master`{{execute T2}}
+ `git pull origin master`{{execute T3}}
  
  -Créer un fichier script_vm3_3.sh
  `echo "printf 'Ceci est le script 3 sur la VM3\n'" > script_vm3_3.sh;cat script_vm3_3.sh`{{execute T3}}

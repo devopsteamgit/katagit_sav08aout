@@ -2,5 +2,5 @@
 - Principe de fonctionnement et Architecture,
 - Préparation des environnements,
 - Installation de Git,
-- Création de branches de Développements,
+- Création de branches de développements,
 - Manipulation des commandes GIT. 

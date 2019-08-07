@@ -61,7 +61,7 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
  `git commit -m "ajout du script_vm3_2.sh repo local VM3"`{{execute T3}}
 
 
- Vérifier la présence du branche 'master' pour tracker ce fichier nouveau fichier ajouté:
+ Vérifier la présence d'une branche 'master' pour tracker ce nouveau fichier:
  `git branch`{{execute T3}}
  
  "Pusher" le fichier de votre Repo local (VM3) --> vers Remote Repo Central (VM1)

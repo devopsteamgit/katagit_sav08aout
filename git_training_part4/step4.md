@@ -68,7 +68,7 @@ Vérifier que cela est bien le cas
 
 
 
-#### `équipe 2` VM3 développe sur son Repository Local le script n°3
+#### `équipe 2` développe sur son Repository Local le script n°3  (VM3)
 
 Dans le cours précédent, nous avions effecctué la connexion du Repository Local sur le Repository Distant,
 Vérifier que cela est bien le cas

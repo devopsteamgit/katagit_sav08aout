@@ -1,6 +1,6 @@
 
  
-#### (VM1) Installer un Repository GIT `Central` (remote)
+#### (VM1) Installer un `Repository Central` GIT  (remote)
 
 Créer  le Repository Central
   `mkdir repocentral; cd repocentral`{{execute T1}}
@@ -23,7 +23,7 @@ Créer  le Repository Central
  Vérifier la connexion:
  `git remote -v`{{execute T2}}
  
-**Développer sur la VM2, puis versionner**
+**`première équipe` développe sur la VM, puis versionne**
  
  A présent, vous pouvez  effectuer des développements.
  Les commiter en local puis les pusher sur le Repo distant: lorsque vous souhaiterez en faire bénéficier les autres équipes.  
@@ -57,7 +57,7 @@ Créer  le Repository Central
  
  
  
-#### VM1 (Repo Central) Constater que le développement a bien été "pushé" sur le Repository distant (central) 
+#### VM1 `Repo Central` Constater que le développement a bien été "pushé" sur le Repository distant (central) 
  Constater que le script et sont commit a bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}
 
@@ -81,7 +81,7 @@ Créer  le Repository Central
  Pour commencer, récupèrer  les développements mis à disposition par les autres équipes sur le Repo distant
   `git pull origin master`{{execute T3}}
  
-**Développer sur la VM3, puis versionner `seconde équipe`**
+**`seconde équipe` développe sur la VM, puis versionne**
 
  A présent, en tant que seconde équipe, vous pouvez également effectuer des développements.
  Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  

@@ -36,9 +36,9 @@ Vérifier que cela est bien le cas
  `git push origin master`{{execute T2}}
 ```
  _Répondre: yes
- The authenticity of host 'git_remote (172.19.0.2)' can't be established.
- ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
- Are you sure you want to continue connecting (yes/no)? yes
+ - The authenticity of host 'git_remote (172.19.0.2)' can't be established.
+ - ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
+ - Are you sure you want to continue connecting (yes/no)? yes
 ```
 
 > A présent, en tant que `première équipe`, vous allez effectuer vos développements (script n°2), les commiter en local. 
@@ -77,6 +77,9 @@ Vérifier que cela est bien le cas
  
 > A présent, en tant que `seconde équipe`, vous allez effectuer vos développements.
 > Les commiter en local puis les pusher sur le repo distant (pour les mettres à disposition des autres équipes).  
+ Tout d'abor, décupèrer la dernière version des développement (Repo Central)
+  Faire un `Pull` du Central
+ `git pull origin master`{{execute T2}}
  
  -Créer un fichier script_vm3_3.sh
  `echo "printf 'Ceci est le script 3 sur la VM3\n'" > script_vm3_3.sh;cat script_vm3_3.sh`{{execute T3}}
@@ -96,9 +99,8 @@ Vérifier que cela est bien le cas
  
 ```
  _Répondre: yes
- The authenticity of host 'git_remote (172.19.0.2)' can't be established.
- ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
- Are you sure you want to continue connecting (yes/no)? yes
+ - The authenticity of host 'git_remote (172.19.0.2)' can't be established.
+ - ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
 ```
  
    
@@ -126,17 +128,16 @@ Vérifier que cela est bien le cas
  
 ```
  _Répondre: yes
- The authenticity of host 'git_remote (172.19.0.2)' can't be established.
- ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
- Are you sure you want to continue connecting (yes/no)? yes
+ - The authenticity of host 'git_remote (172.19.0.2)' can't be established.
+ - ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
 ```
 
   * Un message apparaît  "This is usually caused by another repository pushing"
  ```
- #####  ! [rejected]        master -> master (fetch first)
- ##### error: failed to push some refs to 'ssh://git@git_remote/home/git/repocentral'
- ##### hint: Updates were rejected because the remote contains work that you do
- ##### hint: not have locally. This is usually caused by another repository pushing
+   ! [rejected]        master -> master (fetch first)
+   error: failed to push some refs to 'ssh://git@git_remote/home/git/repocentral'
+   hint: Updates were rejected because the remote contains work that you do
+   hint: not have locally. This is usually caused by another repository pushing
 ```
 
  > Nous allons devoir gérer le conflit avant pouvoir raffraîchir `pusher` sur le Repository Central

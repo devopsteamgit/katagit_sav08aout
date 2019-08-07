@@ -1,4 +1,4 @@
-#### (VM1) Vérifier la connexion au `Repository Central` GIT  (remote)
+#### (VM1) Vérifier la connexion au `Repository Central GIT  (remote)`
  
  Vérifier la connexion au Repository Central
  
@@ -12,7 +12,7 @@ Vérifier que cela est bien le cas
  `git remote -v`{{execute T2}}
  
   
-#### `A présent, en tant que première équipe`, vous allez effectuer vos développements. Et les commiter en local.  
+#### `En tant que première équipe`, vous allez effectuer vos développements. Et les commiter en local.  
 
  Créer un fichier script_vm2_1.sh
  `echo "printf 'Ceci est le script 1 \n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}
@@ -68,7 +68,7 @@ Vérifier que cela est bien le cas
 
 
 
-#### VM3 `équipe 2` Développe sur son Repository Local le script n°3
+#### `équipe 2` VM3 développe sur son Repository Local le script n°3
 
 Dans le cours précédent, nous avions effecctué la connexion du Repository Local sur le Repository Distant,
 Vérifier que cela est bien le cas
@@ -107,7 +107,7 @@ Tout d'abord, décupèrer la dernière version des développement (Repo Central)
  
    
  
-#### VM1 `Repo Central` Constater que le second développement (seconde équipe) a bien été "pushé" sur ce Repository central (remote) 
+#### VM1 Constater que la seconde équipe, a bien été "pushé" le script n°3, sur ce `Repo Central`
 
  Constater que le script a bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}

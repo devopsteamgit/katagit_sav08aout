@@ -78,13 +78,13 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
  
 #### VM1 (Repo Central) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
 
- Constater que le script et sont commit a bien été pushé sur le repo distant
+ Constater que le script a bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}
  
- Vous pouvez également consulter toutes les mises à jour qui ont été faites sur le Repo central depuis le début
+ Vous pouvez également consulter toutes les mises à jour qui ont été faites sur le Repo central, depuis le début
  `git log`{{execute T1}}
 
-#### LE COMMIT/PUSH de la dernière équipe va créer un conflit pour la première
+> LE COMMIT & PUSH sur le Central de la seconde équipe: va créer un conflit pour la première première (qui attend de pusher)
 
 
  #### VM2 (équipe 1)Constate le conflit et le gère

@@ -6,14 +6,14 @@ Précédemment,
   puis les ont reportés sur le Central
   
   
-####A présent
+**A présent**
 - Nous allons simuler un problème `conflit` de mise à jour du Repo Central,
   lorsqu'une équipe tente de travailler sur une ancienne version du Repository Central
 - Nous allons Manipuler les commandes utiles pour gèrer ce conflit "commit","pull","reset","rebase","push"
 
 ```
-#### Solution Mise en oeuvre
-     - l'équipe bloquée, devra récupèrer la derniere version -à jour- du Repositiory Central,
-     - Puis fusionner en local son travail, avec celui de l'autre équipe,
-     - et enfin "pusher" tous ses développements à jour vers le repository Central.
+**Solution Mise en oeuvre**
+  - l'équipe bloquée, devra récupèrer la derniere version -à jour- du Repositiory Central,
+  - Puis fusionner en local son travail, avec celui de l'autre équipe,
+  - et enfin "pusher" tous ses développements à jour vers le repository Central.
 ```

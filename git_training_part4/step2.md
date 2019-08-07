@@ -1,6 +1,6 @@
 - Git permet une gestion `décentralisée` et autonome des développeurs sur leurs serveurs. La centralisation du versioning permet ensuite de faire bénéficier des développements aux autres équipes,
 - Un repository `central`, assure la cohérence de l'ensemble des repository locaux et leursynchronisations  
-- Néanmoins certains cas de conflits peuvent se poser si le repository central a évoluer, alors que l'on essaie d'y répercuter ns développements, 
+- Néanmoins certains cas de conflits peuvent se poser si le repository central a évoluer, alors que l'on essaie d'y répercuter nos développements, 
   * c'est ce que nous allons voir par la suite
 
 ![git_users_archi](/testgitessai/scenarios/git_training_part1/assets/git_users_archi.png)

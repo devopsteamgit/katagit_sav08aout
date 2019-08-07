@@ -49,5 +49,5 @@
   Constater qu'un nouveau commit est apparut pour tracer la suppression du script: "Revert ajout script_2.sh" , l'ancien commit "ajout script_2.sh"  a été conservé
    `git log --oneline`{{execute T1}}
   
-  Constater que le script 2 n'est plus dans la `working directory` 
+  Constater que le script 2 n'est plus dans la working directory 
   `ls`{{execute T1}}

@@ -6,7 +6,7 @@
 
 #### VM2 (équipe 1) Développe sur son Repository Local
  
-Dans le cours précédent, nous avions effecctué la connexion du Repository Local au Repository Distant,
+Dans le cours précédent, nous avions effecctué la connexion du Repository Local sur le Repository Distant,
 Vérifier que cela est bien le cas
  `git remote -v`{{execute T2}}
  
@@ -43,7 +43,7 @@ A présent, en tant que première équipe, vous allez effectuer vos développeme
 
 #### VM3 (équipe 2) Développe sur son Repository Local
 
-Dans le cours précédent, nous avions effecctué la connexion du Repository Local au Repository Distant,
+Dans le cours précédent, nous avions effecctué la connexion du Repository Local sur le Repository Distant,
 Vérifier que cela est bien le cas
  `git remote -v`{{execute T3}}
  

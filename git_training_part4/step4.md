@@ -1,25 +1,25 @@
-#### (VM1) Vérifier la connexion au Repository GIT Central 
+#### (VM1) Vérifier la connexion au `Repository Central` GIT  (remote)
  
  Vérifier la connexion au Repository Central
 `cd repocentral`{{execute T1}}
 
 
-#### VM2 (équipe 1) Développe sur son Repository Local
+#### VM2 `équipe 1` Développe sur son Repository Local
  
 Dans le cours précédent, nous avions effecctué la connexion du Repository Local sur le Repository Distant,
 Vérifier que cela est bien le cas
  `git remote -v`{{execute T2}}
  
   
-A présent, en tant que première équipe, vous allez effectuer vos développements. Et les commiter en local.  
+A présent, en tant que `première équipe`, vous allez effectuer vos développements. Et les commiter en local.  
 
  Créer un fichier script_vm2_1.sh
  `echo "printf 'Ceci est un script test\n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}
  
- Ajouter le fichier dans la cache "Staging Area"
+ Ajouter le fichier dans la "Staging Area" (cache)
  `git add script_vm2_1.sh `{{execute T2}}
  
- Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
+ Commmiter `valider` le nouveau fichier: dans le Repository local 
  
  `git commit -m "ajout du script_vm2_1.sh repo local VM2"`{{execute T2}}
    
@@ -33,7 +33,7 @@ A présent, en tant que première équipe, vous allez effectuer vos développeme
 > à ce stade, nous ne "pushons" pas encore nos développement vers le Repository Central): ceci afin de laisser l'autre équipe poursuivre ses développements sur le Central / ce qui causera la situation de conflit pour nous, plus tard
  
  
-#### (VM1) Constater que le développement n'a pas encore été "pushé" sur le Repository Distant (central) 
+#### (VM1) Constater que le développement n'a pas encore été "pushé" sur le `Repository Central`  
  Constater que le script n'est pas présent
  `git log --oneline`{{execute T1}}
 
@@ -41,7 +41,7 @@ A présent, en tant que première équipe, vous allez effectuer vos développeme
 
 
 
-#### VM3 (équipe 2) Développe sur son Repository Local
+#### VM3 `équipe 2` Développe sur son Repository Local
 
 Dans le cours précédent, nous avions effecctué la connexion du Repository Local sur le Repository Distant,
 Vérifier que cela est bien le cas
@@ -76,7 +76,7 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
  
    
  
-#### VM1 (Repo Central) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
+#### VM1 `Repo Central` Constater que le second développement (seconde équipe) a bien été "pushé" sur ce Repository central (remote) 
 
  Constater que le script a bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}
@@ -87,7 +87,7 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
 > LE COMMIT & PUSH sur le Central de la seconde équipe: va créer un conflit pour la première première (qui attend de pusher)
 
 
- #### VM2 (équipe 1)Constate le conflit et le gère
+ #### VM2 `équipe 1` Constate le conflit et le gère
   
  "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T2}}
@@ -100,8 +100,8 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
                                    -->   'git'
  
  
-**Sur la VM2 (première équipe) nous avions developpé un script mais pas ensore pushé au Central
-  Vérifier le développement présent en local
+**Sur la VM2 `première équipe` nous avions developpé un script mais pas ensore pushé au Central
+  Vérifier le commit du script est présent en local
  `git log --oneline`{{execute T2}}
  
   "Pusher" le fichier du  Repo local (VM2) --> vers Remote Repo Central (VM1)
@@ -122,17 +122,17 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
  Vérifier que le commit (merge) est supprimé
   `git log --oneline`{{execute T2}}    
  
- Lancer un "rebase" afin de fusionner dans le bon ordre: les commits Distants, avec ceux du repo local
+ Lancer un `rebase` afin de fusionner dans le bon ordre: les commits Distants, avec ceux du repo local
   `git pull --rebase origin master`{{execute T2}} 
   
   Le Repo Local contient à présent tous les Dev. 
   Vérifier que les commits des deux équipes sont tous présent et dans le bon ordre
    `git log --oneline`{{execute T2}} 
   
-  Lancer un Raffraichissement du repo Distant (Central)
+  Lancer un Raffraichissement `push` sur le repo Distant (Central)
    `git push origin master`{{execute T2}}
   
-  **Sur la VM1 (Repo Central) 
+  **Sur la VM1 `Repo Central` vérifier le raffraîchissement 
   Vérifier que les commits des deux équipe sont tous présent et dans le bon ordre
  `git log --oneline`{{execute T2}}
  

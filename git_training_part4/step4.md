@@ -68,7 +68,7 @@ Vérifier que cela est bien le cas
 
 
 
-#### `équipe 2` développe sur son Repository Local le script n°3  (VM3)
+#### `Equipe 2` développe sur son Repository Local le script n°3  (VM3)
 
 Dans le cours précédent, nous avions effecctué la connexion du Repository Local sur le Repository Distant,
 Vérifier que cela est bien le cas
@@ -120,7 +120,7 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
 > LE COMMIT & PUSH sur le Central de la seconde équipe: va créer un conflit pour la première première (qui attend de pusher le script n°2)
 
 
- #### VM2 `équipe 1` Constate le conflit et le gère
+ #### `Equipe 1` Constate le conflit et le gère (VM2)
 
  
 ** `première équipe`sur la VM2  nous avions developpé et commité un script n°2. Mais pas encore pushé au Central à ce stade

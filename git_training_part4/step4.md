@@ -107,7 +107,7 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
   "Pusher" le fichier du  Repo local (VM2) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T2}}
  
- Un message "This is susually caused by another repository pushing", indique que la seconde équipe a mis à jour le repository Central -entre temps-  
+ > Un message "This is susually caused by another repository pushing", indique que la seconde équipe a mis à jour le repository Central -entre temps-  
  > Nous allons devoir gérer le conflit avant pouvoir raffraîchir "pusher" sur le Repository Central
  
  Pour cela, il faut récupèrer en premier: la dernière version du repository Central, avec les développement que nous n'avons pas en local

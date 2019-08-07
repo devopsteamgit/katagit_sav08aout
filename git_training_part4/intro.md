@@ -3,11 +3,11 @@
 
 _Rappel:_
 
-_Lors de la précédente formation,_
+_Lors de la précédente formation,
 
-_nous avons appris à versionner nos scripts,_
+ nous avons appris à versionner nos scripts,
 
-_nous avons vu comment deux équipes font pour se partager leurs développements _
+ nous avons vu comment deux équipes font pour se partager leurs développements _
  
  
 

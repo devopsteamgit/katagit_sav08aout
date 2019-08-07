@@ -1,6 +1,6 @@
  
--
-#### Créer le Repository 'local' afin de versionner les développements sur la VM
+
+#### Créer le Repository `local` afin de versionner les développements sur la VM
 
   Cérer le répertoire d'installation du Repository 'local'
  `mkdir replocal;cd replocal`{{execute T1}}
@@ -18,7 +18,7 @@
   
  
 
-** L'équipe peut à présent versionner dans le repository  **
+**L'équipe peut à présent versionner dans le repository local**
   Créer le répertoire PROJET:
  `mkdir PROJET;cd PROJET;pwd `{{execute T1}}
  

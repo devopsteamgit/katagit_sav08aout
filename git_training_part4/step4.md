@@ -11,7 +11,7 @@ Vérifier que cela est bien le cas
  `git remote -v`{{execute T2}}
  
   
-A présent, en tant que `première équipe`, vous allez effectuer vos développements. Et les commiter en local.  
+#### A présent, en tant que `première équipe`, vous allez effectuer vos développements. Et les commiter en local.  
 
  Créer un fichier script_vm2_1.sh
  `echo "printf 'Ceci est le script 1 \n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}
@@ -30,10 +30,29 @@ A présent, en tant que `première équipe`, vous allez effectuer vos développe
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
  `git branch`{{execute T2}}
 
-> à ce stade, nous ne "pushons" pas encore nos développement vers le Repository Central. Mais l'autre équipe va effectuer des développements et les mettre à jour sur le Central / ce qui causera la situation de conflit pour nous (plus tard)
+ "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
+ `git push origin master`{{execute T2}}
+
+#### A présent, en tant que `première équipe`, vous allez effectuer vos développements (script n°2), les commiter en local. 
+#### Mais volontairement oublier de le pusher sur le Repo Distant 
+
+ Créer un fichier script_vm2_2.sh
+ `echo "printf 'Ceci est le script 2 \n'" > script_vm2_1.sh;cat script_vm2_2.sh`{{execute T2}}
  
+ Ajouter le fichier dans la "Staging Area" (cache)
+ `git add script_vm2_2.sh `{{execute T2}}
  
-#### (VM1) Constater que le développement n'a pas encore été "pushé" sur le `Repository Central`  
+ Commmiter `valider` le nouveau fichier: dans le Repository local 
+ 
+ `git commit -m "ajout du script_vm2_2.sh repo local VM2"`{{execute T2}}
+   
+ Vérifier le nouveau commmit
+ `git log --oneline`{{execute T2}}
+ 
+> à ce stade, nous ne "pushons" pas le script n°2 vers le Repository Central. 
+> Entre temps, l'autre équipe va effectuer des développements et les mettre à jour sur le Central / ce qui causera la situation de conflit pour nous (plus tard)
+ 
+ #### (VM1) Constater que le développement (script n°2)n'a pas encore été "pushé" sur le `Repository Central`  
  Constater que le script n'est pas présent
  `git log --oneline`{{execute T1}}
 
@@ -41,7 +60,7 @@ A présent, en tant que `première équipe`, vous allez effectuer vos développe
 
 
 
-#### VM3 `équipe 2` Développe sur son Repository Local
+#### VM3 `équipe 2` Développe sur son Repository Local le script n°3
 
 Dans le cours précédent, nous avions effecctué la connexion du Repository Local sur le Repository Distant,
 Vérifier que cela est bien le cas
@@ -51,14 +70,14 @@ Vérifier que cela est bien le cas
 > A présent, en tant que `seconde équipe`, vous allez effectuer vos développements.
 > Les commiter en local puis les pusher sur le repo distant (pour les mettres à disposition des autres équipes).  
  
- -Créer un fichier script_vm3_2.sh
- `echo "printf 'Ceci est le script 2 sur la VM3\n'" > script_vm3_2.sh;cat script_vm3_2.sh`{{execute T3}}
+ -Créer un fichier script_vm3_3.sh
+ `echo "printf 'Ceci est le script 3 sur la VM3\n'" > script_vm3_3.sh;cat script_vm3_3.sh`{{execute T3}}
  
  Ajouter le fichier dans la cache "Staging Area"
- `git add script_vm3_2.sh `{{execute T3}}
+ `git add script_vm3_3.sh `{{execute T3}}
  
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
- `git commit -m "ajout du script_vm3_2.sh repo local VM3"`{{execute T3}}
+ `git commit -m "ajout du script_vm3_3.sh repo local VM3"`{{execute T3}}
 
 
  Vérifier la présence d'une branche 'master' pour tracker ce nouveau fichier:
@@ -110,7 +129,7 @@ Vérifier que cela est bien le cas
  > Nous allons devoir gérer le conflit avant pouvoir raffraîchir `pusher` sur le Repository Central
  
  Pour cela, il faut récupèrer: la dernière version du repository Central. 
- Contenant les développements de la seconde équipe et que nous n'avons pas encore en local
+ Contenant les développements de la seconde équipe (script n°3),  que nous n'avons pas encore en local
  
  Lancer le `Pull` du Central
  `git pull origin master`{{execute T2}}

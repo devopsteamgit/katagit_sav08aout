@@ -107,25 +107,32 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
   "Pusher" le fichier du  Repo local (VM2) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T2}}
  
- Un message "This is susually caused by another repository pushing"  , indique que la seconde équipe a mis à jour le repository Central -entre temps-
+ Un message "This is susually caused by another repository pushing", indique que la seconde équipe a mis à jour le repository Central -entre temps-  
+ **-->Nous allons devoir gérer le conflit avant pouvoir raffraîchir "pusher" sur le Repository Central
  
- Nous allons devoir gérer le conflit avant de pusher à notre tour
- 
+ Pour cela, il faut récupèrer en premier: la dernière version du repository Central, avec les développement que nous n'avons pas en local
  `git pull origin master`{{execute T2}}
  
+ Le "pull" vient de provoquer un merge de notre branche local, avec le distant
+  `git log --oneline`{{execute T2}}   
+ 
+ Il faut commencer par supprimer le HAED "merge"
  `git reset --hard HEAD`{{execute T2}}    
  
+ Vérifier que le commit (merge est supprimé)
   `git log --oneline`{{execute T2}}    
-   
+ 
+ Lancer un "rebase" afin de fusionner dans le bon ordre les commits Distants, avec ceux du repo local
   `git pull --rebase origin master`{{execute T2}} 
   
-  sur le Repo Local : vérifier que les commit des deux équipes sont à prensent dans le bon ordre
+  Le Repo Local contient à présent tous les Dev. 
+  Vérifier que les commits des deux équipes sont tous présent et dans le bon ordre
    `git log --oneline`{{execute T2}} 
   
-  Pusher pour raffraichie le central
+  Lancer un Raffraichissement du repo Distant (Central)
    `git push origin master`{{execute T2}}
   
   **Sur la VM1 (Repo Central) 
-  Vérifier que les commit des deux équipe sont à prensent dans le bon ordre
+  Vérifier que les commit des deux équipe sont tous présent et dans le bon ordre
  `git log --oneline`{{execute T2}}
  

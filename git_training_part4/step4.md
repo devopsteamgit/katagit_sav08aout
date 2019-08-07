@@ -100,24 +100,13 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
                                    -->   'git'
  
  
-** Développer sur la VM2, puis versionner (première équipe)**
-  Vérifier le nouveau commmit
+**Sur la VM2 (première équipe) nous avions developpé un script mais pas ensore pushé au Central
+  Vérifier le développement présent en local
  `git log --oneline`{{execute T2}}
  
- A présent, vous pouvez  effectuer des développements.
- Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
-
- - Créer un fichier script_vm2_1.sh
- `echo "printf 'Ceci est un script test\n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}
+  "Pusher" le fichier du  Repo local (VM2) --> vers Remote Repo Central (VM1)
+ `git push origin master`{{execute T2}}
  
- Ajouter le fichier dans la cache "Staging Area"
- `git add script_vm2_1.sh `{{execute T2}}
+ Un message "This is susually caused by another repository pushing"  , indique que la seconde équipe a mis à jour le repository Central -entre temps-
  
- Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
- 
- `git commit -m "ajout du script_vm2_1.sh repo local VM2"`{{execute T2}}
-   
- Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
- `git branch`{{execute T2}}
- 
- "Pusher" le fichier de votre Repo local
+ Nous allons devoir gérer le conflit avant de pusher à notre tour

@@ -3,3 +3,4 @@
 - Simulation de développements paralèlles par différentes équipes
 - Enregistrement des développements au fil de l'eau, dans chaque repository local
 - Fusion du travail et des versions dans le repository Central
+- Manipuler de commandes utiles pour une fusion "commit,merge,pull"

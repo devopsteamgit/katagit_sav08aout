@@ -1,16 +1,19 @@
 #### (VM1) Vérificer le Repository GIT Central 
  
  Vérifier la connexion au Repository Central
-`cd repocentral;git status`{{execute T1}}
+`cd repocentral`{{execute T1}}
 
 
 #### VM2 (équipe 1) Développe sur son Repository Local
  
- Précedemment, nous avions effectué la connexion de ce Reposiory Local au Repository Distant
+Dans le cours précédent, nous avions effecctué la connexion du Repository Local au Repository Distant,
+Vérifier que cela est bien le cas
  `git remote -v`{{execute T2}}
  
-A présent, vous pouvez  effectuer des développements.
- Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
+Tout d'abord, récupèrer les développements mis à disposition par les autres équipes sur le Repo Distant
+  `git pull origin master`{{execute T2}}
+  
+a présent, en tant que première équipe, vous allez effectuer vos développements.Et les commiter en local.  
 
  - Créer un fichier script_vm2_1.sh
  `echo "printf 'Ceci est un script test\n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}
@@ -29,10 +32,10 @@ A présent, vous pouvez  effectuer des développements.
  Vérifier la présence d'une nouvelle branche 'master' du repo local. Elle contient le nouveau fichier.
  `git branch`{{execute T2}}
 
-**(nous ne "pushons" pas pour raffraichir le Repository Central à ce stade): car nous allons laisser l'autre équipe raffraichir avant nous, et causer un conflit pour notre équipe par la suite**
+__(à ce stade, nous ne "pusherons" pas encore nos développement vers le Repository Central): ceci afin de laisser l'autre équipe faire évoluer le Central avant nous et ainsi nous causer un conflit plus tard__
  
  
-#### (VM1) Constater que le développement n'a pas encore été "pushé" sur le Repository distant (central) 
+#### (VM1) Constater que le développement n'a pas encore été "pushé" sur le Repository Distant (central) 
  Constater que le script n'est pas présent
  `git log --oneline`{{execute T1}}
 
@@ -41,16 +44,16 @@ A présent, vous pouvez  effectuer des développements.
 
 #### VM3 (équipe 2) Développe sur son Repository Local
 
-Précedemment, nous avions effectué la connexion de ce Reposiory Local au Repository Distant
+Dans le cours précédent, nous avions effecctué la connexion du Repository Local au Repository Distant,
+Vérifier que cela est bien le cas
  `git remote -v`{{execute T3}}
  
- Pour commencer, récupèrer  les développements mis à disposition par les autres équipes sur le Repo distant
+ Récupèrer  les développements mis à disposition par les autres équipes sur le Repo Distant
   `git pull origin master`{{execute T3}}
  
-** Développer sur la VM3, puis versionner (seconde équipe)**
-
- A présent, en tant que seconde équipe, vous pouvez également effectuer des développements.
- Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
+ 
+A présent, en tant que seconde équipe, vous allez effectuer vos développements.
+Les commiter en local puis les pusher sur le repo distant (pour les mettres à disposition des autres équipes).  
  
  -Créer un fichier script_vm3_2.sh
  `echo "printf 'Ceci est un script test sur la VM3\n'" > script_vm3_2.sh;cat script_vm3_2.sh`{{execute T3}}

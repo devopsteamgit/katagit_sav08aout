@@ -149,12 +149,15 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  `git pull origin master`{{execute T2}}
  
  Si un fhiciher s'ouvre avec le message `merge branche master of ssh://git@git_remote/home/git/repocentral`
- sortir du fhcier en validant  `:wq!`
+ > sortir du fihcier en validant  `:wq!`
  
  
- Le "pull" vient de provoquer un Merge branch 'master' de notre branche local, avec le distant
+ Vérifier que le "pull" vient de provoquer un Merge branch 'master' de notre branche local, avec le distant
   `git log --oneline`{{execute T2}}   
  
+ ####  la fusion "merge" s'est effectué dans l'odre chronologique des commits localement: script n° 1,2,3
+ 
+ #### Faites un 'rebase' : si vous voulez effectuer un merge dans l'ordre chronologique de mise à jour sur le Repository central (cad script n° 1, 3, 2)
  Il faut commencer par supprimer le HEAD "merge"
  `git reset --hard HEAD`{{execute T2}}    
  

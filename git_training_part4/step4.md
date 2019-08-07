@@ -37,6 +37,7 @@ __(à ce stade, nous ne "pushons" pas encore nos développement vers le Reposito
  Constater que le script n'est pas présent
  `git log --oneline`{{execute T1}}
 
+NB: ne vous préoccupéez pas du 'fatal', dû au fait que le repository est encore vide
 
 
 
@@ -45,9 +46,6 @@ __(à ce stade, nous ne "pushons" pas encore nos développement vers le Reposito
 Dans le cours précédent, nous avions effecctué la connexion du Repository Local au Repository Distant,
 Vérifier que cela est bien le cas
  `git remote -v`{{execute T3}}
- 
- Récupèrer  les développements mis à disposition par les autres équipes sur le Repo Distant
-  `git pull origin master`{{execute T3}}
  
  
 A présent, en tant que seconde équipe, vous allez effectuer vos développements.
@@ -103,6 +101,8 @@ Les commiter en local puis les pusher sur le repo distant (pour les mettres à d
  
  
 ** Développer sur la VM2, puis versionner (première équipe)**
+  Vérifier le nouveau commmit
+ `git log --oneline`{{execute T2}}
  
  A présent, vous pouvez  effectuer des développements.
  Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  

@@ -1,6 +1,7 @@
 
-- Nous avons installé précédemment un Git Central (remote repository),
-  ainsi que deux "Repository Locaux" (un par équipe)
+Précédemment,
+- nous avons installé un Git Central (remote repository),
+  ainsi que deux "Repository Locaux" (pour cahque équipe)
 - Nous avons effectué des développements paralèlles  entre deux équipes/VMs différentes
   
    #### A présent

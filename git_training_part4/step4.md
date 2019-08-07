@@ -48,8 +48,8 @@ Vérifier que cela est bien le cas
  `git remote -v`{{execute T3}}
  
  
-A présent, en tant que seconde équipe, vous allez effectuer vos développements.
-Les commiter en local puis les pusher sur le repo distant (pour les mettres à disposition des autres équipes).  
+> A présent, en tant que `seconde équipe`, vous allez effectuer vos développements.
+> Les commiter en local puis les pusher sur le repo distant (pour les mettres à disposition des autres équipes).  
  
  -Créer un fichier script_vm3_2.sh
  `echo "printf 'Ceci est le script 2 sur la VM3\n'" > script_vm3_2.sh;cat script_vm3_2.sh`{{execute T3}}

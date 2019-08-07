@@ -13,7 +13,7 @@ Précédemment,
 
 ```
    #### Solution Mise en oeuvre
-   - l'équipe bloquée, devra récupèrer la derniere version -à jour- du Repositiory Central, par exemple 
-   - Puis fusionner son travail (avec celui de l'autre équipe)
-   - et enfin "pusher" tous ses développements à jour vers le repository Central
+   - l'équipe bloquée, devra récupèrer la derniere version -à jour- du Repositiory Central,
+   - Puis fusionner son travail (avec celui de l'autre équipe),
+   - et enfin "pusher" tous ses développements à jour vers le repository Central.
 ```

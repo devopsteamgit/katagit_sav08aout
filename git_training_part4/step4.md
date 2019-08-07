@@ -105,13 +105,11 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  
 ```
  _Répondre: yes
- - The authenticity of host 'git_remote (172.19.0.2)' can't be established.
- - ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
 ```
  
    
  
-#### VM1 Constater que la seconde équipe, a bien été "pushé" le script n°3, sur ce `Repo Central`
+#### VM1 Constater que la seconde équipe, a bien mis à jour "pushé" le script n°3: sur le `Repo Central`
 
  Constater que le script a bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}
@@ -119,7 +117,7 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  Vous pouvez également consulter toutes les mises à jour qui ont été faites sur le Repo central, depuis le début
  `git log`{{execute T1}}
 
-> LE COMMIT & PUSH sur le Central de la seconde équipe: va créer un conflit pour la première première (qui attend de pusher)
+> LE COMMIT & PUSH sur le Central de la seconde équipe: va créer un conflit pour la première première (qui attend de pusher le script n°2)
 
 
  #### VM2 `équipe 1` Constate le conflit et le gère

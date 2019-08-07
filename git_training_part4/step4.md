@@ -34,12 +34,17 @@ Vérifier que cela est bien le cas
  "Pusher" le fichier de votre Repo local (VM2) --> vers Remote Repo Central (VM1)
  
  `git push origin master`{{execute T2}}
+    ##### _Répondre: yes
+> The authenticity of host 'git_remote (172.19.0.2)' can't be established.
+> ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
+> Are you sure you want to continue connecting (yes/no)? yes
+
 
 > A présent, en tant que `première équipe`, vous allez effectuer vos développements (script n°2), les commiter en local. 
 > Mais volontairement oublier de le pusher sur le Repo Distant 
 
  Créer un fichier script_vm2_2.sh
- `echo "printf 'Ceci est le script 2 \n'" > script_vm2_1.sh;cat script_vm2_2.sh`{{execute T2}}
+ `echo "printf 'Ceci est le script 2 \n'" > script_vm2_2.sh; cat script_vm2_2.sh`{{execute T2}}
  
  Ajouter le fichier dans la "Staging Area" (cache)
  `git add script_vm2_2.sh `{{execute T2}}

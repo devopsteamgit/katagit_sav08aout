@@ -6,7 +6,7 @@ Précédemment,
   puis les ont reportés sur le Central
   
   
-#### A présent
+####A présent
 - Nous allons simuler un problème `conflit` de mise à jour du Repo Central,
   lorsqu'une équipe tente de travailler sur une ancienne version du Repository Central
 - Nous allons Manipuler les commandes utiles pour gèrer ce conflit "commit","pull","reset","rebase","push"

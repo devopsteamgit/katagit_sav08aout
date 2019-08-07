@@ -11,7 +11,7 @@ Vérifier que cela est bien le cas
  `git remote -v`{{execute T2}}
  
   
-a présent, en tant que première équipe, vous allez effectuer vos développements.Et les commiter en local.  
+A présent, en tant que première équipe, vous allez effectuer vos développements.Et les commiter en local.  
 
  - Créer un fichier script_vm2_1.sh
  `echo "printf 'Ceci est un script test\n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}

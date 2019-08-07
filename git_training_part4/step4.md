@@ -123,18 +123,14 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  #### VM2 `équipe 1` Constate le conflit et le gère
 
  
-**Sur la VM2 `première équipe` nous avions developpé un script mais pas ensore pushé au Central
-  Vérifier le commit du script est présent en local
+** `première équipe`sur la VM2  nous avions developpé et commité un script n°2. Mais pas encore pushé au Central à ce stade
+
+  Vérifier que le commit du script est bien  effectué sur le Repo local (même si absent du central: comme vu précédemment)
  `git log --oneline`{{execute T2}}
  
   "Pusher" le fichier du  Repo local (VM2) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T2}}
- 
-```
- _Répondre: yes
- - The authenticity of host 'git_remote (172.19.0.2)' can't be established.
- - ECDSA key fingerprint is SHA256:bdDVzexANY6hv6tAcvkuUUThbE9JLtgZ37ifTnGGIPQ.
-```
+
 
   * Un message apparaît  "This is usually caused by another repository pushing"
  ```
@@ -147,10 +143,14 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  > Nous allons devoir gérer le conflit avant pouvoir raffraîchir `pusher` sur le Repository Central
  
  Pour cela, il faut récupèrer: la dernière version du repository Central. 
- Contenant les développements de la seconde équipe (script n°3),  que nous n'avons pas encore en local
+ Car il Contient les développements de la seconde équipe (script n°3), que nous n'avons pas encore en local
  
  Lancer le `Pull` du Central
  `git pull origin master`{{execute T2}}
+ 
+ Si un fhiciher s'ouvre avec le message `merge branche master of ssh://git@git_remote/home/git/repocentral`
+ sortir du fhcier en validant  `:wq!`
+ 
  
  Le "pull" vient de provoquer un merge de notre branche local, avec le distant
   `git log --oneline`{{execute T2}}   

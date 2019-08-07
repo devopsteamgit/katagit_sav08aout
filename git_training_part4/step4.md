@@ -14,7 +14,7 @@ Vérifier que cela est bien le cas
 A présent, en tant que `première équipe`, vous allez effectuer vos développements. Et les commiter en local.  
 
  Créer un fichier script_vm2_1.sh
- `echo "printf 'Ceci est un script test\n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}
+ `echo "printf 'Ceci est le script 1 \n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}
  
  Ajouter le fichier dans la "Staging Area" (cache)
  `git add script_vm2_1.sh `{{execute T2}}
@@ -52,7 +52,7 @@ A présent, en tant que seconde équipe, vous allez effectuer vos développement
 Les commiter en local puis les pusher sur le repo distant (pour les mettres à disposition des autres équipes).  
  
  -Créer un fichier script_vm3_2.sh
- `echo "printf 'Ceci est un script test sur la VM3\n'" > script_vm3_2.sh;cat script_vm3_2.sh`{{execute T3}}
+ `echo "printf 'Ceci est le script 2 sur la VM3\n'" > script_vm3_2.sh;cat script_vm3_2.sh`{{execute T3}}
  
  Ajouter le fichier dans la cache "Staging Area"
  `git add script_vm3_2.sh `{{execute T3}}

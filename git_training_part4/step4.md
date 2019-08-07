@@ -96,9 +96,9 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  Commmiter (valider) la création du nouveau fichier: dans votre Repository local 
  `git commit -m "ajout du script_vm3_3.sh repo local VM3"`{{execute T3}}
 
-
- Vérifier la présence d'une branche 'master' pour tracker ce nouveau fichier:
- `git branch`{{execute T3}}
+ Constater que le script a bien commité dans le repo local
+ `git log --oneline`{{execute T1}}
+ 
  
  "Pusher" le fichier de votre Repo local (VM3) --> vers Remote Repo Central (VM1)
  `git push origin master`{{execute T3}}

@@ -3,7 +3,7 @@ Objectifs de cette formation:
 
  - Connaître le fonctionnement de GIT, 
      * Apprendre à versionner des projets, récupèrer des historiques,
-     * Manipuler des commandes GIT de bases "add,commit,push,pull,rebase revert,reset"
+     * Manipuler des commandes GIT de bases "add,commit,push,pull"
      * Travailler en mode collaboratif avec les autres équipes de développements
 
 

@@ -25,8 +25,8 @@ Ajouter ce ficjhier dans la stagin area (index)
 Consulter le status
 `git status`{{execute T1}}
 
-Commiter le fichier dans votre repository local 'repoclone'
+Commiter par exemple, un nouveau fichier dans votre repository local 
 `git commit -a -m "ajout fic test.log dans repoclone"`{{execute T1}}
  
-Vérifier le commit
+Vérifier que le commit est pris en compte dans le repo local
 `git log --oneline`{{execute T1}}

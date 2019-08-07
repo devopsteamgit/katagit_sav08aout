@@ -19,6 +19,7 @@
  
 
 **L'équipe peut à présent versionner dans le repository local**
+
   Créer le répertoire PROJET:
  `mkdir PROJET;cd PROJET;pwd `{{execute T1}}
  

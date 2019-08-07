@@ -3,7 +3,7 @@ Précédemment,
 - nous avons installé un Git Central (remote repository),
   ainsi que deux "Repository Locaux" (pour chaque équipe)
 - les "équipes" ont effectué des développements sur leur Repository Local
-  puis les ont reportées sur le Central
+  puis les ont reportés sur le Central
   
   
 #### A présent

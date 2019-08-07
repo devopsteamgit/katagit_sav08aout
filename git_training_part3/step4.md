@@ -9,7 +9,7 @@ Créer  le Repository Central
   `git init --bare`{{execute T1}}
 
 
-#### VM2 (première équipe) Créer un Repository 'local' (cette fois-ci) afin de versionner les développements "en local" sur la VM
+#### VM2 `première équipe` Créer un Repository `local` (cette fois-ci) afin de versionner les développements "en local" sur la VM
    
  Lancer l'installation du premier Repository 'local':
  `git init `{{execute T2}}
@@ -23,12 +23,12 @@ Créer  le Repository Central
  Vérifier la connexion:
  `git remote -v`{{execute T2}}
  
-** Développer sur la VM2, puis versionner **
+**Développer sur la VM2, puis versionner**
  
- Car à présent, vous pouvez  effectuer des développements.
- Les commiter en local puis les pusher sur le Repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
+ A présent, vous pouvez  effectuer des développements.
+ Les commiter en local puis les pusher sur le Repo distant: lorsque vous souhaiterez en faire bénéficier les autres équipes.  
 
- - Créer un fichier script_test_vm2.sh
+ Créer un fichier script_test_vm2.sh
  `echo "printf 'Ceci est un script test\n'" > script_test_vm2.sh;cat script_test_vm2.sh`{{execute T2}}
  
  Ajouter le fichier dans la cache "Staging Area"
@@ -64,7 +64,7 @@ Créer  le Repository Central
 
 
 
-#### VM3 (seconde équipe) Créer un second Repository 'local': pour la seconde équipe de développement sur cette VM
+#### VM3 `seconde équipe` Créer un second Repository 'local': pour la seconde équipe de développement sur cette VM
 
  Lancer l'installation du second Repository 'local':
  `git init `{{execute T3}}
@@ -81,7 +81,7 @@ Créer  le Repository Central
  Pour commencer, récupèrer  les développements mis à disposition par les autres équipes sur le Repo distant
   `git pull origin master`{{execute T3}}
  
-** Développer sur la VM3, puis versionner (seconde équipe)**
+**Développer sur la VM3, puis versionner `seconde équipe`**
 
  A présent, en tant que seconde équipe, vous pouvez également effectuer des développements.
  Les commiter en local puis les pusher sur le repo distant (lorsque vous souhaiterez en faire bénéficier les autres équipes).  
@@ -115,7 +115,7 @@ Créer  le Repository Central
  
  
  
-#### VM1 (Repo Central) Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
+#### VM1 `Repo Central` Constater que le second développement (seconde équipe) a bien été "pushé" sur le Repository distant (central) 
 
  Constater que le script et sont commit ont bien été pushé sur le repo distant
  `git log --oneline`{{execute T1}}

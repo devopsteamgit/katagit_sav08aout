@@ -12,7 +12,7 @@ Vérifier que cela est bien le cas
  `git remote -v`{{execute T2}}
  
   
-#### `En tant que première équipe`, vous allez effectuer vos développements. Et les commiter en local.  
+`En tant que première équipe`, vous allez effectuer vos développements. Et les commiter en local.  
 
  Créer un fichier script_vm2_1.sh
  `echo "printf 'Ceci est le script 1 \n'" > script_vm2_1.sh;cat script_vm2_1.sh`{{execute T2}}
@@ -97,7 +97,7 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  `git commit -m "ajout du script_vm3_3.sh repo local VM3"`{{execute T3}}
 
  Constater que le script a bien commité dans le repo local
- `git log --oneline`{{execute T1}}
+ `git log --oneline`{{execute T3}}
  
  
  "Pusher" le fichier de votre Repo local (VM3) --> vers Remote Repo Central (VM1)
@@ -120,10 +120,10 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
 > LE COMMIT & PUSH sur le Central de la seconde équipe: va créer un conflit pour la première première (qui attend de pusher le script n°2)
 
 
- #### `Equipe 1` Constate le conflit et le gère (VM2)
+ #### `Equipe 1` Va Constater le conflit et le gèrer (VM2)
 
  
-** `première équipe`sur la VM2  nous avions developpé et commité un script n°2. Mais pas encore pushé au Central à ce stade
+** `première équipe`sur la VM2  nous avions developpé et commité le script n°2. Mais pas encore pushé au Central à ce stade
 
   Vérifier que le commit du script est bien  effectué sur le Repo local (même si absent du central: comme vu précédemment)
  `git log --oneline`{{execute T2}}
@@ -132,7 +132,7 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  `git push origin master`{{execute T2}}
 
 
-  * Un message apparaît  "This is usually caused by another repository pushing"
+  **Un message apparaît  "This is usually caused by another repository pushing"**
  ```
    ! [rejected]        master -> master (fetch first)
    error: failed to push some refs to 'ssh://git@git_remote/home/git/repocentral'
@@ -155,9 +155,10 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  Vérifier que le "pull" vient de provoquer un Merge branch 'master' de notre branche local, avec le distant
   `git log --oneline`{{execute T2}}   
  
- ####  la fusion "merge" s'est effectué dans l'odre chronologique des commits localement: script n° 1,2,3
+> la fusion "merge" s'est effectué dans l'ordre du commits local sur chaque reposirory: script n° 1 ->2 -> 3
  
- #### Faites un 'rebase' : si vous voulez effectuer un merge dans l'ordre chronologique de mise à jour sur le Repository central (cad script n° 1, 3, 2)
+** Si vous  souhaitez effectuer le merge dans l'ordre de mise à jour: sur le Repository Central (cad script n° 1 -> 3 -> 2)**
+** Utilisé le 'rebase'
  Il faut commencer par supprimer le HEAD "merge"
  `git reset --hard HEAD^`{{execute T2}}    
  

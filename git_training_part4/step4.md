@@ -148,18 +148,19 @@ Tout d'abord, récupèrer les dernière mise à jour du Repo Central
  Lancer le `Pull` du Central
  `git pull origin master`{{execute T2}}
  
- Si un fhiciher s'ouvre avec le message `merge branche master of ssh://git@git_remote/home/git/repocentral`
+ Si un fichier s'ouvre avec le message `merge branche master of ssh://git@git_remote/home/git/repocentral`
  > sortir du fihcier en validant  `:wq!`
  
  
  Vérifier que le "pull" vient de provoquer un Merge branch 'master' de notre branche local, avec le distant
   `git log --oneline`{{execute T2}}   
  
-> la fusion "merge" s'est effectué dans l'ordre du commits local sur chaque reposirory: script n° 1 ->2 -> 3
+** la fusion "merge" s'est effectué avec la date cd ecommit local: c.a.d dans le même ordre que les commits en local sur chaque reposirory: script n° 1 ->2 -> 3**
  
-** Si vous  souhaitez effectuer le merge dans l'ordre de mise à jour: sur le Repository Central (cad script n° 1 -> 3 -> 2)**
-** Utilisé le 'rebase'
- Il faut commencer par supprimer le HEAD "merge"
+** Si vous  souhaitez effectuer le merge dans l'ordre de mise à jour sur le Repository Central: cad script n° 1 -> 3 -> 2**
+** il faut Utiliser le 'rebase'**
+ 
+ Pour commencer, effectuez un reset hard
  `git reset --hard HEAD^`{{execute T2}}    
  
  Vérifier que le commit (merge) est supprimé

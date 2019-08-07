@@ -1,4 +1,5 @@
-- Principe de fonctionnement des commits
+- Principe d'historisation des commits
 - Retour arrière sur l'historique
-- Exemple de commandes reset, revert,...
+- Manipuler les commandes utiles pour un retour arrière "revert,reset"
+
 

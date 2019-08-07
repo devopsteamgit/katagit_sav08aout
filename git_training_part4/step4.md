@@ -79,11 +79,15 @@ Vérifier que cela est bien le cas
 > Les commiter en local puis les pusher sur le repo distant (pour les mettres à disposition des autres équipes). 
 
 
-Tout d'abord, décupèrer la dernière version des développement (Repo Central)
-  Faire un `Pull` du Central
+Tout d'abord, récupèrer les dernière mise à jour du Repo Central
+
+ Faire un `Pull` du Central
  `git pull origin master`{{execute T3}}
+ ```
+ _Répondre: yes
+ ```
  
- -Créer un fichier script_vm3_3.sh
+ Créer un fichier script_vm3_3.sh
  `echo "printf 'Ceci est le script 3 sur la VM3\n'" > script_vm3_3.sh;cat script_vm3_3.sh`{{execute T3}}
  
  Ajouter le fichier dans la cache "Staging Area"

@@ -4,11 +4,11 @@ Objectifs de cette formation:
 ```
 Rappel:
 
-Lors de la précédente formation,_
-- nous avons créé notre propre repository (local)_
-- nous avons versioné_
-- nous avons créé des branches de développement_
-- nous avons effectué des merges entre branches master et développement_
+Lors de la précédente formation,
+- nous avons créé notre propre repository (local)
+- nous avons versioné
+- nous avons créé des branches de développement
+- nous avons effectué des merges entre branches master et développement
 ```
 
 

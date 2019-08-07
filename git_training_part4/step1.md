@@ -7,7 +7,7 @@ Précédemment,
   
   
 #### A présent
-- Nous allons simuler un problème de mise à jour du Repo Central (conflit),
+- Nous allons simuler un problème `conflit` de mise à jour du Repo Central,
   lorsqu'une équipe tente de travailler sur une ancienne version du Repository Central
 - Manipuler les commandes utiles pour gèrer ce conflit "commit,pull,reset,rebase,push"
 

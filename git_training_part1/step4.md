@@ -10,10 +10,10 @@
      - Nous apprendrons à Consulter des status, des `logs`, `l'historique` des versions
      - Nous effectuerons des `merges` entre `branches`
      
-
+_Remarque: Dans cette partie, nous travaillerons sur le premier Repository Local: "your local Repository"_
 ![git-central](/testgitessai/scenarios/git_training_part1/assets/git-central.png)
 
-_Remarque: nous verrons par la suite, comment créer le repository Central (distant)_
+
 
 
 

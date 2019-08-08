@@ -33,5 +33,10 @@ contenenant:  `"echo  Hello2"`{{copy}}
 `git log --oneline`{{execute T1}}
 
 > Effectuer un reset hard  du premier commit de la liste
-`git reset --hard HEAD~1`{{execute T1}}
-
+  `git reset HEAD~1 --hard`{{execute T1}}
+ 
+ Constater que commit du script 1 a disparu de l'historique
+ `git log --oneline`{{execute T1}}
+ 
+ De plus, grâce à l'option "hard": le script 1 a complètement disparu de la working directory (répertoire de travail)
+ `git status;ls `{{execute T1}}

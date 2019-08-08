@@ -1,6 +1,6 @@
 #### Correction
 
-> cCréer une nouvelle branche devteam
+> Créer une nouvelle branche devteam
 `git branch devteam`{{execute T1}}
 
 > Déplacer vous dans cette branche

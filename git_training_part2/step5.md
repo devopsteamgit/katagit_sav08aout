@@ -22,6 +22,6 @@
 
 > Vérifier le commit
 
-> Effectuer un reset 'Hard' du premier commit, effectué au tout début (correspondant au script_1_exo.sh)
+> Effectuer un reset 'Hard' du dernier commit effectué 
 
 > Vérifier que le commit a disparu de la liste 

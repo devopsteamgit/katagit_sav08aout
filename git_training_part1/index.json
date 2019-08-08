@@ -28,6 +28,11 @@
       {
         "title": "Clonage",
         "text": "step6.md"
+      },
+      {
+        "title": "Exercice 1: Utilisation des modules file et copy",
+        "text": "step7.md",
+        "answer": "step7-answer.md"
       }
     ],
     "intro": {

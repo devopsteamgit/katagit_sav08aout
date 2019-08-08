@@ -8,7 +8,7 @@
 
 > Créer un nouveau script_3.sh  dans votre espace de travail  
 contenenant:  `"echo  Hello"`{{copy}}
- 
+  `echo  Hello > script_3_exo.sh `{{execute T1}}
 > Ajouter ce fichier dans la staging area (index)
 `git add script_3.sh`{{execute T1}}
 

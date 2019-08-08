@@ -20,6 +20,11 @@
       {
         "title": "Faire un Reset (rollbak) des Commits précédents",
         "text": "step4.md"
+      },
+      {
+        "title": "Exercice 2: Création branche, ajout Fichier, reset hard",
+        "text": "step5.md",
+        "answer": "step5-answer.md"
       }
     ],
     "intro": {

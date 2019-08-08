@@ -16,4 +16,4 @@ contenenant:  `"echo  Hello"`{{copy}}
 `git commit -m "ajout du script_3.sh dans la branche devteam"`{{execute T1}}
 
 > Vérifier le commit
-`git log --oneline"`{{execute T1}}
+`git log --oneline`{{execute T1}}

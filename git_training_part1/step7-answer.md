@@ -6,9 +6,8 @@ git branch devteam
 > déplacer vous dans cette branche
 
 > Créer un fichier script_3.sh contenenant 
-"echo  Hello" 
- dans votre espace de travail 
-
+ dans votre espace de travail:  `"echo  Hello"`{{copy}}
+ 
 > Ajouter ce fichier dans la staging area (index)
 
 > commiter ce fichier dans votre repository local

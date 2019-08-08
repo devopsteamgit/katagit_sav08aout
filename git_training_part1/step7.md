@@ -1,14 +1,18 @@
 
 
-*Plus d'informations sur utilisation des modules files: 
-[Documentation module file](https://docs.ansible.com/ansible/latest/modules/list_of_files_modules.html?highlight=file%20module)
+*Plus d'informations sur utilisation commandes de bases: 
+[Documentation module file](https://guides.github.com/activities/hello-world/)
 
-> Créer un fichier playbook_ex01.yml dans votre espace de travail /work_dir de la machine Ansible
+> créer une nouvelle branche devpteam
 
-> Ecrire le playbook "playbook_ex01.yml"
+> déplacer vous dans cette branche
 
-> -Le groupe sur lequel s'exécutera les taches: web
+> Créer un fichier script_3.sh contenenant "echo  Hello"  dans votre espace de travail 
 
-> -Tache 1: Permet de créer un dossier /etc/training/training.d avec le module « file »
+> Ajouter ce fichier dans la staging area (index)
 
-> -Tache 2: Permet de copier le fichier depuis /work_dir/training-files/config.txt de la machine Ansible vers /etc/training/training.d de la machine cible avec le module « copy »
+> commiter ce fichier dans votre repository local
+
+> vérifier le commit
+
+

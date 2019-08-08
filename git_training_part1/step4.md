@@ -1,13 +1,14 @@
 
  
 ##### Planning première partie, 
-     - nous allons  créer un nouveau `repository local` GIT,
-     - nous alons cloner un `repository existant`  (remote),
-     - apprendre à `versionner` nos scripts,
-     - créer ou supprimer des `branches` de `développements`, 
-     - faire des `commits`,  `annuler` les commits,
-     - consulter les status, les `logs`, `l'historique` des versions
-     - effectuer des `merges` entre `branches`
+
+     - Nous Créerons un nouveau `repository local` GIT,
+     - Nous apprendrons à `cloner` (un Repository Distant existant),
+     - Nous apprendrons à `versionner` nos scripts,
+     - Nous créerons ou supprimerons des `branches` de `développements`, 
+     - Nous Effectuerons des `commits`,  `annuler` les commits,
+     - Nous apprendrons à Consulter des status, des `logs`, `l'historique` des versions
+     - Nous effectuerons des `merges` entre `branches`
      
 
 ![git-central](/testgitessai/scenarios/git_training_part1/assets/git-central.png)

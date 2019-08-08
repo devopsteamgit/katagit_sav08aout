@@ -5,7 +5,7 @@
 
 > Déplacer vous dans cette branche
 
-> Créer un fichier script_3.sh contenenant "echo  Hello"  dans votre espace de travail 
+> Créer un fichier script_1_exo.sh contenenant "echo  Hello1"  dans votre espace de travail 
 
 > Ajouter ce fichier dans la staging area (index)
 
@@ -14,3 +14,14 @@
 > Vérifier le commit
 
 
+> Créer un second fichier script_2_exo.sh contenenant "echo  Hello2"  dans votre espace de travail 
+
+> Ajouter ce second fichier dans la staging area (index)
+
+> Commiter ce fichier dans votre repository local
+
+> Vérifier le commit
+
+> Effectuer un reset 'Hard' du commit n°1 effectué au tout début (correspondant au script_1_exo.sh)
+
+> Vérifier que le commit a disparu de la liste 

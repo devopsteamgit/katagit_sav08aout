@@ -32,7 +32,7 @@ contenenant:  `"echo  Hello2"`{{copy}}
 > Vérifier le commit
 `git log --oneline`{{execute T1}}
 
-> Effectuer un reset hard  du premier commit de la liste
+> Effectuer un reset hard  du dernier commit de la liste
   `git reset HEAD~1 --hard`{{execute T1}}
  
  Constater que commit du script 1 a disparu de l'historique
